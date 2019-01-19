@@ -1,8 +1,14 @@
 module.exports = {
   collectCoverageFrom: [
-    'src/**/*.{js,jsx}',
-    '!src/**/*.test.{js,jsx}',
-    '!src/**/*.stories.{js,jsx}',
+    'components/**/*.{js,jsx}',
+    'pages/**/*.{js,jsx}',
+    'util/**/*.{js,jsx}',
+    '!components/**/*.test.{js,jsx}',
+    '!components/**/*.stories.{js,jsx}',
+    '!pages/**/*.test.{js,jsx}',
+    '!pages/**/*.stories.{js,jsx}',
+    '!util/**/*.test.{js,jsx}',
+    '!util/**/*.stories.{js,jsx}',
   ],
   coverageThreshold: {
     global: {
@@ -16,7 +22,7 @@ module.exports = {
     './test/setup.js',
   ],
   snapshotSerializers: [
-    '<rootDir>/node_modules/enzyme-to-json/serializer',
+    'enzyme-to-json/serializer',
   ],
   testPathIgnorePatterns: [
     'node_modules',

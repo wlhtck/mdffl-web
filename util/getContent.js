@@ -29,7 +29,7 @@ const getcontent = async () => {
       if (entries.total === 1) {
         const { fields } = entries.items[0];
         fs.writeFileSync(
-          path.join(__dirname, '..', '..', 'data', `${type}.json`),
+          path.join(__dirname, '..', 'data', `${type}.json`),
           JSON.stringify(fields),
         );
         console.log('> Content gotten and written for', type);
