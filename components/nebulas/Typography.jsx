@@ -7,7 +7,7 @@ export const Headline = styled.h1`
   font-family: 'Raleway', sans-serif;
   margin: 32px 0;
   font-weight: 800;
-  font-size: 36pt;
+  font-size: 36px;
 `;
 
 export const FeatureHeadline = styled.h2`
@@ -15,11 +15,11 @@ export const FeatureHeadline = styled.h2`
   font-family: 'Raleway', sans-serif;
   margin: 32px 0;
   font-weight: 700;
-  font-size: 36pt;
+  font-size: 36px;
 `;
 
 export const BodyCopy = styled.p`
   color: ${({ inverted }) => (inverted ? white : black)};
   font-family: 'Lato', sans-serif;
-  font-size: 24pt;
+  font-size: 24px;
 `;
