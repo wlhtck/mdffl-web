@@ -1,0 +1,142 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/starts/Button renders a button 1`] = `
+.c0 {
+  font-family: 'Raleway',sans-serif;
+  font-size: 16px;
+  padding: 16px;
+  border: none;
+  line-height: 1;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+<Button
+  onClick={[Function]}
+  text="Button"
+>
+  <Button
+    className="c0"
+    external={false}
+    link=""
+    onClick={[Function]}
+    text="Button"
+    type="primary"
+  >
+    <button
+      className="c0"
+      onClick={[Function]}
+      type="button"
+    >
+      Button
+    </button>
+  </Button>
+</Button>
+`;
+
+exports[`components/starts/Button renders a secondary button 1`] = `
+.c0 {
+  font-family: 'Raleway',sans-serif;
+  font-size: 16px;
+  background-color: #FFFFFF;
+  color: #1C104E;
+  padding: 16px;
+  border: none;
+  line-height: 1;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+<Button
+  text="Button"
+  type="secondary"
+>
+  <Button
+    className="c0"
+    external={false}
+    link=""
+    onClick={null}
+    text="Button"
+    type="secondary"
+  >
+    <button
+      className="c0"
+      onClick={null}
+      type="button"
+    >
+      Button
+    </button>
+  </Button>
+</Button>
+`;
+
+exports[`components/starts/Button renders an external link 1`] = `
+.c0 {
+  font-family: 'Raleway',sans-serif;
+  font-size: 16px;
+  padding: 16px;
+  border: none;
+  line-height: 1;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+<Button
+  external={true}
+  link="https://google.com"
+  text="Button"
+>
+  <Button
+    className="c0"
+    external={true}
+    link="https://google.com"
+    onClick={null}
+    text="Button"
+    type="primary"
+  >
+    <a
+      className="c0"
+      href="https://google.com"
+      rel="noreferrer noopener"
+      target="_blank"
+    >
+      Button
+    </a>
+  </Button>
+</Button>
+`;
+
+exports[`components/starts/Button renders an interal link 1`] = `
+.c0 {
+  font-family: 'Raleway',sans-serif;
+  font-size: 16px;
+  padding: 16px;
+  border: none;
+  line-height: 1;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+<Button
+  link="/about"
+  text="Button"
+>
+  <Button
+    className="c0"
+    external={false}
+    link="/about"
+    onClick={null}
+    text="Button"
+    type="primary"
+  >
+    <a
+      className="c0"
+      href="/about"
+      rel={false}
+      target={false}
+    >
+      Button
+    </a>
+  </Button>
+</Button>
+`;
