@@ -2,13 +2,10 @@ module.exports = {
   collectCoverageFrom: [
     'components/**/*.{js,jsx}',
     'pages/**/*.{js,jsx}',
-    'util/**/*.{js,jsx}',
     '!components/**/*.test.{js,jsx}',
     '!components/**/*.stories.{js,jsx}',
     '!pages/**/*.test.{js,jsx}',
     '!pages/**/*.stories.{js,jsx}',
-    '!util/**/*.test.{js,jsx}',
-    '!util/**/*.stories.{js,jsx}',
   ],
   coverageThreshold: {
     global: {

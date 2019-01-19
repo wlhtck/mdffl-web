@@ -13,8 +13,8 @@ const Button = ({
       <a
         className={className}
         href={link}
-        target={external && '_blank'}
-        rel={external && 'noreferrer noopener'}
+        target={external ? '_blank' : ''}
+        rel={external ? 'noreferrer noopener' : ''}
       >
         {text}
       </a>

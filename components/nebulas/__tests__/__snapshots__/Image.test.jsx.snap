@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`componenets/nebulas/Image Image renders a <Image /> 1`] = `
+<img
+  alt="Bear"
+  className="test-class"
+  src="https://images.unsplash.com/photo-1545906785-193d7758ba91?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+/>
+`;

@@ -132,8 +132,8 @@ exports[`components/starts/Button renders an interal link 1`] = `
     <a
       className="c0"
       href="/about"
-      rel={false}
-      target={false}
+      rel=""
+      target=""
     >
       Button
     </a>
