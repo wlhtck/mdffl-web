@@ -1,7 +1,7 @@
 {
   "author": "Will Hitchcock <hi@willhitchcock.me> (willhitchcock.me)",
   "scripts": {
-    "dev": "next",
+    "dev": "next --inspect",
     "build": "next build",
     "start": "next start",
     "postinstall": "npm run getcontent",
