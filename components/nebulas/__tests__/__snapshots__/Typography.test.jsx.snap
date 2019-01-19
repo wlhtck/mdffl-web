@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`componenets/nebulas/Typography BodyCopy renders a <BodyCopy /> 1`] = `
+.c0 {
+  color: #303133;
+  font-family: 'Lato',sans-serif;
+  font-size: 24pt;
+}
+
+<p
+  className="c0"
+>
+  Body Copy
+</p>
+`;
+
+exports[`componenets/nebulas/Typography BodyCopy renders an inverted <BodyCopy /> 1`] = `
+.c0 {
+  color: #FFFFFF;
+  font-family: 'Lato',sans-serif;
+  font-size: 24pt;
+}
+
+<p
+  className="c0"
+>
+  Body Copy
+</p>
+`;
+
+exports[`componenets/nebulas/Typography FeatureHeadline renders a  <FeatureHeadline /> 1`] = `
+.c0 {
+  color: #303133;
+  font-family: 'Raleway',sans-serif;
+  margin: 32px 0;
+  font-weight: 700;
+  font-size: 36pt;
+}
+
+<h2
+  className="c0"
+>
+  Feature Headline
+</h2>
+`;
+
+exports[`componenets/nebulas/Typography Headline renders a <Headline /> 1`] = `
+.c0 {
+  color: #FFFFFF;
+  font-family: 'Raleway',sans-serif;
+  margin: 32px 0;
+  font-weight: 800;
+  font-size: 36pt;
+}
+
+<h1
+  className="c0"
+>
+  Headline
+</h1>
+`;

@@ -42,6 +42,7 @@ typings/
 # build folder
 public
 data
+.next
 
 # gatsby cache folder
 .cache
