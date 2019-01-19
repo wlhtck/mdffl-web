@@ -3,7 +3,7 @@ import { shallow } from 'enzyme';
 import Document from '../_document';
 
 describe('pages/index', () => {
-  it('renders an index page', () => {
+  it('renders an the Document', () => {
     expect(shallow(<Document />)).toMatchSnapshot();
   });
 });

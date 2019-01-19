@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`pages/index renders an index page 1`] = `
+exports[`pages/index renders an the Document 1`] = `
 <html
   lang="en-US"
 >
