@@ -14,7 +14,8 @@ const Box = styled.div`
   height: 100px;
   width: 100px;
   background-color: ${({ color }) => color};
-  color: white;
+  color: ${({ textColor }) => textColor || 'white'};
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 `;
 
 storiesOf('Foundations')
@@ -40,7 +41,7 @@ storiesOf('Foundations')
         <br />
         #8D8D8F
       </Box>
-      <Box color={white}>
+      <Box color={white} textColor={black}>
         White
         <br />
         #FFFFFF
