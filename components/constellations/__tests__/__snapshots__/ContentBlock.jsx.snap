@@ -1,5 +1,34 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`components/constellations/ContentBlock Renders a <ContentBlock /> with a CTA 1`] = `
+<Row
+  padding={null}
+  reverse={true}
+>
+  <Col
+    align="flex-start"
+    padding={65}
+    reverse={false}
+  >
+    <Typography__FeatureHeadline>
+      Test ContentBlock
+    </Typography__FeatureHeadline>
+    <Typography__BodyCopy
+      inverted={false}
+      textAlign="left"
+    >
+      ContentBlock is sooooooo coool and awesome!
+    </Typography__BodyCopy>
+    <Button
+      external={false}
+      link="path/to/link"
+      text="Click here!"
+      type="primary"
+    />
+  </Col>
+</Row>
+`;
+
 exports[`components/constellations/ContentBlock Renders a <ContentBlock /> with an Image 1`] = `
 <Row
   padding={null}

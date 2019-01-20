@@ -30,7 +30,7 @@ describe('componenets/nebulas/Typography', () => {
     });
 
     it('renders an centered <BodyCopy />', () => {
-      expect(shallow(<BodyCopy textAlign="left">Body Copy</BodyCopy>)).toMatchSnapshot();
+      expect(shallow(<BodyCopy textAlign="center">Body Copy</BodyCopy>)).toMatchSnapshot();
     });
   });
 });
