@@ -23,7 +23,7 @@ describe('components/constellations/ContentBlock', () => {
     )).toMatchSnapshot();
   });
 
-  it('Renders a <ContentBlock /> with an Image', () => {
+  it('Renders a <ContentBlock /> with a CTA', () => {
     expect(shallow(
       <ContentBlock
         headline="Test ContentBlock"
