@@ -4,7 +4,7 @@ import Button from '../Button';
 import Box from '../../nebulas/Box';
 import { black } from '../../nebulas/colors';
 
-storiesOf('Stars')
+storiesOf('Stars', module)
   .add('Button', () => (
     <div>
       <Box>

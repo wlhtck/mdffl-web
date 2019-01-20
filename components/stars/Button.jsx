@@ -55,9 +55,11 @@ export default styled(Button)`
   font-size: 16px;
   background-color: ${({ type }) => backgroundColors[type]};
   color: ${({ type }) => fontColors[type]};
+  display: inline-block;
   padding: 16px;
   border: none;
   line-height: 1;
   border-radius: 4px;
   cursor: pointer;
+  text-decoration: none;
 `;

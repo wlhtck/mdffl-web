@@ -24,5 +24,13 @@ describe('componenets/nebulas/Typography', () => {
     it('renders an inverted <BodyCopy />', () => {
       expect(shallow(<BodyCopy inverted>Body Copy</BodyCopy>)).toMatchSnapshot();
     });
+
+    it('renders an right aligned <BodyCopy />', () => {
+      expect(shallow(<BodyCopy textAlign="right">Body Copy</BodyCopy>)).toMatchSnapshot();
+    });
+
+    it('renders an centered <BodyCopy />', () => {
+      expect(shallow(<BodyCopy textAlign="left">Body Copy</BodyCopy>)).toMatchSnapshot();
+    });
   });
 });

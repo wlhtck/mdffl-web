@@ -1,37 +1,47 @@
 import React from 'react';
-import Box from '../components/nebulas/Box';
-import { Headline, BodyCopy, FeatureHeadline } from '../components/nebulas/Typography';
-import { black } from '../components/nebulas/colors';
+import ContentBlock from '../components/constellations/ContentBlock';
 
 export default () => (
   <div>
-    <Box color={black}>
-      <Headline>Headline</Headline>
-      <BodyCopy inverted>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec magna enim. Aenean
-        consectetur massa id justo porttitor laoreet. Ut iaculis ante a ipsum tincidunt, sed
-        dapibus elit interdum. Sed ac condimentum tellus. Cras semper in turpis eu finibus.
-        Pellentesque vitae nisi quis quam posuere rutrum. Suspendisse scelerisque quam nibh,
-        vel fringilla diam fringilla at. Morbi pretium fermentum erat, vel cursus ipsum ultrices
-        a. Vivamus porttitor ipsum vel quam ornare, eu dignissim dui vulputate. Maecenas commodo,
-        erat eu scelerisque semper, ante odio porta quam, non porta enim mauris ut eros. Cras
-        egestas ultrices odio, in finibus justo consectetur id. Phasellus justo nulla, maximus non
-        vulputate eu, lacinia id eros. Aliquam a tellus lectus.
-      </BodyCopy>
-    </Box>
-    <Box>
-      <FeatureHeadline>Feature Headline</FeatureHeadline>
-      <BodyCopy>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis lorem at mi pretium
-        blandit. In ac lectus quis nibh venenatis lacinia. Nam et dolor libero. Integer eu metus a
-        quam consequat vehicula eu id elit. Etiam sagittis ultricies porttitor. Morbi neque arcu,
-        varius non tempus at, luctus feugiat augue. Integer purus elit, blandit et ante non,
-        pharetra maximus sapien. Ut pharetra dignissim lacus, et hendrerit elit pulvinar nec.
-        Donec porta, metus in porta sollicitudin, sem ante tristique leo, ut aliquam enim lorem
-        sit amet massa. Nam eu mauris eget nunc mollis tincidunt. Mauris a hendrerit nisl. Etiam
-        placerat, risus at mattis imperdiet, ipsum mauris imperdiet augue, sed sollicitudin metus
-        leo et felis. Aliquam porttitor porta metus, ut dignissim elit suscipit ac.
-      </BodyCopy>
-    </Box>
+    <ContentBlock
+      headline="Check out the bear!"
+      copy="The bear is super cool and everyone loves him! Click below to find out more!"
+      imageAlign="right"
+      textAlign="left"
+      image={{
+        src: 'https://images.unsplash.com/photo-1541560584704-f2767960951a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1856&q=80',
+        alt: 'Bear',
+      }}
+      cta={{
+        link: 'https://google.com',
+        text: 'Google',
+        external: true,
+      }}
+    />
+    <ContentBlock
+      headline="Check out the bear!"
+      copy="The bear is super cool and everyone loves him! Click below to find out more!"
+      textAlign="center"
+      cta={{
+        link: 'https://google.com',
+        text: 'Google',
+        external: true,
+      }}
+    />
+    <ContentBlock
+      headline="Check out the bear!"
+      copy="The bear is super cool and everyone loves him! Click below to find out more!"
+      imageAlign="left"
+      textAlign="right"
+      image={{
+        src: 'https://images.unsplash.com/photo-1541560584704-f2767960951a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1856&q=80',
+        alt: 'Bear',
+      }}
+      cta={{
+        link: 'https://google.com',
+        text: 'Google',
+        external: true,
+      }}
+    />
   </div>
 );

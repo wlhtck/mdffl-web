@@ -1,4 +1,5 @@
 import React from 'react';
+import styled from 'styled-components';
 import { string } from 'prop-types';
 
 const Image = ({ src, alt, className }) => (
@@ -15,4 +16,6 @@ Image.defaultProps = {
   className: '',
 };
 
-export default Image;
+export default styled(Image)`
+  width: 100%;
+`;
