@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/nebulas/Row renders a default <Row /> 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c0 *:only-child {
+  margin: 0 auto;
+}
+
+.c0 *:last-child {
+  margin-bottom: 0;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`components/nebulas/Row renders a padded <Row /> 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 100px;
+}
+
+.c0 *:only-child {
+  margin: 0 auto;
+}
+
+.c0 *:last-child {
+  margin-bottom: 0;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`components/nebulas/Row renders a reversed <Row /> 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row-reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c0 *:only-child {
+  margin: 0 auto;
+}
+
+.c0 *:last-child {
+  margin-bottom: 0;
+}
+
+<div
+  className="c0"
+/>
+`;

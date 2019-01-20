@@ -2,9 +2,27 @@
 
 exports[`componenets/nebulas/Typography BodyCopy renders a <BodyCopy /> 1`] = `
 .c0 {
+  text-align: left;
   color: #303133;
   font-family: 'Lato',sans-serif;
   font-size: 24px;
+  margin: 0 0 32px;
+}
+
+<p
+  className="c0"
+>
+  Body Copy
+</p>
+`;
+
+exports[`componenets/nebulas/Typography BodyCopy renders an centered <BodyCopy /> 1`] = `
+.c0 {
+  text-align: left;
+  color: #303133;
+  font-family: 'Lato',sans-serif;
+  font-size: 24px;
+  margin: 0 0 32px;
 }
 
 <p
@@ -16,9 +34,27 @@ exports[`componenets/nebulas/Typography BodyCopy renders a <BodyCopy /> 1`] = `
 
 exports[`componenets/nebulas/Typography BodyCopy renders an inverted <BodyCopy /> 1`] = `
 .c0 {
+  text-align: left;
   color: #FFFFFF;
   font-family: 'Lato',sans-serif;
   font-size: 24px;
+  margin: 0 0 32px;
+}
+
+<p
+  className="c0"
+>
+  Body Copy
+</p>
+`;
+
+exports[`componenets/nebulas/Typography BodyCopy renders an right aligned <BodyCopy /> 1`] = `
+.c0 {
+  text-align: right;
+  color: #303133;
+  font-family: 'Lato',sans-serif;
+  font-size: 24px;
+  margin: 0 0 32px;
 }
 
 <p
@@ -30,8 +66,9 @@ exports[`componenets/nebulas/Typography BodyCopy renders an inverted <BodyCopy /
 
 exports[`componenets/nebulas/Typography FeatureHeadline renders a  <FeatureHeadline /> 1`] = `
 .c0 {
-  color: #303133 font-family:'Raleway',sans-serif;
-  margin: 32px 0;
+  color: #303133;
+  font-family: 'Raleway',sans-serif;
+  margin: 0 0 32px;
   font-weight: 700;
   font-size: 36px;
 }
@@ -47,7 +84,7 @@ exports[`componenets/nebulas/Typography Headline renders a <Headline /> 1`] = `
 .c0 {
   color: #FFFFFF;
   font-family: 'Raleway',sans-serif;
-  margin: 32px 0;
+  margin: 0 0 32px;
   font-weight: 800;
   font-size: 36px;
 }

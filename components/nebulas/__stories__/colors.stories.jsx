@@ -7,7 +7,7 @@ import {
 import { BodyCopy } from '../Typography';
 import Box from '../Box';
 
-storiesOf('Nebulas')
+storiesOf('Nebulas', module)
   .add('colors', () => (
     <div>
       <Box color={primary}>

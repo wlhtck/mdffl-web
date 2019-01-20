@@ -3,7 +3,7 @@ import { storiesOf } from '@storybook/react';
 import Box from '../Box';
 import Image from '../Image';
 
-storiesOf('Nebulas')
+storiesOf('Nebulas', module)
   .add('Image', () => (
     <div>
       <Box>

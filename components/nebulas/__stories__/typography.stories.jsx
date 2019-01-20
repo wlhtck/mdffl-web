@@ -4,7 +4,7 @@ import Box from '../Box';
 import { Headline, FeatureHeadline, BodyCopy } from '../Typography';
 import { black } from '../colors';
 
-storiesOf('Nebulas')
+storiesOf('Nebulas', module)
   .add('Typography', () => (
     <div>
       <Box color={black}>

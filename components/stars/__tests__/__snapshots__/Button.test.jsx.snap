@@ -4,11 +4,14 @@ exports[`components/starts/Button renders a button 1`] = `
 .c0 {
   font-family: 'Raleway',sans-serif;
   font-size: 16px;
+  display: inline-block;
   padding: 16px;
   border: none;
   line-height: 1;
   border-radius: 4px;
   cursor: pointer;
+  -webkit-text-decoration: none;
+  text-decoration: none;
 }
 
 <Button
@@ -40,11 +43,14 @@ exports[`components/starts/Button renders a secondary button 1`] = `
   font-size: 16px;
   background-color: #FFFFFF;
   color: #1C104E;
+  display: inline-block;
   padding: 16px;
   border: none;
   line-height: 1;
   border-radius: 4px;
   cursor: pointer;
+  -webkit-text-decoration: none;
+  text-decoration: none;
 }
 
 <Button
@@ -74,11 +80,14 @@ exports[`components/starts/Button renders an external link 1`] = `
 .c0 {
   font-family: 'Raleway',sans-serif;
   font-size: 16px;
+  display: inline-block;
   padding: 16px;
   border: none;
   line-height: 1;
   border-radius: 4px;
   cursor: pointer;
+  -webkit-text-decoration: none;
+  text-decoration: none;
 }
 
 <Button
@@ -110,11 +119,14 @@ exports[`components/starts/Button renders an interal link 1`] = `
 .c0 {
   font-family: 'Raleway',sans-serif;
   font-size: 16px;
+  display: inline-block;
   padding: 16px;
   border: none;
   line-height: 1;
   border-radius: 4px;
   cursor: pointer;
+  -webkit-text-decoration: none;
+  text-decoration: none;
 }
 
 <Button

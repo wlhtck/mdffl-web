@@ -1,0 +1,119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/constellations/ContentBlock Renders a <ContentBlock /> with an Image 1`] = `
+<Row
+  padding={null}
+  reverse={true}
+>
+  <Col
+    align="center"
+    padding={null}
+    reverse={false}
+  >
+    <Image
+      alt="Cool image!"
+      src="path/to/image"
+    />
+  </Col>
+  <Col
+    align="flex-start"
+    padding={65}
+    reverse={false}
+  >
+    <Typography__FeatureHeadline>
+      Test ContentBlock
+    </Typography__FeatureHeadline>
+    <Typography__BodyCopy
+      inverted={false}
+      textAlign="left"
+    >
+      ContentBlock is sooooooo coool and awesome!
+    </Typography__BodyCopy>
+  </Col>
+</Row>
+`;
+
+exports[`components/constellations/ContentBlock Renders a <ContentBlock /> with an Image 2`] = `
+<Row
+  padding={null}
+  reverse={true}
+>
+  <Col
+    align="flex-start"
+    padding={65}
+    reverse={false}
+  >
+    <Typography__FeatureHeadline>
+      Test ContentBlock
+    </Typography__FeatureHeadline>
+    <Typography__BodyCopy
+      inverted={false}
+      textAlign="left"
+    >
+      ContentBlock is sooooooo coool and awesome!
+    </Typography__BodyCopy>
+    <Button
+      external={false}
+      link="path/to/link"
+      text="Click here!"
+      type="primary"
+    />
+  </Col>
+</Row>
+`;
+
+exports[`components/constellations/ContentBlock Renders a <ContentBlock /> with an right imageAlign and left textAlign 1`] = `
+<Row
+  padding={null}
+  reverse={true}
+>
+  <Col
+    align="center"
+    padding={null}
+    reverse={false}
+  >
+    <Image
+      alt="Cool image!"
+      src="path/to/image"
+    />
+  </Col>
+  <Col
+    align="flex-start"
+    padding={65}
+    reverse={false}
+  >
+    <Typography__FeatureHeadline>
+      Test ContentBlock
+    </Typography__FeatureHeadline>
+    <Typography__BodyCopy
+      inverted={false}
+      textAlign="left"
+    >
+      ContentBlock is sooooooo coool and awesome!
+    </Typography__BodyCopy>
+  </Col>
+</Row>
+`;
+
+exports[`components/constellations/ContentBlock Renders a <ContentBlock /> with no image 1`] = `
+<Row
+  padding={null}
+  reverse={true}
+>
+  <Col
+    align="flex-start"
+    padding={65}
+    reverse={false}
+  >
+    <Typography__FeatureHeadline>
+      Test ContentBlock
+    </Typography__FeatureHeadline>
+    <Typography__BodyCopy
+      inverted={false}
+      textAlign="left"
+    >
+      ContentBlock is sooooooo coool and awesome!
+    </Typography__BodyCopy>
+  </Col>
+</Row>
+`;
