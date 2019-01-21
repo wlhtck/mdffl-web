@@ -41,7 +41,6 @@ const contentParsers = {
 
 export default withRouter(({ router: { query: { slug } } }) => (
   map((content) => {
-    console.log(content);
     const contentType = get('type')(content);
     const Component = ContentComponents[contentType];
     const props = contentParsers[contentType](content);
