@@ -1,47 +1,53 @@
 import React from 'react';
+import {
+  map, get, find, flow, set, omit, head, at,
+} from 'lodash/fp';
+import { withRouter } from 'next/router';
 import ContentBlock from '../components/constellations/ContentBlock';
+import data from '../data/pages';
 
-export default () => (
-  <div>
-    <ContentBlock
-      headline="Check out the bear!"
-      copy="The bear is super cool and everyone loves him! Click below to find out more!"
-      imageAlign="right"
-      textAlign="left"
-      image={{
-        src: 'https://images.unsplash.com/photo-1541560584704-f2767960951a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1856&q=80',
-        alt: 'Bear',
-      }}
-      cta={{
-        link: 'https://google.com',
-        text: 'Google',
-        external: true,
-      }}
-    />
-    <ContentBlock
-      headline="Check out the bear!"
-      copy="The bear is super cool and everyone loves him! Click below to find out more!"
-      textAlign="center"
-      cta={{
-        link: 'https://google.com',
-        text: 'Google',
-        external: true,
-      }}
-    />
-    <ContentBlock
-      headline="Check out the bear!"
-      copy="The bear is super cool and everyone loves him! Click below to find out more!"
-      imageAlign="left"
-      textAlign="right"
-      image={{
-        src: 'https://images.unsplash.com/photo-1541560584704-f2767960951a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1856&q=80',
-        alt: 'Bear',
-      }}
-      cta={{
-        link: 'https://google.com',
-        text: 'Google',
-        external: true,
-      }}
-    />
-  </div>
+const renameKey = (from, to) => (obj) => flow(
+  set(to, head(at(from, obj))),
+  omit(from),
+)(obj);
+
+const setKey = () => flow;
+
+const getContentBlockFields = flow(
+  renameKey('cta.fields', 'cta'),
+  renameKey('image.fields', 'image'),
+  renameKey('image.title', 'image.alt'),
+  renameKey('image.file.url', 'image.src'),
+  omit('image.file'),
 );
+
+const getPageContent = (slug) => flow(
+  get('items'),
+  find((item) => get('fields.slug')(item) === slug),
+  get('fields.content'),
+  map((item) => set('fields.type', get('sys.contentType.sys.id')(item))(item)),
+  map((item) => get('fields')(item)),
+);
+
+const ContentComponents = {
+  heroBlock: () => (<div />),
+  contentBlock: ContentBlock,
+};
+
+const contentParsers = {
+  heroBlock: () => ({}),
+  contentBlock: getContentBlockFields,
+};
+
+export default withRouter(({ router: { query: { slug } } }) => (
+  map((content) => {
+    console.log(content);
+    const contentType = get('type')(content);
+    const Component = ContentComponents[contentType];
+    const props = contentParsers[contentType](content);
+
+    return (
+      <Component {...props} />
+    );
+  })(getPageContent(slug)(data))
+));

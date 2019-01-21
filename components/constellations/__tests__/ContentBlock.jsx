@@ -8,7 +8,7 @@ describe('components/constellations/ContentBlock', () => {
     expect(shallow(
       <ContentBlock
         headline="Test ContentBlock"
-        copy="ContentBlock is sooooooo coool and awesome!"
+        body="ContentBlock is sooooooo coool and awesome!"
       />,
     )).toMatchSnapshot();
   });
@@ -17,7 +17,7 @@ describe('components/constellations/ContentBlock', () => {
     expect(shallow(
       <ContentBlock
         headline="Test ContentBlock"
-        copy="ContentBlock is sooooooo coool and awesome!"
+        body="ContentBlock is sooooooo coool and awesome!"
         image={{ src: 'path/to/image', alt: 'Cool image!' }}
       />,
     )).toMatchSnapshot();
@@ -27,8 +27,8 @@ describe('components/constellations/ContentBlock', () => {
     expect(shallow(
       <ContentBlock
         headline="Test ContentBlock"
-        copy="ContentBlock is sooooooo coool and awesome!"
-        cta={{ link: 'path/to/link', text: 'Click here!', external: false }}
+        body="ContentBlock is sooooooo coool and awesome!"
+        cta={{ url: 'path/to/link', text: 'Click here!', external: false }}
       />,
     )).toMatchSnapshot();
   });
@@ -37,7 +37,7 @@ describe('components/constellations/ContentBlock', () => {
     expect(shallow(
       <ContentBlock
         headline="Test ContentBlock"
-        copy="ContentBlock is sooooooo coool and awesome!"
+        body="ContentBlock is sooooooo coool and awesome!"
         image={{ src: 'path/to/image', alt: 'Cool image!' }}
         textAlign="left"
         imageAlign="right"

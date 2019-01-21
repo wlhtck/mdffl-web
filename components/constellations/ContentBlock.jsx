@@ -15,7 +15,7 @@ const textAlignments = {
 };
 
 const ContentBlock = ({
-  image, headline, copy, textAlign, imageAlign, cta,
+  image, headline, body, textAlign, imageAlign, cta,
 }) => (
   <Row reverse={imageAlign === 'right'}>
     {image && (
@@ -25,7 +25,7 @@ const ContentBlock = ({
     )}
     <Col align={textAlignments[textAlign]} padding={65}>
       <FeatureHeadline>{headline}</FeatureHeadline>
-      <BodyCopy textAlign={textAlign}>{copy}</BodyCopy>
+      <BodyCopy textAlign={textAlign}>{body}</BodyCopy>
       {cta && <Button {...cta} type="primary" />}
     </Col>
   </Row>
@@ -33,9 +33,9 @@ const ContentBlock = ({
 
 ContentBlock.propTypes = {
   className: string,
-  copy: string.isRequired,
+  body: string.isRequired,
   cta: exact({
-    link: string,
+    url: string,
     text: string,
     external: bool,
   }),
