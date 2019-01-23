@@ -11,8 +11,6 @@ const renameKey = (from, to) => (obj) => flow(
   omit(from),
 )(obj);
 
-const setKey = () => flow;
-
 const getContentBlockFields = flow(
   renameKey('cta.fields', 'cta'),
   renameKey('image.fields', 'image'),
