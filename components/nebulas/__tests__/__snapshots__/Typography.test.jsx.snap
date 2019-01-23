@@ -18,7 +18,7 @@ exports[`componenets/nebulas/Typography BodyCopy renders a <BodyCopy /> 1`] = `
 
 exports[`componenets/nebulas/Typography BodyCopy renders an centered <BodyCopy /> 1`] = `
 .c0 {
-  text-align: left;
+  text-align: center;
   color: #303133;
   font-family: 'Lato',sans-serif;
   font-size: 24px;

@@ -5,11 +5,11 @@ import Button from '../Button';
 
 describe('components/starts/Button', () => {
   it('renders an interal link', () => {
-    expect(mount(<Button text="Button" link="/about" />)).toMatchSnapshot();
+    expect(mount(<Button text="Button" url="/about" />)).toMatchSnapshot();
   });
 
   it('renders an external link', () => {
-    expect(mount(<Button text="Button" link="https://google.com" external />)).toMatchSnapshot();
+    expect(mount(<Button text="Button" url="https://google.com" external />)).toMatchSnapshot();
   });
 
   it('renders a button', () => {

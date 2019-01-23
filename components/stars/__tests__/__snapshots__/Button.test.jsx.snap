@@ -21,10 +21,10 @@ exports[`components/starts/Button renders a button 1`] = `
   <Button
     className="c0"
     external={false}
-    link=""
     onClick={[Function]}
     text="Button"
     type="primary"
+    url=""
   >
     <button
       className="c0"
@@ -60,10 +60,10 @@ exports[`components/starts/Button renders a secondary button 1`] = `
   <Button
     className="c0"
     external={false}
-    link=""
     onClick={null}
     text="Button"
     type="secondary"
+    url=""
   >
     <button
       className="c0"
@@ -92,16 +92,16 @@ exports[`components/starts/Button renders an external link 1`] = `
 
 <Button
   external={true}
-  link="https://google.com"
   text="Button"
+  url="https://google.com"
 >
   <Button
     className="c0"
     external={true}
-    link="https://google.com"
     onClick={null}
     text="Button"
     type="primary"
+    url="https://google.com"
   >
     <a
       className="c0"
@@ -130,16 +130,16 @@ exports[`components/starts/Button renders an interal link 1`] = `
 }
 
 <Button
-  link="/about"
   text="Button"
+  url="/about"
 >
   <Button
     className="c0"
     external={false}
-    link="/about"
     onClick={null}
     text="Button"
     type="primary"
+    url="/about"
   >
     <a
       className="c0"

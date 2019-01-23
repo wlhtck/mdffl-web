@@ -6,13 +6,13 @@ import styled from 'styled-components';
 import { primary, white } from '../nebulas/colors';
 
 const Button = ({
-  link, onClick, text, className, external,
+  url, onClick, text, className, external,
 }) => (
-  link
+  url
     ? (
       <a
         className={className}
-        href={link}
+        href={url}
         target={external ? '_blank' : ''}
         rel={external ? 'noreferrer noopener' : ''}
       >
@@ -35,7 +35,7 @@ const fontColors = {
 
 Button.propTypes = {
   external: bool,
-  link: string,
+  url: string,
   onClick: func,
   text: string.isRequired,
   className: string,
@@ -44,7 +44,7 @@ Button.propTypes = {
 
 Button.defaultProps = {
   external: false,
-  link: '',
+  url: '',
   onClick: null,
   className: '',
   type: 'primary',

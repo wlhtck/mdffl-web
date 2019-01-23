@@ -23,7 +23,6 @@ export default class MyDocument extends Document {
       <html lang="en-US">
         <Head>
           <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Raleway:600,700,800" rel="stylesheet" />
-          <title>My Page Title</title>
           {this.props.styleTags}
         </Head>
         <body style={{ margin: 0 }}>

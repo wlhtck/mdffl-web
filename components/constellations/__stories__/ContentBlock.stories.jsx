@@ -7,7 +7,7 @@ storiesOf('Constellations', module)
     <div>
       <ContentBlock
         headline="Check out the bear!"
-        copy="The bear is super cool and everyone loves him! Click below to find out more!"
+        body="The bear is super cool and everyone loves him! Click below to find out more!"
         imageAlign="right"
         textAlign="left"
         image={{
@@ -22,7 +22,7 @@ storiesOf('Constellations', module)
       />
       <ContentBlock
         headline="Check out the bear!"
-        copy="The bear is super cool and everyone loves him! Click below to find out more!"
+        body="The bear is super cool and everyone loves him! Click below to find out more!"
         textAlign="center"
         cta={{
           link: 'https://google.com',
@@ -32,7 +32,7 @@ storiesOf('Constellations', module)
       />
       <ContentBlock
         headline="Check out the bear!"
-        copy="The bear is super cool and everyone loves him! Click below to find out more!"
+        body="The bear is super cool and everyone loves him! Click below to find out more!"
         imageAlign="left"
         textAlign="right"
         image={{
