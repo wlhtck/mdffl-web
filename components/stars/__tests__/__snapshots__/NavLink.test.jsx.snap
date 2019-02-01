@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/starts/NavLink renders a link 1`] = `
+.c0 {
+  color: #FFFFFF;
+  font-family: 'Raleway',sans-serif;
+  font-size: 16px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+<NavLink
+  text="Button"
+  url="/about"
+>
+  <NavLink
+    className="c0"
+    text="Button"
+    url="/about"
+  >
+    <a
+      className="c0"
+    >
+      Button
+    </a>
+  </NavLink>
+</NavLink>
+`;
