@@ -20,6 +20,7 @@ exports[`components/starts/NavLink renders a link 1`] = `
   >
     <a
       className="c0"
+      href="/about"
     >
       Button
     </a>

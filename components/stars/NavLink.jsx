@@ -3,14 +3,14 @@ import styled from 'styled-components';
 import { string } from 'prop-types';
 import { white } from '../nebulas/colors';
 
-const NavLink = ({ href, text, className }) => (
-  <a href={href} className={className}>
+const NavLink = ({ url, text, className }) => (
+  <a href={url} className={className}>
     {text}
   </a>
 );
 
 NavLink.propTypes = {
-  href: string.isRequired,
+  url: string.isRequired,
   text: string.isRequired,
   className: string,
 };
