@@ -39,17 +39,17 @@ exports[`pages/index renders an index page 1`] = `
           "src": "//images.ctfassets.net/8wpi5cmhr3lg/6mW6Tsx5scOYMwocwSskKq/f1bcb0a3f979f7de3e1ba070d0d14f4f/photo-1541560584704-f2767960951a.jpeg",
         }
       }
-      imageAlign="right"
+      imageAlign="left"
       slug="bear"
       textAlign="left"
       type="contentBlock"
     >
       <Row
         padding={null}
-        reverse={true}
+        reverse={false}
       >
         <div
-          className="Row-sc-9u807i-0 bAatiY"
+          className="Row-sc-9u807i-0 JFAzk"
         >
           <Col
             align="center"
@@ -57,7 +57,7 @@ exports[`pages/index renders an index page 1`] = `
             reverse={false}
           >
             <div
-              className="Col-inu58n-0 jGVFOM"
+              className="Col-inu58n-0 gxIQq"
             >
               <Image
                 alt="Bear"
@@ -83,7 +83,7 @@ exports[`pages/index renders an index page 1`] = `
             reverse={false}
           >
             <div
-              className="Col-inu58n-0 loWYpg"
+              className="Col-inu58n-0 eSkHFm"
             >
               <Typography__FeatureHeadline>
                 <h2
