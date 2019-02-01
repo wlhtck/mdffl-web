@@ -16,6 +16,7 @@ const getContentBlockFields = flow(
   renameKey('image.fields', 'image'),
   renameKey('image.title', 'image.alt'),
   renameKey('image.file.url', 'image.src'),
+  renameKey('slug', 'key'),
   omit('image.file'),
 );
 
