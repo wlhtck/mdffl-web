@@ -19,7 +19,7 @@ exports[`components/constellations/ContentBlock Renders a <ContentBlock /> with 
     >
       ContentBlock is sooooooo coool and awesome!
     </Typography__BodyCopy>
-    <Button
+    <Button__StyledButton
       external={false}
       text="Click here!"
       type="primary"
@@ -39,8 +39,9 @@ exports[`components/constellations/ContentBlock Renders a <ContentBlock /> with 
     padding={null}
     reverse={false}
   >
-    <Image
+    <Image__StyledImage
       alt="Cool image!"
+      fullWidth={true}
       src="path/to/image"
     />
   </Col>
@@ -72,8 +73,9 @@ exports[`components/constellations/ContentBlock Renders a <ContentBlock /> with 
     padding={null}
     reverse={false}
   >
-    <Image
+    <Image__StyledImage
       alt="Cool image!"
+      fullWidth={true}
       src="path/to/image"
     />
   </Col>
