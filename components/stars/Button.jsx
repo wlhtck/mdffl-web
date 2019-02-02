@@ -39,7 +39,6 @@ Button.propTypes = {
   onClick: func,
   text: string.isRequired,
   className: string,
-  type: oneOf(['primary', 'secondary']),
 };
 
 Button.defaultProps = {
@@ -47,12 +46,12 @@ Button.defaultProps = {
   url: '',
   onClick: null,
   className: '',
-  type: 'primary',
 };
 
-export default styled(Button)`
+const StyledButton = styled(Button)`
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
+  font-weight: 800;
   background-color: ${({ type }) => backgroundColors[type]};
   color: ${({ type }) => fontColors[type]};
   display: inline-block;
@@ -63,3 +62,13 @@ export default styled(Button)`
   cursor: pointer;
   text-decoration: none;
 `;
+
+StyledButton.propTypes = {
+  type: oneOf(['primary', 'secondary']),
+};
+
+StyledButton.defaultProps = {
+  type: 'primary',
+};
+
+export default StyledButton;

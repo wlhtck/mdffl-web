@@ -5,6 +5,7 @@ exports[`components/starts/NavLink renders a link 1`] = `
   color: #FFFFFF;
   font-family: 'Raleway',sans-serif;
   font-size: 16px;
+  font-weight: 600;
   -webkit-text-decoration: none;
   text-decoration: none;
 }

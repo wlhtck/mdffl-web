@@ -1,0 +1,188 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`conestellations/NavBar renders a <NavBar /> with some links 1`] = `
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c1 *:only-child {
+  margin: 0 auto;
+}
+
+.c1 *:last-child {
+  margin-bottom: 0;
+}
+
+.c3 {
+  color: #FFFFFF;
+  font-family: 'Raleway',sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c4 {
+  font-family: 'Raleway',sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  background-color: #FFFFFF;
+  color: #1C104E;
+  display: inline-block;
+  padding: 16px;
+  border: none;
+  line-height: 1;
+  border-radius: 4px;
+  cursor: pointer;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0 {
+  padding: 25px;
+  background-color: #1C104E;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 .c2 {
+  margin: 0 auto 0 0;
+}
+
+.c0 > * {
+  margin: 0 32px;
+}
+
+<NavBar
+  links={
+    Array [
+      Object {
+        "key": "about",
+        "text": "About",
+        "url": "/",
+      },
+      Object {
+        "key": "home",
+        "text": "Home",
+        "url": "/",
+      },
+    ]
+  }
+>
+  <NavBar
+    className="c0"
+    links={
+      Array [
+        Object {
+          "key": "about",
+          "text": "About",
+          "url": "/",
+        },
+        Object {
+          "key": "home",
+          "text": "Home",
+          "url": "/",
+        },
+      ]
+    }
+  >
+    <Row
+      className="c0"
+      padding={null}
+      reverse={false}
+    >
+      <div
+        className="c0 c1"
+      >
+        <Image__StyledImage
+          alt="MDFFL Logo"
+          fullWidth={false}
+          src="/mdffl-logo.png"
+        >
+          <img
+            alt="MDFFL Logo"
+            className="c2 "
+            src="/mdffl-logo.png"
+          />
+        </Image__StyledImage>
+        <NavLink
+          key="about"
+          text="About"
+          url="/"
+        >
+          <NavLink
+            className="c3"
+            text="About"
+            url="/"
+          >
+            <a
+              className="c3"
+              href="/"
+            >
+              About
+            </a>
+          </NavLink>
+        </NavLink>
+        <NavLink
+          key="home"
+          text="Home"
+          url="/"
+        >
+          <NavLink
+            className="c3"
+            text="Home"
+            url="/"
+          >
+            <a
+              className="c3"
+              href="/"
+            >
+              Home
+            </a>
+          </NavLink>
+        </NavLink>
+        <Button__StyledButton
+          external={true}
+          text="Register"
+          type="secondary"
+          url="https://google.com"
+        >
+          <Button
+            className="c4"
+            external={true}
+            onClick={null}
+            text="Register"
+            type="secondary"
+            url="https://google.com"
+          >
+            <a
+              className="c4"
+              href="https://google.com"
+              rel="noreferrer noopener"
+              target="_blank"
+            >
+              Register
+            </a>
+          </Button>
+        </Button__StyledButton>
+      </div>
+    </Row>
+  </NavBar>
+</NavBar>
+`;

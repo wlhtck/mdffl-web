@@ -4,7 +4,7 @@
     "dev": "node --inspect server/index.js",
     "build": "next build",
     "start": "NODE_ENV=production node server/index.js",
-    "storybook": "start-storybook -p 6006",
+    "storybook": "start-storybook -p -s ./static -p 6006",
     "build-storybook": "build-storybook",
     "lint": "eslint .",
     "test": "jest --coverage",

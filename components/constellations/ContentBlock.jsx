@@ -20,7 +20,7 @@ const ContentBlock = ({
   <Row reverse={imageAlign === 'right'}>
     {image && (
       <Col>
-        <Image {...image} />
+        <Image {...image} fullWidth />
       </Col>
     )}
     <Col align={textAlignments[textAlign]} padding={65}>

@@ -4,6 +4,9 @@ exports[`components/starts/Button renders a button 1`] = `
 .c0 {
   font-family: 'Raleway',sans-serif;
   font-size: 16px;
+  font-weight: 800;
+  background-color: #1C104E;
+  color: #FFFFFF;
   display: inline-block;
   padding: 16px;
   border: none;
@@ -14,9 +17,10 @@ exports[`components/starts/Button renders a button 1`] = `
   text-decoration: none;
 }
 
-<Button
+<Button__StyledButton
   onClick={[Function]}
   text="Button"
+  type="primary"
 >
   <Button
     className="c0"
@@ -34,13 +38,14 @@ exports[`components/starts/Button renders a button 1`] = `
       Button
     </button>
   </Button>
-</Button>
+</Button__StyledButton>
 `;
 
 exports[`components/starts/Button renders a secondary button 1`] = `
 .c0 {
   font-family: 'Raleway',sans-serif;
   font-size: 16px;
+  font-weight: 800;
   background-color: #FFFFFF;
   color: #1C104E;
   display: inline-block;
@@ -53,7 +58,7 @@ exports[`components/starts/Button renders a secondary button 1`] = `
   text-decoration: none;
 }
 
-<Button
+<Button__StyledButton
   text="Button"
   type="secondary"
 >
@@ -73,13 +78,16 @@ exports[`components/starts/Button renders a secondary button 1`] = `
       Button
     </button>
   </Button>
-</Button>
+</Button__StyledButton>
 `;
 
 exports[`components/starts/Button renders an external link 1`] = `
 .c0 {
   font-family: 'Raleway',sans-serif;
   font-size: 16px;
+  font-weight: 800;
+  background-color: #1C104E;
+  color: #FFFFFF;
   display: inline-block;
   padding: 16px;
   border: none;
@@ -90,9 +98,10 @@ exports[`components/starts/Button renders an external link 1`] = `
   text-decoration: none;
 }
 
-<Button
+<Button__StyledButton
   external={true}
   text="Button"
+  type="primary"
   url="https://google.com"
 >
   <Button
@@ -112,13 +121,16 @@ exports[`components/starts/Button renders an external link 1`] = `
       Button
     </a>
   </Button>
-</Button>
+</Button__StyledButton>
 `;
 
 exports[`components/starts/Button renders an interal link 1`] = `
 .c0 {
   font-family: 'Raleway',sans-serif;
   font-size: 16px;
+  font-weight: 800;
+  background-color: #1C104E;
+  color: #FFFFFF;
   display: inline-block;
   padding: 16px;
   border: none;
@@ -129,8 +141,9 @@ exports[`components/starts/Button renders an interal link 1`] = `
   text-decoration: none;
 }
 
-<Button
+<Button__StyledButton
   text="Button"
+  type="primary"
   url="/about"
 >
   <Button
@@ -150,5 +163,5 @@ exports[`components/starts/Button renders an interal link 1`] = `
       Button
     </a>
   </Button>
-</Button>
+</Button__StyledButton>
 `;

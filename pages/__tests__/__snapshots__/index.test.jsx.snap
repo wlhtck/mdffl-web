@@ -59,22 +59,17 @@ exports[`pages/index renders an index page 1`] = `
             <div
               className="Col-inu58n-0 gxIQq"
             >
-              <Image
+              <Image__StyledImage
                 alt="Bear"
+                fullWidth={true}
                 src="//images.ctfassets.net/8wpi5cmhr3lg/6mW6Tsx5scOYMwocwSskKq/f1bcb0a3f979f7de3e1ba070d0d14f4f/photo-1541560584704-f2767960951a.jpeg"
               >
-                <Image
+                <img
                   alt="Bear"
-                  className="Image-sc-1mf1fvy-0 dHEHxo"
+                  className="Image__StyledImage-sc-1mf1fvy-0 csemYA"
                   src="//images.ctfassets.net/8wpi5cmhr3lg/6mW6Tsx5scOYMwocwSskKq/f1bcb0a3f979f7de3e1ba070d0d14f4f/photo-1541560584704-f2767960951a.jpeg"
-                >
-                  <img
-                    alt="Bear"
-                    className="Image-sc-1mf1fvy-0 dHEHxo"
-                    src="//images.ctfassets.net/8wpi5cmhr3lg/6mW6Tsx5scOYMwocwSskKq/f1bcb0a3f979f7de3e1ba070d0d14f4f/photo-1541560584704-f2767960951a.jpeg"
-                  />
-                </Image>
-              </Image>
+                />
+              </Image__StyledImage>
             </div>
           </Col>
           <Col
@@ -102,14 +97,14 @@ exports[`pages/index renders an index page 1`] = `
                   The bear is super cool and everyone loves him! Click below to find out more!
                 </p>
               </Typography__BodyCopy>
-              <Button
+              <Button__StyledButton
                 external={true}
                 text="Google"
                 type="primary"
                 url="https://www.google.com/search?q=Bear"
               >
                 <Button
-                  className="Button-sc-19aup1o-0 kdsCVw"
+                  className="Button__StyledButton-sc-19aup1o-0 fLJhiI"
                   external={true}
                   onClick={null}
                   text="Google"
@@ -117,7 +112,7 @@ exports[`pages/index renders an index page 1`] = `
                   url="https://www.google.com/search?q=Bear"
                 >
                   <a
-                    className="Button-sc-19aup1o-0 kdsCVw"
+                    className="Button__StyledButton-sc-19aup1o-0 fLJhiI"
                     href="https://www.google.com/search?q=Bear"
                     rel="noreferrer noopener"
                     target="_blank"
@@ -125,7 +120,7 @@ exports[`pages/index renders an index page 1`] = `
                     Google
                   </a>
                 </Button>
-              </Button>
+              </Button__StyledButton>
             </div>
           </Col>
         </div>
