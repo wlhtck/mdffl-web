@@ -1,0 +1,168 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/constellations/HeroBlock renders a <HeroBlock /> 1`] = `
+.c1 {
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  max-width: 50%;
+}
+
+.c1 *:last-child {
+  margin-bottom: 0;
+}
+
+.c2 {
+  color: #FFFFFF;
+  font-family: 'Raleway',sans-serif;
+  margin: 0 0 32px;
+  font-weight: 800;
+  font-size: 36px;
+}
+
+.c3 {
+  text-align: left;
+  color: #FFFFFF;
+  font-family: 'Lato',sans-serif;
+  font-size: 24px;
+  margin: 0 0 32px;
+}
+
+.c4 {
+  font-family: 'Raleway',sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  background-color: #FFFFFF;
+  color: #1C104E;
+  display: inline-block;
+  padding: 16px;
+  border: none;
+  line-height: 1;
+  border-radius: 4px;
+  cursor: pointer;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 10vw;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  background: linear-gradient( rgba(0,0,0,0.45),rgba(0,0,0,0.45) ),url("/imgSrc");
+  background-size: cover;
+  width: 80vw;
+  height: calc(100vh - 20vw);
+}
+
+<HeroBlock__StyledHeroBlock
+  body="The bear is super cool and everyone loves him! Click below to find out more!"
+  cta={
+    Object {
+      "external": true,
+      "text": "Google",
+      "url": "/register",
+    }
+  }
+  headline="Check out the bear!"
+  imageAlign="right"
+  imgSrc="/imgSrc"
+  textAlign="left"
+>
+  <HeroBlock
+    body="The bear is super cool and everyone loves him! Click below to find out more!"
+    className="c0"
+    cta={
+      Object {
+        "external": true,
+        "text": "Google",
+        "url": "/register",
+      }
+    }
+    headline="Check out the bear!"
+    imageAlign="right"
+    imgSrc="/imgSrc"
+    textAlign="left"
+  >
+    <div
+      className="c0"
+    >
+      <Col
+        align="flex-start"
+        padding={null}
+        reverse={false}
+      >
+        <div
+          className="c1"
+        >
+          <Typography__Headline>
+            <h1
+              className="c2"
+            >
+              Check out the bear!
+            </h1>
+          </Typography__Headline>
+          <Typography__BodyCopy
+            inverted={true}
+            textAlign="left"
+          >
+            <p
+              className="c3"
+            >
+              The bear is super cool and everyone loves him! Click below to find out more!
+            </p>
+          </Typography__BodyCopy>
+          <Button__StyledButton
+            external={true}
+            text="Google"
+            type="secondary"
+            url="/register"
+          >
+            <Button
+              className="c4"
+              external={true}
+              onClick={null}
+              text="Google"
+              type="secondary"
+              url="/register"
+            >
+              <a
+                className="c4"
+                href="/register"
+                rel="noreferrer noopener"
+                target="_blank"
+              >
+                Google
+              </a>
+            </Button>
+          </Button__StyledButton>
+        </div>
+      </Col>
+    </div>
+  </HeroBlock>
+</HeroBlock__StyledHeroBlock>
+`;
