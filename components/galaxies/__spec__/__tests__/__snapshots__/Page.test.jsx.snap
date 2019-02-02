@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/galaxies/Page renders <HeroBlock />s and <ContentBlock />s 1`] = `
+Array [
+  <HeroBlock__StyledHeroBlock
+    body="The bear is a big hero. Everyone is super thankful!"
+    cta={
+      Object {
+        "external": true,
+        "text": "Google",
+        "url": "https://google.com",
+      }
+    }
+    headline="The bear is a hero!"
+    imgSrc="https://images.unsplash.com/photo-1530595467537-0b5996c41f2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1440&q=80"
+    type="heroBlock"
+  />,
+  <ContentBlock
+    body="The bear is super cool and everyone loves him! Click below to find out more!"
+    cta={
+      Object {
+        "external": true,
+        "text": "Google",
+        "url": "https://google.com",
+      }
+    }
+    headline="Check out the bear!"
+    image={null}
+    imageAlign="right"
+    textAlign="center"
+    type="contentBlock"
+  />,
+  <ContentBlock
+    body="The bear is super cool and everyone loves him! Click below to find out more!"
+    cta={
+      Object {
+        "external": true,
+        "text": "Google",
+        "url": "https://google.com",
+      }
+    }
+    headline="Check out the bear!"
+    image={
+      Object {
+        "alt": "Bear",
+        "src": "https://images.unsplash.com/photo-1541560584704-f2767960951a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1856&q=80",
+      }
+    }
+    imageAlign="right"
+    textAlign="left"
+    type="contentBlock"
+  />,
+]
+`;
