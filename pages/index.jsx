@@ -4,12 +4,20 @@ import {
 } from 'lodash/fp';
 import { withRouter } from 'next/router';
 import ContentBlock from '../components/constellations/ContentBlock';
+import HeroBlock from '../components/constellations/HeroBlock';
 import data from '../data/pages';
 
 const renameKey = (from, to) => (obj) => flow(
   set(to, head(at(from, obj))),
   omit(from),
 )(obj);
+
+const getHeroBlockFields = flow(
+  renameKey('image.fields.file.url', 'imgSrc'),
+  renameKey('cta.fields', 'cta'),
+  renameKey('slug', 'key'),
+  omit('image'),
+);
 
 const getContentBlockFields = flow(
   renameKey('cta.fields', 'cta'),
@@ -29,12 +37,12 @@ const getPageContent = (slug) => flow(
 );
 
 const ContentComponents = {
-  heroBlock: () => (<div />),
+  heroBlock: HeroBlock,
   contentBlock: ContentBlock,
 };
 
 const contentParsers = {
-  heroBlock: () => ({}),
+  heroBlock: getHeroBlockFields,
   contentBlock: getContentBlockFields,
 };
 
