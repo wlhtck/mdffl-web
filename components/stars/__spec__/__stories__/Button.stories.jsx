@@ -1,8 +1,8 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import Button from '../Button';
-import Box from '../../nebulas/Box';
-import { black } from '../../nebulas/colors';
+import Button from '../../Button';
+import Box from '../../../nebulas/Box';
+import { black } from '../../../nebulas/colors';
 
 storiesOf('Stars', module)
   .add('Button', () => (

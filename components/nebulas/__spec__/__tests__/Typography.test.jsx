@@ -1,7 +1,7 @@
 import React from 'react';
 import 'jest-styled-components';
 import { shallow } from 'enzyme';
-import { Headline, FeatureHeadline, BodyCopy } from '../Typography';
+import { Headline, FeatureHeadline, BodyCopy } from '../../Typography';
 
 describe('componenets/nebulas/Typography', () => {
   describe('Headline', () => {

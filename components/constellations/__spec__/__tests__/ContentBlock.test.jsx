@@ -1,7 +1,7 @@
 import React from 'react';
 import 'jest-styled-components';
 import { shallow } from 'enzyme';
-import ContentBlock from '../ContentBlock';
+import ContentBlock from '../../ContentBlock';
 
 describe('components/constellations/ContentBlock', () => {
   it('Renders a <ContentBlock /> with no image', () => {

@@ -1,7 +1,7 @@
 import React from 'react';
 import 'jest-styled-components';
 import { mount } from 'enzyme';
-import NavBar from '../NavBar';
+import NavBar from '../../NavBar';
 
 describe('conestellations/NavBar', () => {
   it('renders a <NavBar /> with some links', () => {

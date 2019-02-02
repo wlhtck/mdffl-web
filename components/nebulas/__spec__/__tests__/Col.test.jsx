@@ -1,7 +1,7 @@
 import React from 'react';
 import 'jest-styled-components';
 import { shallow } from 'enzyme';
-import Col from '../Col';
+import Col from '../../Col';
 
 describe('components/nebulas/Col', () => {
   it('renders a default <Col />', () => {

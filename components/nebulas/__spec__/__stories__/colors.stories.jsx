@@ -1,11 +1,10 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import styled from 'styled-components';
 import {
   primary, secondary, black, grey, white,
-} from '../colors';
-import { BodyCopy } from '../Typography';
-import Box from '../Box';
+} from '../../colors';
+import { BodyCopy } from '../../Typography';
+import Box from '../../Box';
 
 storiesOf('Nebulas', module)
   .add('colors', () => (

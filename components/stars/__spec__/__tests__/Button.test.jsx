@@ -1,7 +1,7 @@
 import React from 'react';
 import 'jest-styled-components';
 import { mount } from 'enzyme';
-import Button from '../Button';
+import Button from '../../Button';
 
 describe('components/starts/Button', () => {
   it('renders an interal link', () => {

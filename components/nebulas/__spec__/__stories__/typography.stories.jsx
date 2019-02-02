@@ -1,8 +1,8 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import Box from '../Box';
-import { Headline, FeatureHeadline, BodyCopy } from '../Typography';
-import { black } from '../colors';
+import Box from '../../Box';
+import { Headline, FeatureHeadline, BodyCopy } from '../../Typography';
+import { black } from '../../colors';
 
 storiesOf('Nebulas', module)
   .add('Typography', () => (

@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { white } from './colors';
 
-// TODO: Implement this story with a better component when one exists
+// TODO: Implement stories with a better component when one exists
 
 export default styled.div`
   display: inline-block;

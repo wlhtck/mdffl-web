@@ -1,7 +1,7 @@
 import React from 'react';
 import 'jest-styled-components';
 import { shallow } from 'enzyme';
-import Row from '../Row';
+import Row from '../../Row';
 
 describe('components/nebulas/Row', () => {
   it('renders a default <Row />', () => {

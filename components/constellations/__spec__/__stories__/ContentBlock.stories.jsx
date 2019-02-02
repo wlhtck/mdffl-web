@@ -1,6 +1,6 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import ContentBlock from '../ContentBlock';
+import ContentBlock from '../../ContentBlock';
 
 storiesOf('Constellations', module)
   .add('ContentBlock', () => (

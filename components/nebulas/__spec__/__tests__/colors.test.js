@@ -1,6 +1,6 @@
 import {
   primary, secondary, black, grey, white,
-} from '../colors';
+} from '../../colors';
 
 describe('components/nebulas/colors', () => {
   it('exports primary', () => {
