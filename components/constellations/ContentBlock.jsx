@@ -32,11 +32,10 @@ const ContentBlock = ({
 );
 
 ContentBlock.propTypes = {
-  className: string,
   body: string.isRequired,
   cta: exact({
-    url: string,
-    text: string,
+    url: string.isRequired,
+    text: string.isRequired,
     external: bool,
   }),
   image: exact({
@@ -49,7 +48,6 @@ ContentBlock.propTypes = {
 };
 
 ContentBlock.defaultProps = {
-  className: '',
   cta: null,
   image: null,
   imageAlign: 'right',

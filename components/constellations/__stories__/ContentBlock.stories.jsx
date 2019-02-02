@@ -15,7 +15,7 @@ storiesOf('Constellations', module)
           alt: 'Bear',
         }}
         cta={{
-          link: 'https://google.com',
+          url: 'https://google.com',
           text: 'Google',
           external: true,
         }}
@@ -25,7 +25,7 @@ storiesOf('Constellations', module)
         body="The bear is super cool and everyone loves him! Click below to find out more!"
         textAlign="center"
         cta={{
-          link: 'https://google.com',
+          url: 'https://google.com',
           text: 'Google',
           external: true,
         }}
@@ -40,7 +40,7 @@ storiesOf('Constellations', module)
           alt: 'Bear',
         }}
         cta={{
-          link: 'https://google.com',
+          url: 'https://google.com',
           text: 'Google',
           external: true,
         }}
