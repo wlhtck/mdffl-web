@@ -2,7 +2,7 @@
 
 exports[`components/nebulas/colors exports black 1`] = `"#303133"`;
 
-exports[`components/nebulas/colors exports grey 1`] = `"#8D8D8F"`;
+exports[`components/nebulas/colors exports grey 1`] = `"#F5F5F5"`;
 
 exports[`components/nebulas/colors exports primary 1`] = `"#1C104E"`;
 

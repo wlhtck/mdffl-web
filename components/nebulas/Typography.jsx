@@ -1,3 +1,5 @@
+import React from 'react';
+import ReactMarkdown from 'react-markdown';
 import styled from 'styled-components';
 import { oneOf, bool } from 'prop-types';
 import { black, white } from './colors';
@@ -19,7 +21,7 @@ export const FeatureHeadline = styled.h2`
   font-size: 36px;
 `;
 
-export const BodyCopy = styled.p`
+export const BodyCopy = styled(ReactMarkdown)`
   text-align: ${({ textAlign }) => (textAlign)};
   color: ${({ inverted }) => (inverted ? white : black)};
   font-family: 'Lato', sans-serif;

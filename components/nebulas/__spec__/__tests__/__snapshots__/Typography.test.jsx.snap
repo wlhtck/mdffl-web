@@ -9,11 +9,21 @@ exports[`componenets/nebulas/Typography BodyCopy renders a <BodyCopy /> 1`] = `
   margin: 0 0 32px;
 }
 
-<p
+<ReactMarkdown
+  astPlugins={Array []}
   className="c0"
+  escapeHtml={true}
+  inverted={false}
+  plugins={Array []}
+  rawSourcePos={false}
+  renderers={Object {}}
+  skipHtml={false}
+  sourcePos={false}
+  textAlign="left"
+  transformLinkUri={[Function]}
 >
   Body Copy
-</p>
+</ReactMarkdown>
 `;
 
 exports[`componenets/nebulas/Typography BodyCopy renders an centered <BodyCopy /> 1`] = `
@@ -25,11 +35,21 @@ exports[`componenets/nebulas/Typography BodyCopy renders an centered <BodyCopy /
   margin: 0 0 32px;
 }
 
-<p
+<ReactMarkdown
+  astPlugins={Array []}
   className="c0"
+  escapeHtml={true}
+  inverted={false}
+  plugins={Array []}
+  rawSourcePos={false}
+  renderers={Object {}}
+  skipHtml={false}
+  sourcePos={false}
+  textAlign="center"
+  transformLinkUri={[Function]}
 >
   Body Copy
-</p>
+</ReactMarkdown>
 `;
 
 exports[`componenets/nebulas/Typography BodyCopy renders an inverted <BodyCopy /> 1`] = `
@@ -41,11 +61,21 @@ exports[`componenets/nebulas/Typography BodyCopy renders an inverted <BodyCopy /
   margin: 0 0 32px;
 }
 
-<p
+<ReactMarkdown
+  astPlugins={Array []}
   className="c0"
+  escapeHtml={true}
+  inverted={true}
+  plugins={Array []}
+  rawSourcePos={false}
+  renderers={Object {}}
+  skipHtml={false}
+  sourcePos={false}
+  textAlign="left"
+  transformLinkUri={[Function]}
 >
   Body Copy
-</p>
+</ReactMarkdown>
 `;
 
 exports[`componenets/nebulas/Typography BodyCopy renders an right aligned <BodyCopy /> 1`] = `
@@ -57,11 +87,21 @@ exports[`componenets/nebulas/Typography BodyCopy renders an right aligned <BodyC
   margin: 0 0 32px;
 }
 
-<p
+<ReactMarkdown
+  astPlugins={Array []}
   className="c0"
+  escapeHtml={true}
+  inverted={false}
+  plugins={Array []}
+  rawSourcePos={false}
+  renderers={Object {}}
+  skipHtml={false}
+  sourcePos={false}
+  textAlign="right"
+  transformLinkUri={[Function]}
 >
   Body Copy
-</p>
+</ReactMarkdown>
 `;
 
 exports[`componenets/nebulas/Typography FeatureHeadline renders a  <FeatureHeadline /> 1`] = `

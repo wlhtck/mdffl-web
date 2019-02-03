@@ -130,11 +130,40 @@ exports[`components/constellations/HeroBlock renders a <HeroBlock /> 1`] = `
             inverted={true}
             textAlign="left"
           >
-            <p
+            <ReactMarkdown
+              astPlugins={Array []}
               className="c3"
+              escapeHtml={true}
+              inverted={true}
+              plugins={Array []}
+              rawSourcePos={false}
+              renderers={Object {}}
+              skipHtml={false}
+              sourcePos={false}
+              textAlign="left"
+              transformLinkUri={[Function]}
             >
-              The bear is super cool and everyone loves him! Click below to find out more!
-            </p>
+              <Root
+                className="c3"
+                key="root-1-1"
+              >
+                <div
+                  className="c3"
+                >
+                  <p
+                    key="paragraph-1-1"
+                  >
+                    <TextRenderer
+                      key="text-1-1"
+                      nodeKey="text-1-1"
+                      value="The bear is super cool and everyone loves him! Click below to find out more!"
+                    >
+                      The bear is super cool and everyone loves him! Click below to find out more!
+                    </TextRenderer>
+                  </p>
+                </div>
+              </Root>
+            </ReactMarkdown>
           </Typography__BodyCopy>
           <Button__StyledButton
             external={true}

@@ -1,11 +1,11 @@
 import React from 'react';
 import 'jest-styled-components';
-import { shallow } from 'enzyme';
+import { mount } from 'enzyme';
 import ContentBlock from '../../ContentBlock';
 
 describe('components/constellations/ContentBlock', () => {
   it('Renders a <ContentBlock /> with no image', () => {
-    expect(shallow(
+    expect(mount(
       <ContentBlock
         headline="Test ContentBlock"
         body="ContentBlock is sooooooo coool and awesome!"
@@ -14,7 +14,7 @@ describe('components/constellations/ContentBlock', () => {
   });
 
   it('Renders a <ContentBlock /> with an Image', () => {
-    expect(shallow(
+    expect(mount(
       <ContentBlock
         headline="Test ContentBlock"
         body="ContentBlock is sooooooo coool and awesome!"
@@ -24,7 +24,7 @@ describe('components/constellations/ContentBlock', () => {
   });
 
   it('Renders a <ContentBlock /> with a CTA', () => {
-    expect(shallow(
+    expect(mount(
       <ContentBlock
         headline="Test ContentBlock"
         body="ContentBlock is sooooooo coool and awesome!"
@@ -34,13 +34,24 @@ describe('components/constellations/ContentBlock', () => {
   });
 
   it('Renders a <ContentBlock /> with an right imageAlign and left textAlign', () => {
-    expect(shallow(
+    expect(mount(
       <ContentBlock
         headline="Test ContentBlock"
         body="ContentBlock is sooooooo coool and awesome!"
         image={{ src: 'path/to/image', alt: 'Cool image!' }}
         textAlign="left"
         imageAlign="right"
+      />,
+    )).toMatchSnapshot();
+  });
+
+  it('Renders a <ContentBlock /> with a grey background', () => {
+    expect(mount(
+      <ContentBlock
+        background
+        headline="Test ContentBlock"
+        body="ContentBlock is sooooooo coool and awesome!"
+        image={{ src: 'path/to/image', alt: 'Cool image!' }}
       />,
     )).toMatchSnapshot();
   });
