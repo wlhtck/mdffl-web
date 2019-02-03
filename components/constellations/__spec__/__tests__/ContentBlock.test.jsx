@@ -48,6 +48,7 @@ describe('components/constellations/ContentBlock', () => {
   it('Renders a <ContentBlock /> with a grey background', () => {
     expect(mount(
       <ContentBlock
+        background
         headline="Test ContentBlock"
         body="ContentBlock is sooooooo coool and awesome!"
         image={{ src: 'path/to/image', alt: 'Cool image!' }}

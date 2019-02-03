@@ -202,11 +202,11 @@ exports[`components/constellations/ContentBlock Renders a <ContentBlock /> with 
 `;
 
 exports[`components/constellations/ContentBlock Renders a <ContentBlock /> with a grey background 1`] = `
-.c2 {
+.c3 {
   width: 100%;
 }
 
-.c4 {
+.c5 {
   color: #303133;
   font-family: 'Raleway',sans-serif;
   margin: 0 0 32px;
@@ -214,7 +214,7 @@ exports[`components/constellations/ContentBlock Renders a <ContentBlock /> with 
   font-size: 36px;
 }
 
-.c5 {
+.c6 {
   text-align: left;
   color: #303133;
   font-family: 'Lato',sans-serif;
@@ -222,7 +222,7 @@ exports[`components/constellations/ContentBlock Renders a <ContentBlock /> with 
   margin: 0 0 32px;
 }
 
-.c3 {
+.c4 {
   -webkit-align-items: flex-start;
   -webkit-box-align: flex-start;
   -ms-flex-align: flex-start;
@@ -242,11 +242,11 @@ exports[`components/constellations/ContentBlock Renders a <ContentBlock /> with 
   padding: 65px;
 }
 
-.c3 *:last-child {
+.c4 *:last-child {
   margin-bottom: 0;
 }
 
-.c1 {
+.c2 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -265,11 +265,11 @@ exports[`components/constellations/ContentBlock Renders a <ContentBlock /> with 
   max-width: 50%;
 }
 
-.c1 *:last-child {
+.c2 *:last-child {
   margin-bottom: 0;
 }
 
-.c0 {
+.c1 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -283,16 +283,20 @@ exports[`components/constellations/ContentBlock Renders a <ContentBlock /> with 
   justify-content: space-between;
 }
 
-.c0 *:only-child {
+.c1 *:only-child {
   margin: 0 auto;
 }
 
-.c0 *:last-child {
+.c1 *:last-child {
   margin-bottom: 0;
 }
 
+.c0 {
+  background-color: #F5F5F5;
+}
+
 <ContentBlock__StyledContentBlock
-  background={false}
+  background={true}
   body="ContentBlock is sooooooo coool and awesome!"
   headline="Test ContentBlock"
   image={
@@ -303,9 +307,9 @@ exports[`components/constellations/ContentBlock Renders a <ContentBlock /> with 
   }
 >
   <ContentBlock
-    background={false}
+    background={true}
     body="ContentBlock is sooooooo coool and awesome!"
-    className=""
+    className="c0"
     cta={null}
     headline="Test ContentBlock"
     image={
@@ -318,12 +322,12 @@ exports[`components/constellations/ContentBlock Renders a <ContentBlock /> with 
     textAlign="left"
   >
     <Row
-      className=""
+      className="c0"
       padding={null}
       reverse={true}
     >
       <div
-        className="c0"
+        className="c0 c1"
       >
         <Col
           align="center"
@@ -331,7 +335,7 @@ exports[`components/constellations/ContentBlock Renders a <ContentBlock /> with 
           reverse={false}
         >
           <div
-            className="c1"
+            className="c2"
           >
             <Image__StyledImage
               alt="Cool image!"
@@ -340,7 +344,7 @@ exports[`components/constellations/ContentBlock Renders a <ContentBlock /> with 
             >
               <img
                 alt="Cool image!"
-                className="c2"
+                className="c3"
                 src="path/to/image"
               />
             </Image__StyledImage>
@@ -352,11 +356,11 @@ exports[`components/constellations/ContentBlock Renders a <ContentBlock /> with 
           reverse={false}
         >
           <div
-            className="c3"
+            className="c4"
           >
             <Typography__FeatureHeadline>
               <h2
-                className="c4"
+                className="c5"
               >
                 Test ContentBlock
               </h2>
@@ -367,7 +371,7 @@ exports[`components/constellations/ContentBlock Renders a <ContentBlock /> with 
             >
               <ReactMarkdown
                 astPlugins={Array []}
-                className="c5"
+                className="c6"
                 escapeHtml={true}
                 inverted={false}
                 plugins={Array []}
@@ -379,11 +383,11 @@ exports[`components/constellations/ContentBlock Renders a <ContentBlock /> with 
                 transformLinkUri={[Function]}
               >
                 <Root
-                  className="c5"
+                  className="c6"
                   key="root-1-1"
                 >
                   <div
-                    className="c5"
+                    className="c6"
                   >
                     <p
                       key="paragraph-1-1"
