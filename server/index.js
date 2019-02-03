@@ -3,12 +3,13 @@ const app = require('./app');
 
 const getContent = require('./getContent');
 
-const pages = require('./routes/pages');
+const pages = require('./ducks/pages/route');
 
 app.prepare()
   .then(() => {
     getContent();
     const server = express();
+    server.use(express.static('static'));
     server.get('/', pages);
     server.get('/:id', pages);
 

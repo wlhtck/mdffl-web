@@ -1,7 +1,3 @@
-// node
-const fs = require('fs');
-const path = require('path');
-
 // lodash/fp
 const flow = require('lodash/fp/flow');
 const get = require('lodash/fp/get');
@@ -11,10 +7,7 @@ const head = require('lodash/fp/head');
 const at = require('lodash/fp/at');
 const omit = require('lodash/fp/omit');
 const set = require('lodash/fp/set');
-
-// app
-const app = require('../app');
-const dev = require('../../utils/dev');
+const replace = require('lodash/fp/replace');
 
 const renameKey = (from, to) => (obj) => flow(
   set(to, head(at(from, obj))),
@@ -47,15 +40,18 @@ const getPageContent = (slug) => flow(
     get('fields'),
     (content) => contentParsers[content.type](content),
   )(item)),
-  dev.log('pageContent'),
 );
 
-const pages = (req, res) => {
-  const data = JSON.parse(fs.readFileSync(
-    path.join(__dirname, '..', '..', 'data', 'pages.json'),
-  ));
+const getNavLinks = flow(
+  get('items'),
+  map((pages) => ({
+    url: `/${replace('index', '')(get('fields.slug')(pages))}`,
+    text: get('fields.name')(pages),
+    key: get('fields.slug')(pages),
+  })),
+);
 
-  app.render(req, res, '/app', { data: getPageContent(req.params.id || 'index')(data) });
+module.exports = {
+  getPageContent,
+  getNavLinks,
 };
-
-module.exports = pages;

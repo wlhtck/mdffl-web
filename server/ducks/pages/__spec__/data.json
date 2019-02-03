@@ -1,0 +1,178 @@
+{
+	"items": [{
+		"fields": {
+			"content": [{
+				"sys": {
+					"contentType": {
+						"sys": {
+							"type": "Link",
+							"linkType": "ContentType",
+							"id": "heroBlock"
+						}
+					},
+					"locale": "en-US"
+				},
+				"fields": {
+					"headline": "The bear is a hero!",
+					"image": {
+						"fields": {
+							"title": "Bear sitting",
+							"file": {
+								"url": "//images.ctfassets.net/8wpi5cmhr3lg/PLDH0id61xTjbGlkiuEKU/5aa125d518233d0efc2f4a2ea1dabb0e/mark-basarab-723939-unsplash.jpg",
+								"details": {
+									"size": 3858763,
+									"image": {
+										"width": 4352,
+										"height": 2904
+									}
+								},
+								"fileName": "mark-basarab-723939-unsplash.jpg",
+								"contentType": "image/jpeg"
+							}
+						}
+					},
+					"body": "The bear is a big hero. Everyone is super thankful!",
+					"cta": {
+						"fields": {
+							"text": "Follow the bear!",
+							"url": "https://www.facebook.com/groups/bear.inc/",
+							"external": true
+						}
+					},
+					"slug": "hero-bear"
+				}
+			}, {
+				"sys": {
+					"contentType": {
+						"sys": {
+							"type": "Link",
+							"linkType": "ContentType",
+							"id": "contentBlock"
+						}
+					},
+					"locale": "en-US"
+				},
+				"fields": {
+					"headline": "Check out the bear!",
+					"body": "The bear is super cool and everyone loves him! Click below to find out more!",
+					"imageAlign": "right",
+					"image": {
+						"fields": {
+							"title": "Bear",
+							"file": {
+								"url": "//images.ctfassets.net/8wpi5cmhr3lg/6mW6Tsx5scOYMwocwSskKq/f1bcb0a3f979f7de3e1ba070d0d14f4f/photo-1541560584704-f2767960951a.jpeg",
+								"details": {
+									"size": 1769907,
+									"image": {
+										"width": 1856,
+										"height": 2830
+									}
+								},
+								"fileName": "photo-1541560584704-f2767960951a.jpeg",
+								"contentType": "image/jpeg"
+							}
+						}
+					},
+					"cta": {
+						"fields": {
+							"text": "Google",
+							"url": "https://www.google.com/search?q=Bear",
+							"external": true
+						}
+					},
+					"slug": "bear"
+				}
+			}],
+			"slug": "index",
+			"name": "Home"
+		}
+	}, {
+		"fields": {
+			"content": [{
+				"sys": {
+					"contentType": {
+						"sys": {
+							"type": "Link",
+							"linkType": "ContentType",
+							"id": "contentBlock"
+						}
+					},
+					"locale": "en-US"
+				},
+				"fields": {
+					"headline": "Check out the bear!",
+					"body": "The bear is super cool and everyone loves him! Click below to find out more!",
+					"imageAlign": "right",
+					"image": {
+						"fields": {
+							"title": "Bear",
+							"file": {
+								"url": "//images.ctfassets.net/8wpi5cmhr3lg/6mW6Tsx5scOYMwocwSskKq/f1bcb0a3f979f7de3e1ba070d0d14f4f/photo-1541560584704-f2767960951a.jpeg",
+								"details": {
+									"size": 1769907,
+									"image": {
+										"width": 1856,
+										"height": 2830
+									}
+								},
+								"fileName": "photo-1541560584704-f2767960951a.jpeg",
+								"contentType": "image/jpeg"
+							}
+						}
+					},
+					"cta": {
+						"fields": {
+							"text": "Google",
+							"url": "https://www.google.com/search?q=Bear",
+							"external": true
+						}
+					},
+					"slug": "bear"
+				}
+			}, {
+				"sys": {
+					"contentType": {
+						"sys": {
+							"type": "Link",
+							"linkType": "ContentType",
+							"id": "contentBlock"
+						}
+					},
+					"locale": "en-US"
+				},
+				"fields": {
+					"headline": "Check out the bear!",
+					"body": "The bear is super cool and everyone loves him! Click below to find out more!",
+					"imageAlign": "left",
+					"image": {
+						"fields": {
+							"title": "Bear",
+							"file": {
+								"url": "//images.ctfassets.net/8wpi5cmhr3lg/6mW6Tsx5scOYMwocwSskKq/f1bcb0a3f979f7de3e1ba070d0d14f4f/photo-1541560584704-f2767960951a.jpeg",
+								"details": {
+									"size": 1769907,
+									"image": {
+										"width": 1856,
+										"height": 2830
+									}
+								},
+								"fileName": "photo-1541560584704-f2767960951a.jpeg",
+								"contentType": "image/jpeg"
+							}
+						}
+					},
+					"cta": {
+						"fields": {
+							"text": "Google",
+							"url": "https://www.google.com/search?q=Bear",
+							"external": true
+						}
+					},
+					"slug": "bear-2"
+				}
+			}],
+			"slug": "about",
+			"name": "About"
+		}
+	}]
+}
