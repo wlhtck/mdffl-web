@@ -12,7 +12,12 @@ const NavBar = ({ links, className }) => (
   <Row className={className}>
     <Image src="/mdffl-logo.png" alt="MDFFL Logo" />
     {map((link) => <NavLink {...link} />)(links)}
-    <Button url="https://google.com" text="Register" type="secondary" external />
+    <Button
+      url="https://www.playyon.com/metro-detroit-flag-football-league/registrations/"
+      text="Register"
+      type="secondary"
+      external
+    />
   </Row>
 );
 
