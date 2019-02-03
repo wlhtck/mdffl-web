@@ -16,6 +16,9 @@ const getContent = () => client.getEntries({
   content_type: 'page',
   include: 3,
 }).then((entries) => {
+  if (!fs.existsSync(path.join(__dirname, '..', 'data'))){
+    fs.mkdirSync(path.join(__dirname, '..', 'data'));
+  }
   fs.writeFileSync(
     path.join(__dirname, '..', 'data', 'pages.json'),
     JSON.stringify(entries),
