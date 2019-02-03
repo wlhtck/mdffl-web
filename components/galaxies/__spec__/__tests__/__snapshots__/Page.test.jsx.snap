@@ -15,7 +15,8 @@ Array [
     imgSrc="https://images.unsplash.com/photo-1530595467537-0b5996c41f2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1440&q=80"
     type="heroBlock"
   />,
-  <ContentBlock
+  <ContentBlock__StyledContentBlock
+    background={false}
     body="The bear is super cool and everyone loves him! Click below to find out more!"
     cta={
       Object {
@@ -25,12 +26,11 @@ Array [
       }
     }
     headline="Check out the bear!"
-    image={null}
-    imageAlign="right"
     textAlign="center"
     type="contentBlock"
   />,
-  <ContentBlock
+  <ContentBlock__StyledContentBlock
+    background={false}
     body="The bear is super cool and everyone loves him! Click below to find out more!"
     cta={
       Object {

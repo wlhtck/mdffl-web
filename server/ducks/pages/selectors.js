@@ -9,10 +9,14 @@ const omit = require('lodash/fp/omit');
 const set = require('lodash/fp/set');
 const replace = require('lodash/fp/replace');
 
-const renameKey = (from, to) => (obj) => flow(
-  set(to, head(at(from, obj))),
-  omit(from),
-)(obj);
+const renameKey = (from, to) => (obj) => (
+  get(from)(obj)
+    ? flow(
+      set(to, head(at(from, obj))),
+      omit(from),
+    )(obj)
+    : obj
+);
 
 const contentParsers = {
   heroBlock: flow(

@@ -161,7 +161,7 @@ exports[`conestellations/NavBar renders a <NavBar /> with some links 1`] = `
           external={true}
           text="Register"
           type="secondary"
-          url="https://google.com"
+          url="https://www.playyon.com/metro-detroit-flag-football-league/registrations/"
         >
           <Button
             className="c4"
@@ -169,11 +169,11 @@ exports[`conestellations/NavBar renders a <NavBar /> with some links 1`] = `
             onClick={null}
             text="Register"
             type="secondary"
-            url="https://google.com"
+            url="https://www.playyon.com/metro-detroit-flag-football-league/registrations/"
           >
             <a
               className="c4"
-              href="https://google.com"
+              href="https://www.playyon.com/metro-detroit-flag-football-league/registrations/"
               rel="noreferrer noopener"
               target="_blank"
             >

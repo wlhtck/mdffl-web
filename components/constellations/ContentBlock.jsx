@@ -1,9 +1,11 @@
 import React from 'react';
+import styled from 'styled-components';
 import {
   bool, string, exact, oneOf,
 } from 'prop-types';
 import Button from '../stars/Button';
 import Image from '../nebulas/Image';
+import { grey } from '../nebulas/colors';
 import { FeatureHeadline, BodyCopy } from '../nebulas/Typography';
 import Col from '../nebulas/Col';
 import Row from '../nebulas/Row';
@@ -15,9 +17,9 @@ const textAlignments = {
 };
 
 const ContentBlock = ({
-  image, headline, body, textAlign, imageAlign, cta,
+  image, headline, body, textAlign, imageAlign, cta, className,
 }) => (
-  <Row reverse={imageAlign === 'right'}>
+  <Row reverse={imageAlign === 'right'} className={className}>
     {image && (
       <Col>
         <Image {...image} fullWidth />
@@ -33,6 +35,7 @@ const ContentBlock = ({
 
 ContentBlock.propTypes = {
   body: string.isRequired,
+  className: string,
   cta: exact({
     url: string.isRequired,
     text: string.isRequired,
@@ -49,9 +52,22 @@ ContentBlock.propTypes = {
 
 ContentBlock.defaultProps = {
   cta: null,
+  className: '',
   image: null,
   imageAlign: 'right',
   textAlign: 'left',
 };
 
-export default ContentBlock;
+const StyledContentBlock = styled(ContentBlock)`
+  ${({ background }) => (background ? `background-color: ${grey};` : '')}
+`;
+
+StyledContentBlock.propTypes = {
+  background: bool,
+};
+
+StyledContentBlock.defaultProps = {
+  background: false,
+};
+
+export default StyledContentBlock;

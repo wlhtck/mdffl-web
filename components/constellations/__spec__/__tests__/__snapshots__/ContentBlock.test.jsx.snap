@@ -1,121 +1,973 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`components/constellations/ContentBlock Renders a <ContentBlock /> with a CTA 1`] = `
-<Row
-  padding={null}
-  reverse={true}
+.c4 {
+  font-family: 'Raleway',sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  background-color: #1C104E;
+  color: #FFFFFF;
+  display: inline-block;
+  padding: 16px;
+  border: none;
+  line-height: 1;
+  border-radius: 4px;
+  cursor: pointer;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c2 {
+  color: #303133;
+  font-family: 'Raleway',sans-serif;
+  margin: 0 0 32px;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.c3 {
+  text-align: left;
+  color: #303133;
+  font-family: 'Lato',sans-serif;
+  font-size: 24px;
+  margin: 0 0 32px;
+}
+
+.c1 {
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  max-width: 50%;
+  padding: 65px;
+}
+
+.c1 *:last-child {
+  margin-bottom: 0;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row-reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c0 *:only-child {
+  margin: 0 auto;
+}
+
+.c0 *:last-child {
+  margin-bottom: 0;
+}
+
+<ContentBlock__StyledContentBlock
+  background={false}
+  body="ContentBlock is sooooooo coool and awesome!"
+  cta={
+    Object {
+      "external": false,
+      "text": "Click here!",
+      "url": "path/to/link",
+    }
+  }
+  headline="Test ContentBlock"
 >
-  <Col
-    align="flex-start"
-    padding={65}
-    reverse={false}
+  <ContentBlock
+    background={false}
+    body="ContentBlock is sooooooo coool and awesome!"
+    className=""
+    cta={
+      Object {
+        "external": false,
+        "text": "Click here!",
+        "url": "path/to/link",
+      }
+    }
+    headline="Test ContentBlock"
+    image={null}
+    imageAlign="right"
+    textAlign="left"
   >
-    <Typography__FeatureHeadline>
-      Test ContentBlock
-    </Typography__FeatureHeadline>
-    <Typography__BodyCopy
-      inverted={false}
-      textAlign="left"
+    <Row
+      className=""
+      padding={null}
+      reverse={true}
     >
-      ContentBlock is sooooooo coool and awesome!
-    </Typography__BodyCopy>
-    <Button__StyledButton
-      external={false}
-      text="Click here!"
-      type="primary"
-      url="path/to/link"
-    />
-  </Col>
-</Row>
+      <div
+        className="c0"
+      >
+        <Col
+          align="flex-start"
+          padding={65}
+          reverse={false}
+        >
+          <div
+            className="c1"
+          >
+            <Typography__FeatureHeadline>
+              <h2
+                className="c2"
+              >
+                Test ContentBlock
+              </h2>
+            </Typography__FeatureHeadline>
+            <Typography__BodyCopy
+              inverted={false}
+              textAlign="left"
+            >
+              <ReactMarkdown
+                astPlugins={Array []}
+                className="c3"
+                escapeHtml={true}
+                inverted={false}
+                plugins={Array []}
+                rawSourcePos={false}
+                renderers={Object {}}
+                skipHtml={false}
+                sourcePos={false}
+                textAlign="left"
+                transformLinkUri={[Function]}
+              >
+                <Root
+                  className="c3"
+                  key="root-1-1"
+                >
+                  <div
+                    className="c3"
+                  >
+                    <p
+                      key="paragraph-1-1"
+                    >
+                      <TextRenderer
+                        key="text-1-1"
+                        nodeKey="text-1-1"
+                        value="ContentBlock is sooooooo coool and awesome!"
+                      >
+                        ContentBlock is sooooooo coool and awesome!
+                      </TextRenderer>
+                    </p>
+                  </div>
+                </Root>
+              </ReactMarkdown>
+            </Typography__BodyCopy>
+            <Button__StyledButton
+              external={false}
+              text="Click here!"
+              type="primary"
+              url="path/to/link"
+            >
+              <Button
+                className="c4"
+                external={false}
+                onClick={null}
+                text="Click here!"
+                type="primary"
+                url="path/to/link"
+              >
+                <a
+                  className="c4"
+                  href="path/to/link"
+                  rel=""
+                  target=""
+                >
+                  Click here!
+                </a>
+              </Button>
+            </Button__StyledButton>
+          </div>
+        </Col>
+      </div>
+    </Row>
+  </ContentBlock>
+</ContentBlock__StyledContentBlock>
+`;
+
+exports[`components/constellations/ContentBlock Renders a <ContentBlock /> with a grey background 1`] = `
+.c2 {
+  width: 100%;
+}
+
+.c4 {
+  color: #303133;
+  font-family: 'Raleway',sans-serif;
+  margin: 0 0 32px;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.c5 {
+  text-align: left;
+  color: #303133;
+  font-family: 'Lato',sans-serif;
+  font-size: 24px;
+  margin: 0 0 32px;
+}
+
+.c3 {
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  max-width: 50%;
+  padding: 65px;
+}
+
+.c3 *:last-child {
+  margin-bottom: 0;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  max-width: 50%;
+}
+
+.c1 *:last-child {
+  margin-bottom: 0;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row-reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c0 *:only-child {
+  margin: 0 auto;
+}
+
+.c0 *:last-child {
+  margin-bottom: 0;
+}
+
+<ContentBlock__StyledContentBlock
+  background={false}
+  body="ContentBlock is sooooooo coool and awesome!"
+  headline="Test ContentBlock"
+  image={
+    Object {
+      "alt": "Cool image!",
+      "src": "path/to/image",
+    }
+  }
+>
+  <ContentBlock
+    background={false}
+    body="ContentBlock is sooooooo coool and awesome!"
+    className=""
+    cta={null}
+    headline="Test ContentBlock"
+    image={
+      Object {
+        "alt": "Cool image!",
+        "src": "path/to/image",
+      }
+    }
+    imageAlign="right"
+    textAlign="left"
+  >
+    <Row
+      className=""
+      padding={null}
+      reverse={true}
+    >
+      <div
+        className="c0"
+      >
+        <Col
+          align="center"
+          padding={null}
+          reverse={false}
+        >
+          <div
+            className="c1"
+          >
+            <Image__StyledImage
+              alt="Cool image!"
+              fullWidth={true}
+              src="path/to/image"
+            >
+              <img
+                alt="Cool image!"
+                className="c2"
+                src="path/to/image"
+              />
+            </Image__StyledImage>
+          </div>
+        </Col>
+        <Col
+          align="flex-start"
+          padding={65}
+          reverse={false}
+        >
+          <div
+            className="c3"
+          >
+            <Typography__FeatureHeadline>
+              <h2
+                className="c4"
+              >
+                Test ContentBlock
+              </h2>
+            </Typography__FeatureHeadline>
+            <Typography__BodyCopy
+              inverted={false}
+              textAlign="left"
+            >
+              <ReactMarkdown
+                astPlugins={Array []}
+                className="c5"
+                escapeHtml={true}
+                inverted={false}
+                plugins={Array []}
+                rawSourcePos={false}
+                renderers={Object {}}
+                skipHtml={false}
+                sourcePos={false}
+                textAlign="left"
+                transformLinkUri={[Function]}
+              >
+                <Root
+                  className="c5"
+                  key="root-1-1"
+                >
+                  <div
+                    className="c5"
+                  >
+                    <p
+                      key="paragraph-1-1"
+                    >
+                      <TextRenderer
+                        key="text-1-1"
+                        nodeKey="text-1-1"
+                        value="ContentBlock is sooooooo coool and awesome!"
+                      >
+                        ContentBlock is sooooooo coool and awesome!
+                      </TextRenderer>
+                    </p>
+                  </div>
+                </Root>
+              </ReactMarkdown>
+            </Typography__BodyCopy>
+          </div>
+        </Col>
+      </div>
+    </Row>
+  </ContentBlock>
+</ContentBlock__StyledContentBlock>
 `;
 
 exports[`components/constellations/ContentBlock Renders a <ContentBlock /> with an Image 1`] = `
-<Row
-  padding={null}
-  reverse={true}
+.c2 {
+  width: 100%;
+}
+
+.c4 {
+  color: #303133;
+  font-family: 'Raleway',sans-serif;
+  margin: 0 0 32px;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.c5 {
+  text-align: left;
+  color: #303133;
+  font-family: 'Lato',sans-serif;
+  font-size: 24px;
+  margin: 0 0 32px;
+}
+
+.c3 {
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  max-width: 50%;
+  padding: 65px;
+}
+
+.c3 *:last-child {
+  margin-bottom: 0;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  max-width: 50%;
+}
+
+.c1 *:last-child {
+  margin-bottom: 0;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row-reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c0 *:only-child {
+  margin: 0 auto;
+}
+
+.c0 *:last-child {
+  margin-bottom: 0;
+}
+
+<ContentBlock__StyledContentBlock
+  background={false}
+  body="ContentBlock is sooooooo coool and awesome!"
+  headline="Test ContentBlock"
+  image={
+    Object {
+      "alt": "Cool image!",
+      "src": "path/to/image",
+    }
+  }
 >
-  <Col
-    align="center"
-    padding={null}
-    reverse={false}
+  <ContentBlock
+    background={false}
+    body="ContentBlock is sooooooo coool and awesome!"
+    className=""
+    cta={null}
+    headline="Test ContentBlock"
+    image={
+      Object {
+        "alt": "Cool image!",
+        "src": "path/to/image",
+      }
+    }
+    imageAlign="right"
+    textAlign="left"
   >
-    <Image__StyledImage
-      alt="Cool image!"
-      fullWidth={true}
-      src="path/to/image"
-    />
-  </Col>
-  <Col
-    align="flex-start"
-    padding={65}
-    reverse={false}
-  >
-    <Typography__FeatureHeadline>
-      Test ContentBlock
-    </Typography__FeatureHeadline>
-    <Typography__BodyCopy
-      inverted={false}
-      textAlign="left"
+    <Row
+      className=""
+      padding={null}
+      reverse={true}
     >
-      ContentBlock is sooooooo coool and awesome!
-    </Typography__BodyCopy>
-  </Col>
-</Row>
+      <div
+        className="c0"
+      >
+        <Col
+          align="center"
+          padding={null}
+          reverse={false}
+        >
+          <div
+            className="c1"
+          >
+            <Image__StyledImage
+              alt="Cool image!"
+              fullWidth={true}
+              src="path/to/image"
+            >
+              <img
+                alt="Cool image!"
+                className="c2"
+                src="path/to/image"
+              />
+            </Image__StyledImage>
+          </div>
+        </Col>
+        <Col
+          align="flex-start"
+          padding={65}
+          reverse={false}
+        >
+          <div
+            className="c3"
+          >
+            <Typography__FeatureHeadline>
+              <h2
+                className="c4"
+              >
+                Test ContentBlock
+              </h2>
+            </Typography__FeatureHeadline>
+            <Typography__BodyCopy
+              inverted={false}
+              textAlign="left"
+            >
+              <ReactMarkdown
+                astPlugins={Array []}
+                className="c5"
+                escapeHtml={true}
+                inverted={false}
+                plugins={Array []}
+                rawSourcePos={false}
+                renderers={Object {}}
+                skipHtml={false}
+                sourcePos={false}
+                textAlign="left"
+                transformLinkUri={[Function]}
+              >
+                <Root
+                  className="c5"
+                  key="root-1-1"
+                >
+                  <div
+                    className="c5"
+                  >
+                    <p
+                      key="paragraph-1-1"
+                    >
+                      <TextRenderer
+                        key="text-1-1"
+                        nodeKey="text-1-1"
+                        value="ContentBlock is sooooooo coool and awesome!"
+                      >
+                        ContentBlock is sooooooo coool and awesome!
+                      </TextRenderer>
+                    </p>
+                  </div>
+                </Root>
+              </ReactMarkdown>
+            </Typography__BodyCopy>
+          </div>
+        </Col>
+      </div>
+    </Row>
+  </ContentBlock>
+</ContentBlock__StyledContentBlock>
 `;
 
 exports[`components/constellations/ContentBlock Renders a <ContentBlock /> with an right imageAlign and left textAlign 1`] = `
-<Row
-  padding={null}
-  reverse={true}
+.c2 {
+  width: 100%;
+}
+
+.c4 {
+  color: #303133;
+  font-family: 'Raleway',sans-serif;
+  margin: 0 0 32px;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.c5 {
+  text-align: left;
+  color: #303133;
+  font-family: 'Lato',sans-serif;
+  font-size: 24px;
+  margin: 0 0 32px;
+}
+
+.c3 {
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  max-width: 50%;
+  padding: 65px;
+}
+
+.c3 *:last-child {
+  margin-bottom: 0;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  max-width: 50%;
+}
+
+.c1 *:last-child {
+  margin-bottom: 0;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row-reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c0 *:only-child {
+  margin: 0 auto;
+}
+
+.c0 *:last-child {
+  margin-bottom: 0;
+}
+
+<ContentBlock__StyledContentBlock
+  background={false}
+  body="ContentBlock is sooooooo coool and awesome!"
+  headline="Test ContentBlock"
+  image={
+    Object {
+      "alt": "Cool image!",
+      "src": "path/to/image",
+    }
+  }
+  imageAlign="right"
+  textAlign="left"
 >
-  <Col
-    align="center"
-    padding={null}
-    reverse={false}
+  <ContentBlock
+    background={false}
+    body="ContentBlock is sooooooo coool and awesome!"
+    className=""
+    cta={null}
+    headline="Test ContentBlock"
+    image={
+      Object {
+        "alt": "Cool image!",
+        "src": "path/to/image",
+      }
+    }
+    imageAlign="right"
+    textAlign="left"
   >
-    <Image__StyledImage
-      alt="Cool image!"
-      fullWidth={true}
-      src="path/to/image"
-    />
-  </Col>
-  <Col
-    align="flex-start"
-    padding={65}
-    reverse={false}
-  >
-    <Typography__FeatureHeadline>
-      Test ContentBlock
-    </Typography__FeatureHeadline>
-    <Typography__BodyCopy
-      inverted={false}
-      textAlign="left"
+    <Row
+      className=""
+      padding={null}
+      reverse={true}
     >
-      ContentBlock is sooooooo coool and awesome!
-    </Typography__BodyCopy>
-  </Col>
-</Row>
+      <div
+        className="c0"
+      >
+        <Col
+          align="center"
+          padding={null}
+          reverse={false}
+        >
+          <div
+            className="c1"
+          >
+            <Image__StyledImage
+              alt="Cool image!"
+              fullWidth={true}
+              src="path/to/image"
+            >
+              <img
+                alt="Cool image!"
+                className="c2"
+                src="path/to/image"
+              />
+            </Image__StyledImage>
+          </div>
+        </Col>
+        <Col
+          align="flex-start"
+          padding={65}
+          reverse={false}
+        >
+          <div
+            className="c3"
+          >
+            <Typography__FeatureHeadline>
+              <h2
+                className="c4"
+              >
+                Test ContentBlock
+              </h2>
+            </Typography__FeatureHeadline>
+            <Typography__BodyCopy
+              inverted={false}
+              textAlign="left"
+            >
+              <ReactMarkdown
+                astPlugins={Array []}
+                className="c5"
+                escapeHtml={true}
+                inverted={false}
+                plugins={Array []}
+                rawSourcePos={false}
+                renderers={Object {}}
+                skipHtml={false}
+                sourcePos={false}
+                textAlign="left"
+                transformLinkUri={[Function]}
+              >
+                <Root
+                  className="c5"
+                  key="root-1-1"
+                >
+                  <div
+                    className="c5"
+                  >
+                    <p
+                      key="paragraph-1-1"
+                    >
+                      <TextRenderer
+                        key="text-1-1"
+                        nodeKey="text-1-1"
+                        value="ContentBlock is sooooooo coool and awesome!"
+                      >
+                        ContentBlock is sooooooo coool and awesome!
+                      </TextRenderer>
+                    </p>
+                  </div>
+                </Root>
+              </ReactMarkdown>
+            </Typography__BodyCopy>
+          </div>
+        </Col>
+      </div>
+    </Row>
+  </ContentBlock>
+</ContentBlock__StyledContentBlock>
 `;
 
 exports[`components/constellations/ContentBlock Renders a <ContentBlock /> with no image 1`] = `
-<Row
-  padding={null}
-  reverse={true}
+.c2 {
+  color: #303133;
+  font-family: 'Raleway',sans-serif;
+  margin: 0 0 32px;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.c3 {
+  text-align: left;
+  color: #303133;
+  font-family: 'Lato',sans-serif;
+  font-size: 24px;
+  margin: 0 0 32px;
+}
+
+.c1 {
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  max-width: 50%;
+  padding: 65px;
+}
+
+.c1 *:last-child {
+  margin-bottom: 0;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row-reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c0 *:only-child {
+  margin: 0 auto;
+}
+
+.c0 *:last-child {
+  margin-bottom: 0;
+}
+
+<ContentBlock__StyledContentBlock
+  background={false}
+  body="ContentBlock is sooooooo coool and awesome!"
+  headline="Test ContentBlock"
 >
-  <Col
-    align="flex-start"
-    padding={65}
-    reverse={false}
+  <ContentBlock
+    background={false}
+    body="ContentBlock is sooooooo coool and awesome!"
+    className=""
+    cta={null}
+    headline="Test ContentBlock"
+    image={null}
+    imageAlign="right"
+    textAlign="left"
   >
-    <Typography__FeatureHeadline>
-      Test ContentBlock
-    </Typography__FeatureHeadline>
-    <Typography__BodyCopy
-      inverted={false}
-      textAlign="left"
+    <Row
+      className=""
+      padding={null}
+      reverse={true}
     >
-      ContentBlock is sooooooo coool and awesome!
-    </Typography__BodyCopy>
-  </Col>
-</Row>
+      <div
+        className="c0"
+      >
+        <Col
+          align="flex-start"
+          padding={65}
+          reverse={false}
+        >
+          <div
+            className="c1"
+          >
+            <Typography__FeatureHeadline>
+              <h2
+                className="c2"
+              >
+                Test ContentBlock
+              </h2>
+            </Typography__FeatureHeadline>
+            <Typography__BodyCopy
+              inverted={false}
+              textAlign="left"
+            >
+              <ReactMarkdown
+                astPlugins={Array []}
+                className="c3"
+                escapeHtml={true}
+                inverted={false}
+                plugins={Array []}
+                rawSourcePos={false}
+                renderers={Object {}}
+                skipHtml={false}
+                sourcePos={false}
+                textAlign="left"
+                transformLinkUri={[Function]}
+              >
+                <Root
+                  className="c3"
+                  key="root-1-1"
+                >
+                  <div
+                    className="c3"
+                  >
+                    <p
+                      key="paragraph-1-1"
+                    >
+                      <TextRenderer
+                        key="text-1-1"
+                        nodeKey="text-1-1"
+                        value="ContentBlock is sooooooo coool and awesome!"
+                      >
+                        ContentBlock is sooooooo coool and awesome!
+                      </TextRenderer>
+                    </p>
+                  </div>
+                </Root>
+              </ReactMarkdown>
+            </Typography__BodyCopy>
+          </div>
+        </Col>
+      </div>
+    </Row>
+  </ContentBlock>
+</ContentBlock__StyledContentBlock>
 `;
