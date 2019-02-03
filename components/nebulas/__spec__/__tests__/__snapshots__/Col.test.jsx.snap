@@ -17,7 +17,7 @@ exports[`components/nebulas/Col renders a default <Col /> 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  max-width: 50%;
+  width: 50%;
 }
 
 .c0 *:last-child {
@@ -46,7 +46,7 @@ exports[`components/nebulas/Col renders a flex-end <Col /> 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  max-width: 50%;
+  width: 50%;
 }
 
 .c0 *:last-child {
@@ -75,7 +75,7 @@ exports[`components/nebulas/Col renders a flex-start <Col /> 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  max-width: 50%;
+  width: 50%;
 }
 
 .c0 *:last-child {
@@ -104,7 +104,7 @@ exports[`components/nebulas/Col renders a padded <Col /> 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  max-width: 50%;
+  width: calc(50% - 200px);
   padding: 100px;
 }
 
@@ -134,7 +134,7 @@ exports[`components/nebulas/Col renders a reverse <Col /> 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  max-width: 50%;
+  width: 50%;
 }
 
 .c0 *:last-child {

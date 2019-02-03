@@ -17,7 +17,7 @@ exports[`components/constellations/HeroBlock renders a <HeroBlock /> 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  max-width: 50%;
+  width: 50%;
 }
 
 .c1 *:last-child {

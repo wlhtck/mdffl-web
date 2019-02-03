@@ -6,7 +6,7 @@ const Col = styled.div`
   display: flex;
   flex-direction: ${({ reverse }) => (reverse ? 'column-reverse' : 'column')};
   justify-content: center;
-  max-width: 50%;
+  width: ${({ padding }) => (padding ? `calc(50% - ${padding * 2}px)` : '50%')};
   ${({ padding }) => (padding ? `padding: ${padding}px;` : '')}
 
   *:last-child {

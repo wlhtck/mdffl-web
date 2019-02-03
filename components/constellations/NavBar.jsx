@@ -14,7 +14,7 @@ const NavBar = ({ links, className }) => (
     {map((link) => <NavLink {...link} />)(links)}
     <Button
       url="https://www.playyon.com/metro-detroit-flag-football-league/registrations/"
-      text="Register"
+      text="REGISTER"
       type="secondary"
       external
     />
