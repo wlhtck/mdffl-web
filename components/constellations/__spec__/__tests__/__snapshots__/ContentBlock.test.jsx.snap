@@ -49,7 +49,7 @@ exports[`components/constellations/ContentBlock Renders a <ContentBlock /> with 
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  max-width: 50%;
+  width: calc(50% - 130px);
   padding: 65px;
 }
 
@@ -222,30 +222,6 @@ exports[`components/constellations/ContentBlock Renders a <ContentBlock /> with 
   margin: 0 0 32px;
 }
 
-.c4 {
-  -webkit-align-items: flex-start;
-  -webkit-box-align: flex-start;
-  -ms-flex-align: flex-start;
-  align-items: flex-start;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  max-width: 50%;
-  padding: 65px;
-}
-
-.c4 *:last-child {
-  margin-bottom: 0;
-}
-
 .c2 {
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -262,10 +238,34 @@ exports[`components/constellations/ContentBlock Renders a <ContentBlock /> with 
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  max-width: 50%;
+  width: 50%;
 }
 
 .c2 *:last-child {
+  margin-bottom: 0;
+}
+
+.c4 {
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: calc(50% - 130px);
+  padding: 65px;
+}
+
+.c4 *:last-child {
   margin-bottom: 0;
 }
 
@@ -433,30 +433,6 @@ exports[`components/constellations/ContentBlock Renders a <ContentBlock /> with 
   margin: 0 0 32px;
 }
 
-.c3 {
-  -webkit-align-items: flex-start;
-  -webkit-box-align: flex-start;
-  -ms-flex-align: flex-start;
-  align-items: flex-start;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  max-width: 50%;
-  padding: 65px;
-}
-
-.c3 *:last-child {
-  margin-bottom: 0;
-}
-
 .c1 {
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -473,10 +449,34 @@ exports[`components/constellations/ContentBlock Renders a <ContentBlock /> with 
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  max-width: 50%;
+  width: 50%;
 }
 
 .c1 *:last-child {
+  margin-bottom: 0;
+}
+
+.c3 {
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: calc(50% - 130px);
+  padding: 65px;
+}
+
+.c3 *:last-child {
   margin-bottom: 0;
 }
 
@@ -640,30 +640,6 @@ exports[`components/constellations/ContentBlock Renders a <ContentBlock /> with 
   margin: 0 0 32px;
 }
 
-.c3 {
-  -webkit-align-items: flex-start;
-  -webkit-box-align: flex-start;
-  -ms-flex-align: flex-start;
-  align-items: flex-start;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  max-width: 50%;
-  padding: 65px;
-}
-
-.c3 *:last-child {
-  margin-bottom: 0;
-}
-
 .c1 {
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -680,10 +656,34 @@ exports[`components/constellations/ContentBlock Renders a <ContentBlock /> with 
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  max-width: 50%;
+  width: 50%;
 }
 
 .c1 *:last-child {
+  margin-bottom: 0;
+}
+
+.c3 {
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: calc(50% - 130px);
+  padding: 65px;
+}
+
+.c3 *:last-child {
   margin-bottom: 0;
 }
 
@@ -861,7 +861,7 @@ exports[`components/constellations/ContentBlock Renders a <ContentBlock /> with 
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  max-width: 50%;
+  width: calc(50% - 130px);
   padding: 65px;
 }
 
