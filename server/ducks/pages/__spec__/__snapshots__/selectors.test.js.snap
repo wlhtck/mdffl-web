@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ducks/pages/selectors getNavLinks gets NavLinks as needed by the renderer 1`] = `
+Array [
+  Object {
+    "key": "index",
+    "text": "Home",
+    "url": "/",
+  },
+  Object {
+    "key": "about",
+    "text": "About",
+    "url": "/about",
+  },
+]
+`;
+
+exports[`ducks/pages/selectors getPageContent gets getPageContent as needed by the renderer 1`] = `
+Array [
+  Object {
+    "body": "The bear is a big hero. Everyone is super thankful!",
+    "cta": Object {
+      "external": true,
+      "text": "Follow the bear!",
+      "url": "https://www.facebook.com/groups/bear.inc/",
+    },
+    "headline": "The bear is a hero!",
+    "imgSrc": "//images.ctfassets.net/8wpi5cmhr3lg/PLDH0id61xTjbGlkiuEKU/5aa125d518233d0efc2f4a2ea1dabb0e/mark-basarab-723939-unsplash.jpg",
+    "key": "hero-bear",
+    "type": "heroBlock",
+  },
+  Object {
+    "body": "The bear is super cool and everyone loves him! Click below to find out more!",
+    "cta": Object {
+      "external": true,
+      "text": "Google",
+      "url": "https://www.google.com/search?q=Bear",
+    },
+    "headline": "Check out the bear!",
+    "image": Object {
+      "alt": "Bear",
+      "src": "//images.ctfassets.net/8wpi5cmhr3lg/6mW6Tsx5scOYMwocwSskKq/f1bcb0a3f979f7de3e1ba070d0d14f4f/photo-1541560584704-f2767960951a.jpeg",
+    },
+    "imageAlign": "right",
+    "key": "bear",
+    "type": "contentBlock",
+  },
+]
+`;
