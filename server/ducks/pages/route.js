@@ -11,7 +11,7 @@ const pages = (req, res) => {
   const data = JSON.parse(fs.readFileSync(
     path.join(__dirname, '..', '..', '..', 'data', 'pages.json'),
   ));
-  console.log(selectors.getNavLinks(data));
+
   app.render(req, res, '/app', {
     data: selectors.getPageContent(req.params.id || 'index')(data),
     links: selectors.getNavLinks(data),
