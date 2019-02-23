@@ -6,11 +6,46 @@ exports[`componenets/nebulas/Image Image renders a <Image /> 1`] = `
   fullWidth={false}
   src="https://images.unsplash.com/photo-1545906785-193d7758ba91?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
 >
-  <img
+  <StyledComponent
     alt="Bear"
-    className=""
+    forwardedComponent={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "Image__StyledImage-sc-1mf1fvy-0",
+          "isStatic": false,
+          "lastClassName": "iShpBV",
+          "rules": Array [
+            [Function],
+          ],
+        },
+        "defaultProps": Object {
+          "fullWidth": false,
+        },
+        "displayName": "Image__StyledImage",
+        "foldedComponentIds": Array [],
+        "propTypes": Object {
+          "fullWidth": [Function],
+        },
+        "render": [Function],
+        "styledComponentId": "Image__StyledImage-sc-1mf1fvy-0",
+        "target": "img",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      }
+    }
+    forwardedRef={null}
+    fullWidth={false}
     src="https://images.unsplash.com/photo-1545906785-193d7758ba91?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
-  />
+  >
+    <img
+      alt="Bear"
+      className=""
+      src="https://images.unsplash.com/photo-1545906785-193d7758ba91?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+    />
+  </StyledComponent>
 </Image__StyledImage>
 `;
 
@@ -24,10 +59,45 @@ exports[`componenets/nebulas/Image Image renders a <Image fullWidth/> 1`] = `
   fullWidth={true}
   src="https://images.unsplash.com/photo-1545906785-193d7758ba91?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
 >
-  <img
+  <StyledComponent
     alt="Bear"
-    className="c0"
+    forwardedComponent={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "Image__StyledImage-sc-1mf1fvy-0",
+          "isStatic": false,
+          "lastClassName": "c0",
+          "rules": Array [
+            [Function],
+          ],
+        },
+        "defaultProps": Object {
+          "fullWidth": false,
+        },
+        "displayName": "Image__StyledImage",
+        "foldedComponentIds": Array [],
+        "propTypes": Object {
+          "fullWidth": [Function],
+        },
+        "render": [Function],
+        "styledComponentId": "Image__StyledImage-sc-1mf1fvy-0",
+        "target": "img",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      }
+    }
+    forwardedRef={null}
+    fullWidth={true}
     src="https://images.unsplash.com/photo-1545906785-193d7758ba91?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
-  />
+  >
+    <img
+      alt="Bear"
+      className="c0"
+      src="https://images.unsplash.com/photo-1545906785-193d7758ba91?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+    />
+  </StyledComponent>
 </Image__StyledImage>
 `;

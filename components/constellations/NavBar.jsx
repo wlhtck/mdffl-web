@@ -10,7 +10,9 @@ import Button from '../stars/Button';
 
 const NavBar = ({ links, className }) => (
   <Row className={className}>
-    <Image src="/mdffl-logo.png" alt="MDFFL Logo" />
+    <a href="/" className="logo">
+      <Image src="/mdffl-logo.png" alt="MDFFL Logo" />
+    </a>
     {map((link) => <NavLink {...link} />)(links)}
     <Button
       url="https://www.playyon.com/metro-detroit-flag-football-league/registrations/"
@@ -39,10 +41,10 @@ export default styled(NavBar)`
   background-color: ${primary};
   justify-content: flex-end;
   align-items: center;
-  ${Image} {
+  a.logo {
     margin: 0 auto 0 0;
   }
   > * {
-    margin: 0 32px;
+    margin: 0 2vw;
   }
 `;

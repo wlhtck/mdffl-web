@@ -1,147 +1,241 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`components/nebulas/Col renders a default <Col /> 1`] = `
-.c0 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  width: 50%;
-}
-
-.c0 *:last-child {
-  margin-bottom: 0;
-}
-
-<div
-  className="c0"
+<StyledComponent
+  align="center"
+  forwardedComponent={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "Col-inu58n-0",
+        "isStatic": false,
+        "rules": Array [
+          "align-items:",
+          [Function],
+          ";display:flex;flex-direction:",
+          [Function],
+          ";justify-content:center;width:",
+          [Function],
+          ";",
+          [Function],
+          " *:last-child{margin-bottom:0;}",
+        ],
+      },
+      "defaultProps": Object {
+        "align": "center",
+        "padding": null,
+        "reverse": false,
+      },
+      "displayName": "Col",
+      "foldedComponentIds": Array [],
+      "propTypes": Object {
+        "align": [Function],
+        "padding": [Function],
+        "reverse": [Function],
+      },
+      "render": [Function],
+      "styledComponentId": "Col-inu58n-0",
+      "target": "div",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
+  padding={null}
+  reverse={false}
 />
 `;
 
 exports[`components/nebulas/Col renders a flex-end <Col /> 1`] = `
-.c0 {
-  -webkit-align-items: flex-end;
-  -webkit-box-align: flex-end;
-  -ms-flex-align: flex-end;
-  align-items: flex-end;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  width: 50%;
-}
-
-.c0 *:last-child {
-  margin-bottom: 0;
-}
-
-<div
-  className="c0"
+<StyledComponent
+  align="flex-end"
+  forwardedComponent={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "Col-inu58n-0",
+        "isStatic": false,
+        "rules": Array [
+          "align-items:",
+          [Function],
+          ";display:flex;flex-direction:",
+          [Function],
+          ";justify-content:center;width:",
+          [Function],
+          ";",
+          [Function],
+          " *:last-child{margin-bottom:0;}",
+        ],
+      },
+      "defaultProps": Object {
+        "align": "center",
+        "padding": null,
+        "reverse": false,
+      },
+      "displayName": "Col",
+      "foldedComponentIds": Array [],
+      "propTypes": Object {
+        "align": [Function],
+        "padding": [Function],
+        "reverse": [Function],
+      },
+      "render": [Function],
+      "styledComponentId": "Col-inu58n-0",
+      "target": "div",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
+  padding={null}
+  reverse={false}
 />
 `;
 
 exports[`components/nebulas/Col renders a flex-start <Col /> 1`] = `
-.c0 {
-  -webkit-align-items: flex-start;
-  -webkit-box-align: flex-start;
-  -ms-flex-align: flex-start;
-  align-items: flex-start;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  width: 50%;
-}
-
-.c0 *:last-child {
-  margin-bottom: 0;
-}
-
-<div
-  className="c0"
+<StyledComponent
+  align="flex-start"
+  forwardedComponent={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "Col-inu58n-0",
+        "isStatic": false,
+        "rules": Array [
+          "align-items:",
+          [Function],
+          ";display:flex;flex-direction:",
+          [Function],
+          ";justify-content:center;width:",
+          [Function],
+          ";",
+          [Function],
+          " *:last-child{margin-bottom:0;}",
+        ],
+      },
+      "defaultProps": Object {
+        "align": "center",
+        "padding": null,
+        "reverse": false,
+      },
+      "displayName": "Col",
+      "foldedComponentIds": Array [],
+      "propTypes": Object {
+        "align": [Function],
+        "padding": [Function],
+        "reverse": [Function],
+      },
+      "render": [Function],
+      "styledComponentId": "Col-inu58n-0",
+      "target": "div",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
+  padding={null}
+  reverse={false}
 />
 `;
 
 exports[`components/nebulas/Col renders a padded <Col /> 1`] = `
-.c0 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  width: calc(50% - 200px);
-  padding: 100px;
-}
-
-.c0 *:last-child {
-  margin-bottom: 0;
-}
-
-<div
-  className="c0"
+<StyledComponent
+  align="center"
+  forwardedComponent={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "Col-inu58n-0",
+        "isStatic": false,
+        "rules": Array [
+          "align-items:",
+          [Function],
+          ";display:flex;flex-direction:",
+          [Function],
+          ";justify-content:center;width:",
+          [Function],
+          ";",
+          [Function],
+          " *:last-child{margin-bottom:0;}",
+        ],
+      },
+      "defaultProps": Object {
+        "align": "center",
+        "padding": null,
+        "reverse": false,
+      },
+      "displayName": "Col",
+      "foldedComponentIds": Array [],
+      "propTypes": Object {
+        "align": [Function],
+        "padding": [Function],
+        "reverse": [Function],
+      },
+      "render": [Function],
+      "styledComponentId": "Col-inu58n-0",
+      "target": "div",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
+  padding={100}
+  reverse={false}
 />
 `;
 
 exports[`components/nebulas/Col renders a reverse <Col /> 1`] = `
-.c0 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column-reverse;
-  -ms-flex-direction: column-reverse;
-  flex-direction: column-reverse;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  width: 50%;
-}
-
-.c0 *:last-child {
-  margin-bottom: 0;
-}
-
-<div
-  className="c0"
+<StyledComponent
+  align="center"
+  forwardedComponent={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "Col-inu58n-0",
+        "isStatic": false,
+        "rules": Array [
+          "align-items:",
+          [Function],
+          ";display:flex;flex-direction:",
+          [Function],
+          ";justify-content:center;width:",
+          [Function],
+          ";",
+          [Function],
+          " *:last-child{margin-bottom:0;}",
+        ],
+      },
+      "defaultProps": Object {
+        "align": "center",
+        "padding": null,
+        "reverse": false,
+      },
+      "displayName": "Col",
+      "foldedComponentIds": Array [],
+      "propTypes": Object {
+        "align": [Function],
+        "padding": [Function],
+        "reverse": [Function],
+      },
+      "render": [Function],
+      "styledComponentId": "Col-inu58n-0",
+      "target": "div",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
+  padding={null}
+  reverse={true}
 />
 `;

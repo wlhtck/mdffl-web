@@ -23,7 +23,7 @@ exports[`conestellations/NavBar renders a <NavBar /> with some links 1`] = `
   margin-bottom: 0;
 }
 
-.c3 {
+.c2 {
   color: #FFFFFF;
   font-family: 'Raleway',sans-serif;
   font-size: 16px;
@@ -32,7 +32,8 @@ exports[`conestellations/NavBar renders a <NavBar /> with some links 1`] = `
   text-decoration: none;
 }
 
-.c4 {
+.c3 {
+  margin-bottom: 32px;
   font-family: 'Raleway',sans-serif;
   font-size: 16px;
   font-weight: 800;
@@ -61,12 +62,12 @@ exports[`conestellations/NavBar renders a <NavBar /> with some links 1`] = `
   align-items: center;
 }
 
-.c0 .c2 {
+.c0 a.logo {
   margin: 0 auto 0 0;
 }
 
 .c0 > * {
-  margin: 0 32px;
+  margin: 0 2vw;
 }
 
 <NavBar
@@ -85,8 +86,33 @@ exports[`conestellations/NavBar renders a <NavBar /> with some links 1`] = `
     ]
   }
 >
-  <NavBar
-    className="c0"
+  <StyledComponent
+    forwardedComponent={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "NavBar-sc-1dnntzz-0",
+          "isStatic": true,
+          "lastClassName": "c0",
+          "rules": Array [
+            "padding:25px;background-color:",
+            "#1C104E",
+            ";justify-content:flex-end;align-items:center;a.logo{margin:0 auto 0 0;}> *{margin:0 2vw;}",
+          ],
+        },
+        "displayName": "NavBar",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "NavBar-sc-1dnntzz-0",
+        "target": [Function],
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+        Symbol(Symbol.hasInstance): [Function],
+      }
+    }
+    forwardedRef={null}
     links={
       Array [
         Object {
@@ -102,87 +128,289 @@ exports[`conestellations/NavBar renders a <NavBar /> with some links 1`] = `
       ]
     }
   >
-    <Row
+    <NavBar
       className="c0"
-      padding={null}
-      reverse={false}
+      links={
+        Array [
+          Object {
+            "key": "about",
+            "text": "About",
+            "url": "/",
+          },
+          Object {
+            "key": "home",
+            "text": "Home",
+            "url": "/",
+          },
+        ]
+      }
     >
-      <div
-        className="c0 c1"
+      <Row
+        className="c0"
+        padding={null}
+        reverse={false}
       >
-        <Image__StyledImage
-          alt="MDFFL Logo"
-          fullWidth={false}
-          src="/mdffl-logo.png"
+        <StyledComponent
+          className="c0"
+          forwardedComponent={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "Row-sc-9u807i-0",
+                "isStatic": false,
+                "lastClassName": "c1",
+                "rules": Array [
+                  "display:flex;flex-direction:",
+                  [Function],
+                  ";justify-content:space-between;",
+                  [Function],
+                  " *:only-child{margin:0 auto;}*:last-child{margin-bottom:0;}",
+                ],
+              },
+              "defaultProps": Object {
+                "padding": null,
+                "reverse": false,
+              },
+              "displayName": "Row",
+              "foldedComponentIds": Array [],
+              "propTypes": Object {
+                "padding": [Function],
+                "reverse": [Function],
+              },
+              "render": [Function],
+              "styledComponentId": "Row-sc-9u807i-0",
+              "target": "div",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            }
+          }
+          forwardedRef={null}
+          padding={null}
+          reverse={false}
         >
-          <img
-            alt="MDFFL Logo"
-            className="c2 "
-            src="/mdffl-logo.png"
-          />
-        </Image__StyledImage>
-        <NavLink
-          key="about"
-          text="About"
-          url="/"
-        >
-          <NavLink
-            className="c3"
-            text="About"
-            url="/"
+          <div
+            className="c0 c1"
           >
             <a
-              className="c3"
+              className="logo"
               href="/"
             >
-              About
+              <Image__StyledImage
+                alt="MDFFL Logo"
+                fullWidth={false}
+                src="/mdffl-logo.png"
+              >
+                <StyledComponent
+                  alt="MDFFL Logo"
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "Image__StyledImage-sc-1mf1fvy-0",
+                        "isStatic": false,
+                        "lastClassName": "iShpBV",
+                        "rules": Array [
+                          [Function],
+                        ],
+                      },
+                      "defaultProps": Object {
+                        "fullWidth": false,
+                      },
+                      "displayName": "Image__StyledImage",
+                      "foldedComponentIds": Array [],
+                      "propTypes": Object {
+                        "fullWidth": [Function],
+                      },
+                      "render": [Function],
+                      "styledComponentId": "Image__StyledImage-sc-1mf1fvy-0",
+                      "target": "img",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                  fullWidth={false}
+                  src="/mdffl-logo.png"
+                >
+                  <img
+                    alt="MDFFL Logo"
+                    className=""
+                    src="/mdffl-logo.png"
+                  />
+                </StyledComponent>
+              </Image__StyledImage>
             </a>
-          </NavLink>
-        </NavLink>
-        <NavLink
-          key="home"
-          text="Home"
-          url="/"
-        >
-          <NavLink
-            className="c3"
-            text="Home"
-            url="/"
-          >
-            <a
-              className="c3"
-              href="/"
+            <NavLink
+              key="about"
+              text="About"
+              url="/"
             >
-              Home
-            </a>
-          </NavLink>
-        </NavLink>
-        <Button__StyledButton
-          external={true}
-          text="REGISTER"
-          type="secondary"
-          url="https://www.playyon.com/metro-detroit-flag-football-league/registrations/"
-        >
-          <Button
-            className="c4"
-            external={true}
-            onClick={null}
-            text="REGISTER"
-            type="secondary"
-            url="https://www.playyon.com/metro-detroit-flag-football-league/registrations/"
-          >
-            <a
-              className="c4"
-              href="https://www.playyon.com/metro-detroit-flag-football-league/registrations/"
-              rel="noreferrer noopener"
-              target="_blank"
+              <StyledComponent
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "NavLink-n9dfc6-0",
+                      "isStatic": true,
+                      "lastClassName": "c2",
+                      "rules": Array [
+                        "color:",
+                        "#FFFFFF",
+                        ";font-family:'Raleway',sans-serif;font-size:16px;font-weight:600;text-decoration:none;",
+                      ],
+                    },
+                    "displayName": "NavLink",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "NavLink-n9dfc6-0",
+                    "target": [Function],
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                    Symbol(Symbol.hasInstance): [Function],
+                  }
+                }
+                forwardedRef={null}
+                text="About"
+                url="/"
+              >
+                <NavLink
+                  className="c2"
+                  text="About"
+                  url="/"
+                >
+                  <a
+                    className="c2"
+                    href="/"
+                  >
+                    About
+                  </a>
+                </NavLink>
+              </StyledComponent>
+            </NavLink>
+            <NavLink
+              key="home"
+              text="Home"
+              url="/"
             >
-              REGISTER
-            </a>
-          </Button>
-        </Button__StyledButton>
-      </div>
-    </Row>
-  </NavBar>
+              <StyledComponent
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "NavLink-n9dfc6-0",
+                      "isStatic": true,
+                      "lastClassName": "c2",
+                      "rules": Array [
+                        "color:",
+                        "#FFFFFF",
+                        ";font-family:'Raleway',sans-serif;font-size:16px;font-weight:600;text-decoration:none;",
+                      ],
+                    },
+                    "displayName": "NavLink",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "NavLink-n9dfc6-0",
+                    "target": [Function],
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                    Symbol(Symbol.hasInstance): [Function],
+                  }
+                }
+                forwardedRef={null}
+                text="Home"
+                url="/"
+              >
+                <NavLink
+                  className="c2"
+                  text="Home"
+                  url="/"
+                >
+                  <a
+                    className="c2"
+                    href="/"
+                  >
+                    Home
+                  </a>
+                </NavLink>
+              </StyledComponent>
+            </NavLink>
+            <Button__StyledButton
+              external={true}
+              text="REGISTER"
+              type="secondary"
+              url="https://www.playyon.com/metro-detroit-flag-football-league/registrations/"
+            >
+              <StyledComponent
+                external={true}
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "Button__StyledButton-sc-19aup1o-0",
+                      "isStatic": false,
+                      "lastClassName": "c3",
+                      "rules": Array [
+                        "margin-bottom:32px;font-family:'Raleway',sans-serif;font-size:16px;font-weight:800;background-color:",
+                        [Function],
+                        ";color:",
+                        [Function],
+                        ";display:inline-block;padding:16px;border:none;line-height:1;border-radius:4px;cursor:pointer;text-decoration:none;",
+                      ],
+                    },
+                    "defaultProps": Object {
+                      "type": "primary",
+                    },
+                    "displayName": "Button__StyledButton",
+                    "foldedComponentIds": Array [],
+                    "propTypes": Object {
+                      "type": [Function],
+                    },
+                    "render": [Function],
+                    "styledComponentId": "Button__StyledButton-sc-19aup1o-0",
+                    "target": [Function],
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                    Symbol(Symbol.hasInstance): [Function],
+                  }
+                }
+                forwardedRef={null}
+                text="REGISTER"
+                type="secondary"
+                url="https://www.playyon.com/metro-detroit-flag-football-league/registrations/"
+              >
+                <Button
+                  className="c3"
+                  external={true}
+                  onClick={null}
+                  text="REGISTER"
+                  type="secondary"
+                  url="https://www.playyon.com/metro-detroit-flag-football-league/registrations/"
+                >
+                  <a
+                    className="c3"
+                    href="https://www.playyon.com/metro-detroit-flag-football-league/registrations/"
+                    rel="noreferrer noopener"
+                    target="_blank"
+                  >
+                    REGISTER
+                  </a>
+                </Button>
+              </StyledComponent>
+            </Button__StyledButton>
+          </div>
+        </StyledComponent>
+      </Row>
+    </NavBar>
+  </StyledComponent>
 </NavBar>
 `;

@@ -1,5 +1,6 @@
 import React from 'react';
 import { map, get } from 'lodash/fp';
+import { Container } from 'styled-shoelaces';
 import ContentBlock from '../constellations/ContentBlock';
 import HeroBlock from '../constellations/HeroBlock';
 
@@ -9,13 +10,15 @@ const ContentComponents = {
 };
 
 const Page = ({ data }) => (
-  map((content) => {
-    const Component = ContentComponents[get('type')(content)];
+  <Container fluid>
+    {map((content) => {
+      const Component = ContentComponents[get('type')(content)];
 
-    return (
-      <Component {...content} />
-    );
-  })(data)
+      return (
+        <Component {...content} />
+      );
+    })(data)}
+  </Container>
 );
 
 export default Page;

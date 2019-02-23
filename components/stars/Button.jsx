@@ -49,6 +49,7 @@ Button.defaultProps = {
 };
 
 const StyledButton = styled(Button)`
+  margin-bottom: 32px;
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
   font-weight: 800;
