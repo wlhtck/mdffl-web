@@ -17,7 +17,7 @@ const textAlignments = {
 const Container = styled.div`
   padding: 50px;
   @media (min-width: 62em) {
-    padding: 32px 100px 0;
+    padding: 48px 100px 0;
   }
   ${({ center }) => (center ? 'text-align: center' : '')}
 `;
@@ -25,7 +25,7 @@ const Container = styled.div`
 const ContentBlock = ({
   image, headline, body, textAlign, imageAlign, cta, className,
 }) => (
-  <Row reverse={imageAlign === 'right'} className={className} gutter="0">
+  <Row reverse={imageAlign === 'right'} className={className} gutter="0" justifyContent="around">
     {image && (
       <Col xs={1} lg={1 / 2} gutter="0">
         <Image {...image} fullWidth />
@@ -33,7 +33,7 @@ const ContentBlock = ({
     )}
     <Col
       xs={1}
-      lg={1 / (image ? 2 : 1)}
+      lg={(image ? (1 / 2) : 6 / 8)}
       alignItems={textAlignments[textAlign]}
       justifyContent="center"
       gutter="0"

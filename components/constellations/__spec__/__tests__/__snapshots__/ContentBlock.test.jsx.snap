@@ -56,10 +56,10 @@ exports[`components/constellations/ContentBlock Renders a <ContentBlock /> with 
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+  -webkit-box-pack: space-around;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
   -webkit-flex-direction: row-reverse;
   -ms-flex-direction: row-reverse;
   flex-direction: row-reverse;
@@ -116,16 +116,16 @@ exports[`components/constellations/ContentBlock Renders a <ContentBlock /> with 
 
 @media (min-width:62em) {
   .c2 {
-    -webkit-flex-basis: 100%;
-    -ms-flex-preferred-size: 100%;
-    flex-basis: 100%;
-    max-width: 100%;
+    -webkit-flex-basis: 75%;
+    -ms-flex-preferred-size: 75%;
+    flex-basis: 75%;
+    max-width: 75%;
   }
 }
 
 @media (min-width:62em) {
   .c3 {
-    padding: 32px 100px 0;
+    padding: 48px 100px 0;
   }
 }
 
@@ -203,6 +203,7 @@ exports[`components/constellations/ContentBlock Renders a <ContentBlock /> with 
       <styled-shoelaces
         className="c0"
         gutter="0"
+        justifyContent="around"
         reverse={true}
       >
         <StyledComponent
@@ -231,6 +232,7 @@ exports[`components/constellations/ContentBlock Renders a <ContentBlock /> with 
           }
           forwardedRef={null}
           gutter="0"
+          justifyContent="around"
           reverse={true}
         >
           <div
@@ -240,7 +242,7 @@ exports[`components/constellations/ContentBlock Renders a <ContentBlock /> with 
               alignItems="start"
               gutter="0"
               justifyContent="center"
-              lg={1}
+              lg={0.75}
               xs={1}
             >
               <StyledComponent
@@ -270,7 +272,7 @@ exports[`components/constellations/ContentBlock Renders a <ContentBlock /> with 
                 forwardedRef={null}
                 gutter="0"
                 justifyContent="center"
-                lg={1}
+                lg={0.75}
                 xs={1}
               >
                 <div
@@ -290,7 +292,7 @@ exports[`components/constellations/ContentBlock Renders a <ContentBlock /> with 
                             "isStatic": false,
                             "lastClassName": "c3",
                             "rules": Array [
-                              "padding:50px;@media (min-width:62em){padding:32px 100px 0;}",
+                              "padding:50px;@media (min-width:62em){padding:48px 100px 0;}",
                               [Function],
                             ],
                           },
@@ -605,10 +607,10 @@ exports[`components/constellations/ContentBlock Renders a <ContentBlock /> with 
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+  -webkit-box-pack: space-around;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
   -webkit-flex-direction: row-reverse;
   -ms-flex-direction: row-reverse;
   flex-direction: row-reverse;
@@ -721,7 +723,7 @@ exports[`components/constellations/ContentBlock Renders a <ContentBlock /> with 
 
 @media (min-width:62em) {
   .c5 {
-    padding: 32px 100px 0;
+    padding: 48px 100px 0;
   }
 }
 
@@ -796,6 +798,7 @@ exports[`components/constellations/ContentBlock Renders a <ContentBlock /> with 
       <styled-shoelaces
         className="c0"
         gutter="0"
+        justifyContent="around"
         reverse={true}
       >
         <StyledComponent
@@ -824,6 +827,7 @@ exports[`components/constellations/ContentBlock Renders a <ContentBlock /> with 
           }
           forwardedRef={null}
           gutter="0"
+          justifyContent="around"
           reverse={true}
         >
           <div
@@ -968,7 +972,7 @@ exports[`components/constellations/ContentBlock Renders a <ContentBlock /> with 
                             "isStatic": false,
                             "lastClassName": "c5",
                             "rules": Array [
-                              "padding:50px;@media (min-width:62em){padding:32px 100px 0;}",
+                              "padding:50px;@media (min-width:62em){padding:48px 100px 0;}",
                               [Function],
                             ],
                           },
@@ -1218,10 +1222,10 @@ exports[`components/constellations/ContentBlock Renders a <ContentBlock /> with 
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+  -webkit-box-pack: space-around;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
   -webkit-flex-direction: row-reverse;
   -ms-flex-direction: row-reverse;
   flex-direction: row-reverse;
@@ -1333,7 +1337,7 @@ exports[`components/constellations/ContentBlock Renders a <ContentBlock /> with 
 
 @media (min-width:62em) {
   .c5 {
-    padding: 32px 100px 0;
+    padding: 48px 100px 0;
   }
 }
 
@@ -1408,6 +1412,7 @@ exports[`components/constellations/ContentBlock Renders a <ContentBlock /> with 
       <styled-shoelaces
         className="c0"
         gutter="0"
+        justifyContent="around"
         reverse={true}
       >
         <StyledComponent
@@ -1436,6 +1441,7 @@ exports[`components/constellations/ContentBlock Renders a <ContentBlock /> with 
           }
           forwardedRef={null}
           gutter="0"
+          justifyContent="around"
           reverse={true}
         >
           <div
@@ -1580,7 +1586,7 @@ exports[`components/constellations/ContentBlock Renders a <ContentBlock /> with 
                             "isStatic": false,
                             "lastClassName": "c5",
                             "rules": Array [
-                              "padding:50px;@media (min-width:62em){padding:32px 100px 0;}",
+                              "padding:50px;@media (min-width:62em){padding:48px 100px 0;}",
                               [Function],
                             ],
                           },
@@ -1830,10 +1836,10 @@ exports[`components/constellations/ContentBlock Renders a <ContentBlock /> with 
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+  -webkit-box-pack: space-around;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
   -webkit-flex-direction: row-reverse;
   -ms-flex-direction: row-reverse;
   flex-direction: row-reverse;
@@ -1945,7 +1951,7 @@ exports[`components/constellations/ContentBlock Renders a <ContentBlock /> with 
 
 @media (min-width:62em) {
   .c5 {
-    padding: 32px 100px 0;
+    padding: 48px 100px 0;
   }
 }
 
@@ -2024,6 +2030,7 @@ exports[`components/constellations/ContentBlock Renders a <ContentBlock /> with 
       <styled-shoelaces
         className="c0"
         gutter="0"
+        justifyContent="around"
         reverse={true}
       >
         <StyledComponent
@@ -2052,6 +2059,7 @@ exports[`components/constellations/ContentBlock Renders a <ContentBlock /> with 
           }
           forwardedRef={null}
           gutter="0"
+          justifyContent="around"
           reverse={true}
         >
           <div
@@ -2196,7 +2204,7 @@ exports[`components/constellations/ContentBlock Renders a <ContentBlock /> with 
                             "isStatic": false,
                             "lastClassName": "c5",
                             "rules": Array [
-                              "padding:50px;@media (min-width:62em){padding:32px 100px 0;}",
+                              "padding:50px;@media (min-width:62em){padding:48px 100px 0;}",
                               [Function],
                             ],
                           },
@@ -2442,10 +2450,10 @@ exports[`components/constellations/ContentBlock Renders a <ContentBlock /> with 
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+  -webkit-box-pack: space-around;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
   -webkit-flex-direction: row-reverse;
   -ms-flex-direction: row-reverse;
   flex-direction: row-reverse;
@@ -2502,16 +2510,16 @@ exports[`components/constellations/ContentBlock Renders a <ContentBlock /> with 
 
 @media (min-width:62em) {
   .c2 {
-    -webkit-flex-basis: 100%;
-    -ms-flex-preferred-size: 100%;
-    flex-basis: 100%;
-    max-width: 100%;
+    -webkit-flex-basis: 75%;
+    -ms-flex-preferred-size: 75%;
+    flex-basis: 75%;
+    max-width: 75%;
   }
 }
 
 @media (min-width:62em) {
   .c3 {
-    padding: 32px 100px 0;
+    padding: 48px 100px 0;
   }
 }
 
@@ -2569,6 +2577,7 @@ exports[`components/constellations/ContentBlock Renders a <ContentBlock /> with 
       <styled-shoelaces
         className="c0"
         gutter="0"
+        justifyContent="around"
         reverse={true}
       >
         <StyledComponent
@@ -2597,6 +2606,7 @@ exports[`components/constellations/ContentBlock Renders a <ContentBlock /> with 
           }
           forwardedRef={null}
           gutter="0"
+          justifyContent="around"
           reverse={true}
         >
           <div
@@ -2606,7 +2616,7 @@ exports[`components/constellations/ContentBlock Renders a <ContentBlock /> with 
               alignItems="start"
               gutter="0"
               justifyContent="center"
-              lg={1}
+              lg={0.75}
               xs={1}
             >
               <StyledComponent
@@ -2636,7 +2646,7 @@ exports[`components/constellations/ContentBlock Renders a <ContentBlock /> with 
                 forwardedRef={null}
                 gutter="0"
                 justifyContent="center"
-                lg={1}
+                lg={0.75}
                 xs={1}
               >
                 <div
@@ -2656,7 +2666,7 @@ exports[`components/constellations/ContentBlock Renders a <ContentBlock /> with 
                             "isStatic": false,
                             "lastClassName": "c3",
                             "rules": Array [
-                              "padding:50px;@media (min-width:62em){padding:32px 100px 0;}",
+                              "padding:50px;@media (min-width:62em){padding:48px 100px 0;}",
                               [Function],
                             ],
                           },
