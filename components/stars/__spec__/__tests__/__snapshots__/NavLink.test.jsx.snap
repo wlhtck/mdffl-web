@@ -14,17 +14,48 @@ exports[`components/starts/NavLink renders a link 1`] = `
   text="Button"
   url="/about"
 >
-  <NavLink
-    className="c0"
+  <StyledComponent
+    forwardedComponent={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "NavLink-n9dfc6-0",
+          "isStatic": true,
+          "lastClassName": "c0",
+          "rules": Array [
+            "color:",
+            "#FFFFFF",
+            ";font-family:'Raleway',sans-serif;font-size:16px;font-weight:600;text-decoration:none;",
+          ],
+        },
+        "displayName": "NavLink",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "NavLink-n9dfc6-0",
+        "target": [Function],
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+        Symbol(Symbol.hasInstance): [Function],
+      }
+    }
+    forwardedRef={null}
     text="Button"
     url="/about"
   >
-    <a
+    <NavLink
       className="c0"
-      href="/about"
+      text="Button"
+      url="/about"
     >
-      Button
-    </a>
-  </NavLink>
+      <a
+        className="c0"
+        href="/about"
+      >
+        Button
+      </a>
+    </NavLink>
+  </StyledComponent>
 </NavLink>
 `;

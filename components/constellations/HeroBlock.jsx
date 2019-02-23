@@ -1,20 +1,20 @@
 import React from 'react';
 import styled from 'styled-components';
 import { string, exact, bool } from 'prop-types';
-import Col from '../nebulas/Col';
+import { Row, Col } from '../nebulas/styled-shoelaces';
 import { Headline, BodyCopy } from '../nebulas/Typography';
 import Button from '../stars/Button';
 
 const HeroBlock = ({
   headline, body, cta, className,
 }) => (
-  <div className={className}>
-    <Col align="flex-start">
+  <Row alignContent="center" justifyContent="start" className={className} gutter="0">
+    <Col xs={1} lg={1 / 2} alignItems="start" gutter="0">
       <Headline>{headline}</Headline>
       <BodyCopy inverted>{body}</BodyCopy>
       <Button {...cta} type="secondary" />
     </Col>
-  </div>
+  </Row>
 );
 
 HeroBlock.propTypes = {
@@ -33,11 +33,10 @@ HeroBlock.defaultProps = {
 };
 
 const StyledHeroBlock = styled(HeroBlock)`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 10vw;
-  align-items: flex-start;
+  padding: 50px;
+  @media (min-width: 62em) {
+    padding:100px;
+  }
   background:
     /* top, transparent red, faked with gradient */
     linear-gradient(
@@ -47,8 +46,8 @@ const StyledHeroBlock = styled(HeroBlock)`
     /* bottom, image */
     ${({ imgSrc }) => `url("${imgSrc}")`};
   background-size: cover;
-  width: 80vw;
-  height: calc(100vh - 20vw);
+  background-position: center;
+  height: calc(100vh - 98px);
 `;
 
 StyledHeroBlock.propTypes = {

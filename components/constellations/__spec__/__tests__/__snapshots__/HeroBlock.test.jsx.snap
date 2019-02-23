@@ -2,29 +2,65 @@
 
 exports[`components/constellations/HeroBlock renders a <HeroBlock /> 1`] = `
 .c1 {
-  -webkit-align-items: flex-start;
-  -webkit-box-align: flex-start;
-  -ms-flex-align: flex-start;
-  align-items: flex-start;
+  box-sizing: border-box;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  width: 50%;
-}
-
-.c1 *:last-child {
-  margin-bottom: 0;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  margin-left: -0;
+  margin-right: -0;
 }
 
 .c2 {
+  box-sizing: border-box;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  padding: 0;
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c3 {
   color: #FFFFFF;
   font-family: 'Raleway',sans-serif;
   margin: 0 0 32px;
@@ -32,7 +68,7 @@ exports[`components/constellations/HeroBlock renders a <HeroBlock /> 1`] = `
   font-size: 36px;
 }
 
-.c3 {
+.c4 {
   text-align: left;
   color: #FFFFFF;
   font-family: 'Lato',sans-serif;
@@ -40,7 +76,8 @@ exports[`components/constellations/HeroBlock renders a <HeroBlock /> 1`] = `
   margin: 0 0 32px;
 }
 
-.c4 {
+.c5 {
+  margin-bottom: 32px;
   font-family: 'Raleway',sans-serif;
   font-size: 16px;
   font-weight: 800;
@@ -57,26 +94,35 @@ exports[`components/constellations/HeroBlock renders a <HeroBlock /> 1`] = `
 }
 
 .c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  padding: 10vw;
-  -webkit-align-items: flex-start;
-  -webkit-box-align: flex-start;
-  -ms-flex-align: flex-start;
-  align-items: flex-start;
+  padding: 50px;
   background: linear-gradient( rgba(0,0,0,0.45),rgba(0,0,0,0.45) ),url("/imgSrc");
   background-size: cover;
-  width: 80vw;
-  height: calc(100vh - 20vw);
+  background-position: center;
+  height: calc(100vh - 98px);
+}
+
+@media (min-width:0) {
+  .c2 {
+    -webkit-flex-basis: 100%;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+}
+
+@media (min-width:62em) {
+  .c2 {
+    -webkit-flex-basis: 50%;
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+}
+
+@media (min-width:62em) {
+  .c0 {
+    padding: 100px;
+  }
 }
 
 <HeroBlock__StyledHeroBlock
@@ -93,9 +139,8 @@ exports[`components/constellations/HeroBlock renders a <HeroBlock /> 1`] = `
   imgSrc="/imgSrc"
   textAlign="left"
 >
-  <HeroBlock
+  <StyledComponent
     body="The bear is super cool and everyone loves him! Click below to find out more!"
-    className="c0"
     cta={
       Object {
         "external": true,
@@ -103,95 +148,377 @@ exports[`components/constellations/HeroBlock renders a <HeroBlock /> 1`] = `
         "url": "/register",
       }
     }
+    forwardedComponent={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "HeroBlock__StyledHeroBlock-sc-11igims-0",
+          "isStatic": false,
+          "lastClassName": "c0",
+          "rules": Array [
+            "padding:50px;@media (min-width:62em){padding:100px;}background:linear-gradient( rgba(0,0,0,0.45),rgba(0,0,0,0.45) ),",
+            [Function],
+            ";background-size:cover;background-position:center;height:calc(100vh - 98px);",
+          ],
+        },
+        "displayName": "HeroBlock__StyledHeroBlock",
+        "foldedComponentIds": Array [],
+        "propTypes": Object {
+          "imgSrc": [Function],
+        },
+        "render": [Function],
+        "styledComponentId": "HeroBlock__StyledHeroBlock-sc-11igims-0",
+        "target": [Function],
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+        Symbol(Symbol.hasInstance): [Function],
+      }
+    }
+    forwardedRef={null}
     headline="Check out the bear!"
     imageAlign="right"
     imgSrc="/imgSrc"
     textAlign="left"
   >
-    <div
+    <HeroBlock
+      body="The bear is super cool and everyone loves him! Click below to find out more!"
       className="c0"
+      cta={
+        Object {
+          "external": true,
+          "text": "Google",
+          "url": "/register",
+        }
+      }
+      headline="Check out the bear!"
+      imageAlign="right"
+      imgSrc="/imgSrc"
+      textAlign="left"
     >
-      <Col
-        align="flex-start"
-        padding={null}
-        reverse={false}
+      <styled-shoelaces
+        alignContent="center"
+        className="c0"
+        gutter="0"
+        justifyContent="start"
       >
-        <div
-          className="c1"
+        <StyledComponent
+          alignContent="center"
+          className="c0"
+          forwardedComponent={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "styled-shoelaces-eiu6xc-0",
+                "isStatic": false,
+                "lastClassName": "c1",
+                "rules": Array [
+                  [Function],
+                ],
+              },
+              "displayName": "styled-shoelaces",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "styled-shoelaces-eiu6xc-0",
+              "target": "div",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            }
+          }
+          forwardedRef={null}
+          gutter="0"
+          justifyContent="start"
         >
-          <Typography__Headline>
-            <h1
-              className="c2"
-            >
-              Check out the bear!
-            </h1>
-          </Typography__Headline>
-          <Typography__BodyCopy
-            inverted={true}
-            textAlign="left"
+          <div
+            className="c0 c1"
           >
-            <ReactMarkdown
-              astPlugins={Array []}
-              className="c3"
-              escapeHtml={true}
-              inverted={true}
-              plugins={Array []}
-              rawSourcePos={false}
-              renderers={Object {}}
-              skipHtml={false}
-              sourcePos={false}
-              textAlign="left"
-              transformLinkUri={[Function]}
+            <styled-shoelaces
+              alignItems="start"
+              gutter="0"
+              lg={0.5}
+              xs={1}
             >
-              <Root
-                className="c3"
-                key="root-1-1"
+              <StyledComponent
+                alignItems="start"
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "styled-shoelaces-eiu6xc-0",
+                      "isStatic": false,
+                      "lastClassName": "c2",
+                      "rules": Array [
+                        [Function],
+                      ],
+                    },
+                    "displayName": "styled-shoelaces",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "styled-shoelaces-eiu6xc-0",
+                    "target": "div",
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+                gutter="0"
+                lg={0.5}
+                xs={1}
               >
                 <div
-                  className="c3"
+                  className="c2"
                 >
-                  <p
-                    key="paragraph-1-1"
-                  >
-                    <TextRenderer
-                      key="text-1-1"
-                      nodeKey="text-1-1"
-                      value="The bear is super cool and everyone loves him! Click below to find out more!"
+                  <Typography__Headline>
+                    <StyledComponent
+                      forwardedComponent={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": Array [],
+                          "componentStyle": ComponentStyle {
+                            "componentId": "Typography__Headline-sc-1h5b1wa-0",
+                            "isStatic": true,
+                            "lastClassName": "c3",
+                            "rules": Array [
+                              "color:",
+                              "#FFFFFF",
+                              ";font-family:'Raleway',sans-serif;margin:0 0 32px;font-weight:800;font-size:36px;",
+                            ],
+                          },
+                          "displayName": "Typography__Headline",
+                          "foldedComponentIds": Array [],
+                          "render": [Function],
+                          "styledComponentId": "Typography__Headline-sc-1h5b1wa-0",
+                          "target": "h1",
+                          "toString": [Function],
+                          "warnTooManyClasses": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
                     >
-                      The bear is super cool and everyone loves him! Click below to find out more!
-                    </TextRenderer>
-                  </p>
+                      <h1
+                        className="c3"
+                      >
+                        Check out the bear!
+                      </h1>
+                    </StyledComponent>
+                  </Typography__Headline>
+                  <Typography__BodyCopy
+                    inverted={true}
+                    textAlign="left"
+                  >
+                    <StyledComponent
+                      forwardedComponent={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": Array [],
+                          "componentStyle": ComponentStyle {
+                            "componentId": "Typography__BodyCopy-sc-1h5b1wa-2",
+                            "isStatic": false,
+                            "lastClassName": "c4",
+                            "rules": Array [
+                              "text-align:",
+                              [Function],
+                              ";color:",
+                              [Function],
+                              ";font-family:'Lato',sans-serif;font-size:24px;margin:0 0 32px;",
+                            ],
+                          },
+                          "defaultProps": Object {
+                            "inverted": false,
+                            "textAlign": "left",
+                          },
+                          "displayName": "Typography__BodyCopy",
+                          "foldedComponentIds": Array [],
+                          "propTypes": Object {
+                            "inverted": [Function],
+                            "textAlign": [Function],
+                          },
+                          "render": [Function],
+                          "renderers": Object {
+                            "blockquote": "blockquote",
+                            "break": "br",
+                            "code": [Function],
+                            "definition": [Function],
+                            "delete": "del",
+                            "emphasis": "em",
+                            "heading": [Function],
+                            "html": [Function],
+                            "image": "img",
+                            "imageReference": "img",
+                            "inlineCode": [Function],
+                            "link": "a",
+                            "linkReference": "a",
+                            "list": [Function],
+                            "listItem": [Function],
+                            "paragraph": "p",
+                            "parsedHtml": [Function],
+                            "root": [Function],
+                            "strong": "strong",
+                            "table": [Function],
+                            "tableBody": [Function],
+                            "tableCell": [Function],
+                            "tableHead": [Function],
+                            "tableRow": [Function],
+                            "text": [Function],
+                            "thematicBreak": "hr",
+                            "virtualHtml": [Function],
+                          },
+                          "styledComponentId": "Typography__BodyCopy-sc-1h5b1wa-2",
+                          "target": [Function],
+                          "toString": [Function],
+                          "types": Array [
+                            "break",
+                            "paragraph",
+                            "emphasis",
+                            "strong",
+                            "thematicBreak",
+                            "blockquote",
+                            "delete",
+                            "link",
+                            "image",
+                            "linkReference",
+                            "imageReference",
+                            "table",
+                            "tableHead",
+                            "tableBody",
+                            "tableRow",
+                            "tableCell",
+                            "root",
+                            "text",
+                            "list",
+                            "listItem",
+                            "definition",
+                            "heading",
+                            "inlineCode",
+                            "code",
+                            "html",
+                            "virtualHtml",
+                            "parsedHtml",
+                          ],
+                          "uriTransformer": [Function],
+                          "warnTooManyClasses": [Function],
+                          "withComponent": [Function],
+                          Symbol(Symbol.hasInstance): [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                      inverted={true}
+                      textAlign="left"
+                    >
+                      <ReactMarkdown
+                        astPlugins={Array []}
+                        className="c4"
+                        escapeHtml={true}
+                        inverted={true}
+                        plugins={Array []}
+                        rawSourcePos={false}
+                        renderers={Object {}}
+                        skipHtml={false}
+                        sourcePos={false}
+                        textAlign="left"
+                        transformLinkUri={[Function]}
+                      >
+                        <Root
+                          className="c4"
+                          key="root-1-1"
+                        >
+                          <div
+                            className="c4"
+                          >
+                            <p
+                              key="paragraph-1-1"
+                            >
+                              <TextRenderer
+                                key="text-1-1"
+                                nodeKey="text-1-1"
+                                value="The bear is super cool and everyone loves him! Click below to find out more!"
+                              >
+                                The bear is super cool and everyone loves him! Click below to find out more!
+                              </TextRenderer>
+                            </p>
+                          </div>
+                        </Root>
+                      </ReactMarkdown>
+                    </StyledComponent>
+                  </Typography__BodyCopy>
+                  <Button__StyledButton
+                    external={true}
+                    text="Google"
+                    type="secondary"
+                    url="/register"
+                  >
+                    <StyledComponent
+                      external={true}
+                      forwardedComponent={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": Array [],
+                          "componentStyle": ComponentStyle {
+                            "componentId": "Button__StyledButton-sc-19aup1o-0",
+                            "isStatic": false,
+                            "lastClassName": "c5",
+                            "rules": Array [
+                              "margin-bottom:32px;font-family:'Raleway',sans-serif;font-size:16px;font-weight:800;background-color:",
+                              [Function],
+                              ";color:",
+                              [Function],
+                              ";display:inline-block;padding:16px;border:none;line-height:1;border-radius:4px;cursor:pointer;text-decoration:none;",
+                            ],
+                          },
+                          "defaultProps": Object {
+                            "type": "primary",
+                          },
+                          "displayName": "Button__StyledButton",
+                          "foldedComponentIds": Array [],
+                          "propTypes": Object {
+                            "type": [Function],
+                          },
+                          "render": [Function],
+                          "styledComponentId": "Button__StyledButton-sc-19aup1o-0",
+                          "target": [Function],
+                          "toString": [Function],
+                          "warnTooManyClasses": [Function],
+                          "withComponent": [Function],
+                          Symbol(Symbol.hasInstance): [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                      text="Google"
+                      type="secondary"
+                      url="/register"
+                    >
+                      <Button
+                        className="c5"
+                        external={true}
+                        onClick={null}
+                        text="Google"
+                        type="secondary"
+                        url="/register"
+                      >
+                        <a
+                          className="c5"
+                          href="/register"
+                          rel="noreferrer noopener"
+                          target="_blank"
+                        >
+                          Google
+                        </a>
+                      </Button>
+                    </StyledComponent>
+                  </Button__StyledButton>
                 </div>
-              </Root>
-            </ReactMarkdown>
-          </Typography__BodyCopy>
-          <Button__StyledButton
-            external={true}
-            text="Google"
-            type="secondary"
-            url="/register"
-          >
-            <Button
-              className="c4"
-              external={true}
-              onClick={null}
-              text="Google"
-              type="secondary"
-              url="/register"
-            >
-              <a
-                className="c4"
-                href="/register"
-                rel="noreferrer noopener"
-                target="_blank"
-              >
-                Google
-              </a>
-            </Button>
-          </Button__StyledButton>
-        </div>
-      </Col>
-    </div>
-  </HeroBlock>
+              </StyledComponent>
+            </styled-shoelaces>
+          </div>
+        </StyledComponent>
+      </styled-shoelaces>
+    </HeroBlock>
+  </StyledComponent>
 </HeroBlock__StyledHeroBlock>
 `;

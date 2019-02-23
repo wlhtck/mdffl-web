@@ -7,28 +7,42 @@ import Button from '../stars/Button';
 import Image from '../nebulas/Image';
 import { grey } from '../nebulas/colors';
 import { FeatureHeadline, BodyCopy } from '../nebulas/Typography';
-import Col from '../nebulas/Col';
-import Row from '../nebulas/Row';
+import { Row, Col } from '../nebulas/styled-shoelaces';
 
 const textAlignments = {
-  left: 'flex-start',
-  right: 'flex-end',
+  left: 'start',
+  right: 'end',
   center: 'center',
 };
+const Container = styled.div`
+  padding: 50px;
+  @media (min-width: 62em) {
+    padding: 48px 100px 0;
+  }
+  ${({ center }) => (center ? 'text-align: center' : '')}
+`;
 
 const ContentBlock = ({
   image, headline, body, textAlign, imageAlign, cta, className,
 }) => (
-  <Row reverse={imageAlign === 'right'} className={className}>
+  <Row reverse={imageAlign === 'right'} className={className} gutter="0" justifyContent="around">
     {image && (
-      <Col>
+      <Col xs={1} lg={1 / 2} gutter="0">
         <Image {...image} fullWidth />
       </Col>
     )}
-    <Col align={textAlignments[textAlign]} padding={65}>
-      <FeatureHeadline>{headline}</FeatureHeadline>
-      <BodyCopy textAlign={textAlign}>{body}</BodyCopy>
-      {cta && <Button {...cta} type="primary" />}
+    <Col
+      xs={1}
+      lg={(image ? (1 / 2) : 6 / 8)}
+      alignItems={textAlignments[textAlign]}
+      justifyContent="center"
+      gutter="0"
+    >
+      <Container center={!image}>
+        <FeatureHeadline>{headline}</FeatureHeadline>
+        <BodyCopy textAlign={textAlign}>{body}</BodyCopy>
+        {cta && <Button {...cta} type="primary" />}
+      </Container>
     </Col>
   </Row>
 );
@@ -59,6 +73,7 @@ ContentBlock.defaultProps = {
 };
 
 const StyledContentBlock = styled(ContentBlock)`
+  overflow: hidden;
   ${({ background }) => (background ? `background-color: ${grey};` : '')}
 `;
 
