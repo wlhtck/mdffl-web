@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`nebulas/Typography/Headline renders a <Headine /> 1`] = `
+.c0 {
+  color: #FFFFFF;
+  font-family: 'Raleway',sans-serif;
+  font-weight: 800;
+  font-size: 36px;
+  text-align: left;
+  margin: 0 0 32px;
+}
+
+<withStyles>
+  <StyledComponent
+    forwardedComponent={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "withStyles-sc-8qn4cd-0",
+          "isStatic": false,
+          "lastClassName": "c0",
+          "rules": Array [
+            [Function],
+          ],
+        },
+        "displayName": "withStyles",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "withStyles-sc-8qn4cd-0",
+        "target": "h1",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      }
+    }
+    forwardedRef={null}
+  >
+    <h1
+      className="c0"
+    >
+      Ready 2 Ball?
+    </h1>
+  </StyledComponent>
+</withStyles>
+`;

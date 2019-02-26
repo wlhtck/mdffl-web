@@ -1,9 +1,12 @@
-import styled from 'styled-components';
 import { bool } from 'prop-types';
+import withStyles from './withStyles';
 
-const StyledImage = styled.img`
-  ${({ fullWidth }) => (fullWidth ? 'width: 100%;' : '')}
-`;
+const imageStyles = ({ fullWidth }) => (fullWidth ? ({
+  width: '100%',
+}) : null);
+
+
+const StyledImage = withStyles(imageStyles, 'img');
 
 StyledImage.propTypes = {
   fullWidth: bool,
