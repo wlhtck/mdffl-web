@@ -1,5 +1,4 @@
 import React from 'react';
-import 'jest-styled-components';
 import { render } from 'enzyme';
 import Button from '../../Button';
 
