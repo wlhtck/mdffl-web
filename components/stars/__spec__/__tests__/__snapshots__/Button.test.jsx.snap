@@ -2,330 +2,108 @@
 
 exports[`components/starts/Button renders a button 1`] = `
 .c0 {
-  margin-bottom: 32px;
-  font-family: 'Raleway',sans-serif;
-  font-size: 16px;
-  font-weight: 800;
-  background-color: #1C104E;
   color: #FFFFFF;
+  font-family: 'Raleway',sans-serif;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 1;
+  margin: 0 0 32px;
+  background-color: #1C104E;
   display: inline-block;
   padding: 16px;
   border: none;
-  line-height: 1;
   border-radius: 4px;
   cursor: pointer;
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-<Button__StyledButton
-  onClick={[Function]}
-  text="Button"
+<button
+  class="c0"
   type="primary"
 >
-  <StyledComponent
-    forwardedComponent={
-      Object {
-        "$$typeof": Symbol(react.forward_ref),
-        "attrs": Array [],
-        "componentStyle": ComponentStyle {
-          "componentId": "Button__StyledButton-sc-19aup1o-0",
-          "isStatic": false,
-          "lastClassName": "c0",
-          "rules": Array [
-            "margin-bottom:32px;font-family:'Raleway',sans-serif;font-size:16px;font-weight:800;background-color:",
-            [Function],
-            ";color:",
-            [Function],
-            ";display:inline-block;padding:16px;border:none;line-height:1;border-radius:4px;cursor:pointer;text-decoration:none;",
-          ],
-        },
-        "defaultProps": Object {
-          "type": "primary",
-        },
-        "displayName": "Button__StyledButton",
-        "foldedComponentIds": Array [],
-        "propTypes": Object {
-          "type": [Function],
-        },
-        "render": [Function],
-        "styledComponentId": "Button__StyledButton-sc-19aup1o-0",
-        "target": [Function],
-        "toString": [Function],
-        "warnTooManyClasses": [Function],
-        "withComponent": [Function],
-        Symbol(Symbol.hasInstance): [Function],
-      }
-    }
-    forwardedRef={null}
-    onClick={[Function]}
-    text="Button"
-    type="primary"
-  >
-    <Button
-      className="c0"
-      external={false}
-      onClick={[Function]}
-      text="Button"
-      type="primary"
-      url=""
-    >
-      <button
-        className="c0"
-        onClick={[Function]}
-        type="button"
-      >
-        Button
-      </button>
-    </Button>
-  </StyledComponent>
-</Button__StyledButton>
+  Button
+</button>
 `;
 
 exports[`components/starts/Button renders a secondary button 1`] = `
 .c0 {
-  margin-bottom: 32px;
-  font-family: 'Raleway',sans-serif;
-  font-size: 16px;
-  font-weight: 800;
-  background-color: #FFFFFF;
   color: #1C104E;
+  font-family: 'Raleway',sans-serif;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 1;
+  margin: 0 0 32px;
+  background-color: #FFFFFF;
   display: inline-block;
   padding: 16px;
   border: none;
-  line-height: 1;
   border-radius: 4px;
   cursor: pointer;
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-<Button__StyledButton
-  text="Button"
+<button
+  class="c0"
   type="secondary"
 >
-  <StyledComponent
-    forwardedComponent={
-      Object {
-        "$$typeof": Symbol(react.forward_ref),
-        "attrs": Array [],
-        "componentStyle": ComponentStyle {
-          "componentId": "Button__StyledButton-sc-19aup1o-0",
-          "isStatic": false,
-          "lastClassName": "c0",
-          "rules": Array [
-            "margin-bottom:32px;font-family:'Raleway',sans-serif;font-size:16px;font-weight:800;background-color:",
-            [Function],
-            ";color:",
-            [Function],
-            ";display:inline-block;padding:16px;border:none;line-height:1;border-radius:4px;cursor:pointer;text-decoration:none;",
-          ],
-        },
-        "defaultProps": Object {
-          "type": "primary",
-        },
-        "displayName": "Button__StyledButton",
-        "foldedComponentIds": Array [],
-        "propTypes": Object {
-          "type": [Function],
-        },
-        "render": [Function],
-        "styledComponentId": "Button__StyledButton-sc-19aup1o-0",
-        "target": [Function],
-        "toString": [Function],
-        "warnTooManyClasses": [Function],
-        "withComponent": [Function],
-        Symbol(Symbol.hasInstance): [Function],
-      }
-    }
-    forwardedRef={null}
-    text="Button"
-    type="secondary"
-  >
-    <Button
-      className="c0"
-      external={false}
-      onClick={null}
-      text="Button"
-      type="secondary"
-      url=""
-    >
-      <button
-        className="c0"
-        onClick={null}
-        type="button"
-      >
-        Button
-      </button>
-    </Button>
-  </StyledComponent>
-</Button__StyledButton>
+  Button
+</button>
 `;
 
 exports[`components/starts/Button renders an external link 1`] = `
 .c0 {
-  margin-bottom: 32px;
-  font-family: 'Raleway',sans-serif;
-  font-size: 16px;
-  font-weight: 800;
-  background-color: #1C104E;
   color: #FFFFFF;
+  font-family: 'Raleway',sans-serif;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 1;
+  margin: 0 0 32px;
+  background-color: #1C104E;
   display: inline-block;
   padding: 16px;
   border: none;
-  line-height: 1;
   border-radius: 4px;
   cursor: pointer;
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-<Button__StyledButton
-  external={true}
-  text="Button"
+<a
+  class="c0"
+  href="https://google.com"
+  rel="noreferrer noopener"
+  target="_blank"
   type="primary"
-  url="https://google.com"
 >
-  <StyledComponent
-    external={true}
-    forwardedComponent={
-      Object {
-        "$$typeof": Symbol(react.forward_ref),
-        "attrs": Array [],
-        "componentStyle": ComponentStyle {
-          "componentId": "Button__StyledButton-sc-19aup1o-0",
-          "isStatic": false,
-          "lastClassName": "c0",
-          "rules": Array [
-            "margin-bottom:32px;font-family:'Raleway',sans-serif;font-size:16px;font-weight:800;background-color:",
-            [Function],
-            ";color:",
-            [Function],
-            ";display:inline-block;padding:16px;border:none;line-height:1;border-radius:4px;cursor:pointer;text-decoration:none;",
-          ],
-        },
-        "defaultProps": Object {
-          "type": "primary",
-        },
-        "displayName": "Button__StyledButton",
-        "foldedComponentIds": Array [],
-        "propTypes": Object {
-          "type": [Function],
-        },
-        "render": [Function],
-        "styledComponentId": "Button__StyledButton-sc-19aup1o-0",
-        "target": [Function],
-        "toString": [Function],
-        "warnTooManyClasses": [Function],
-        "withComponent": [Function],
-        Symbol(Symbol.hasInstance): [Function],
-      }
-    }
-    forwardedRef={null}
-    text="Button"
-    type="primary"
-    url="https://google.com"
-  >
-    <Button
-      className="c0"
-      external={true}
-      onClick={null}
-      text="Button"
-      type="primary"
-      url="https://google.com"
-    >
-      <a
-        className="c0"
-        href="https://google.com"
-        rel="noreferrer noopener"
-        target="_blank"
-      >
-        Button
-      </a>
-    </Button>
-  </StyledComponent>
-</Button__StyledButton>
+  Button
+</a>
 `;
 
 exports[`components/starts/Button renders an interal link 1`] = `
 .c0 {
-  margin-bottom: 32px;
-  font-family: 'Raleway',sans-serif;
-  font-size: 16px;
-  font-weight: 800;
-  background-color: #1C104E;
   color: #FFFFFF;
+  font-family: 'Raleway',sans-serif;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 1;
+  margin: 0 0 32px;
+  background-color: #1C104E;
   display: inline-block;
   padding: 16px;
   border: none;
-  line-height: 1;
   border-radius: 4px;
   cursor: pointer;
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-<Button__StyledButton
-  text="Button"
+<a
+  class="c0"
+  href="/about"
   type="primary"
-  url="/about"
 >
-  <StyledComponent
-    forwardedComponent={
-      Object {
-        "$$typeof": Symbol(react.forward_ref),
-        "attrs": Array [],
-        "componentStyle": ComponentStyle {
-          "componentId": "Button__StyledButton-sc-19aup1o-0",
-          "isStatic": false,
-          "lastClassName": "c0",
-          "rules": Array [
-            "margin-bottom:32px;font-family:'Raleway',sans-serif;font-size:16px;font-weight:800;background-color:",
-            [Function],
-            ";color:",
-            [Function],
-            ";display:inline-block;padding:16px;border:none;line-height:1;border-radius:4px;cursor:pointer;text-decoration:none;",
-          ],
-        },
-        "defaultProps": Object {
-          "type": "primary",
-        },
-        "displayName": "Button__StyledButton",
-        "foldedComponentIds": Array [],
-        "propTypes": Object {
-          "type": [Function],
-        },
-        "render": [Function],
-        "styledComponentId": "Button__StyledButton-sc-19aup1o-0",
-        "target": [Function],
-        "toString": [Function],
-        "warnTooManyClasses": [Function],
-        "withComponent": [Function],
-        Symbol(Symbol.hasInstance): [Function],
-      }
-    }
-    forwardedRef={null}
-    text="Button"
-    type="primary"
-    url="/about"
-  >
-    <Button
-      className="c0"
-      external={false}
-      onClick={null}
-      text="Button"
-      type="primary"
-      url="/about"
-    >
-      <a
-        className="c0"
-        href="/about"
-        rel=""
-        target=""
-      >
-        Button
-      </a>
-    </Button>
-  </StyledComponent>
-</Button__StyledButton>
+  Button
+</a>
 `;

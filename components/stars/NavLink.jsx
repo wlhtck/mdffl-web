@@ -1,28 +1,14 @@
-import React from 'react';
-import styled from 'styled-components';
-import { string } from 'prop-types';
-import { white } from '../nebulas/colors';
+import { compose } from 'recompose';
+import fontStyles from '../nebulas/Typography/styles';
+import withStyles from '../nebulas/withStyles';
 
-const NavLink = ({ url, text, className }) => (
-  <a href={url} className={className}>
-    {text}
-  </a>
-);
+const NavLink = compose(
+  withStyles(fontStyles({
+    family: 'raleway',
+    size: '16px',
+    color: 'white',
+  })),
+  withStyles({ textDecoration: 'none' }),
+)('a');
 
-NavLink.propTypes = {
-  url: string.isRequired,
-  text: string.isRequired,
-  className: string,
-};
-
-NavLink.defaultProps = {
-  className: '',
-};
-
-export default styled(NavLink)`
-  color: ${white};
-  font-family: 'Raleway', sans-serif;
-  font-size: 16px;
-  font-weight: 600;
-  text-decoration: none;
-`;
+export default NavLink;

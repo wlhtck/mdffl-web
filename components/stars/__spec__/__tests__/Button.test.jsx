@@ -1,22 +1,22 @@
 import React from 'react';
 import 'jest-styled-components';
-import { mount } from 'enzyme';
+import { render } from 'enzyme';
 import Button from '../../Button';
 
 describe('components/starts/Button', () => {
   it('renders an interal link', () => {
-    expect(mount(<Button text="Button" url="/about" />)).toMatchSnapshot();
+    expect(render(<Button href="/about">Button</Button>)).toMatchSnapshot();
   });
 
   it('renders an external link', () => {
-    expect(mount(<Button text="Button" url="https://google.com" external />)).toMatchSnapshot();
+    expect(render(<Button href="https://google.com" external>Button</Button>)).toMatchSnapshot();
   });
 
   it('renders a button', () => {
-    expect(mount(<Button text="Button" onClick={() => {}} />)).toMatchSnapshot();
+    expect(render(<Button onClick={() => {}}>Button</Button>)).toMatchSnapshot();
   });
 
   it('renders a secondary button', () => {
-    expect(mount(<Button text="Button" type="secondary" />)).toMatchSnapshot();
+    expect(render(<Button type="secondary">Button</Button>)).toMatchSnapshot();
   });
 });
