@@ -3,9 +3,8 @@ import { oneOf, bool } from 'prop-types';
 import withStyles from '../withStyles';
 import styles from './styles';
 
-// TODO: Rename this parameter to align
-const BodyCopy = withStyles(({ inverted, textAlign }) => styles({
-  color: (inverted ? 'white' : 'black'), size: '24px', align: textAlign,
+const BodyCopy = withStyles(({ inverted, align }) => styles({
+  align, color: (inverted ? 'white' : 'black'), size: '24px',
 }), ReactMarkdown);
 
 BodyCopy.propTypes = {

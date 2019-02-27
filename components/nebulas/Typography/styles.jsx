@@ -1,4 +1,6 @@
+import { curry } from 'lodash/fp';
 import { black, white, primary } from '../colors';
+import withStyles from '../withStyles';
 
 const marginBottom = { margin: '0 0 32px' };
 const colors = { white, black, primary };
@@ -13,10 +15,10 @@ const families = { raleway: 'Raleway', lato: 'Lato' };
   * @param {('lato'|'raleway')} [props.family='lato'] - css property font-family
   * @param {string} [props.lineHeight='normal'] - css property line-height
   * @param {string} [props.size='24px'] - css property font-size
-  * @param {number} [props.weight=600] - css property font-weight */
+  * @param {number|'normal'} [props.weight='normal'] - css property font-weight */
 
 const fontStyles = ({
-  align, color = 'black', family = 'lato', lineHeight = 'normal', size = '24px', weight = 600,
+  align, color = 'black', family = 'lato', lineHeight = 'normal', size = '24px', weight = 'normal',
 } = {}) => ({
   color: colors[color],
   fontFamily: `'${families[family]}', sans-serif`,
@@ -27,4 +29,5 @@ const fontStyles = ({
   ...marginBottom,
 });
 
+export const withFontStyles = curry((props, Component) => withStyles(fontStyles(props), Component));
 export default fontStyles;

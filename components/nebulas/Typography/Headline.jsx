@@ -1,8 +1,7 @@
-import withStyles from '../withStyles';
-import styles from './styles';
+import { withFontStyles } from './styles';
 
-const Headline = withStyles(styles({
+const Headline = withFontStyles({
   color: 'white', family: 'raleway', size: '36px', weight: 800,
-}), 'h1');
+}, 'h1');
 
 export default Headline;

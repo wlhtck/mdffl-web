@@ -1,52 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`componenets/nebulas/Image Image renders a <Image /> 1`] = `
-<withStyles
+<img
   alt="Bear"
-  fullWidth={false}
+  class=""
   src="https://images.unsplash.com/photo-1545906785-193d7758ba91?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
->
-  <StyledComponent
-    alt="Bear"
-    forwardedComponent={
-      Object {
-        "$$typeof": Symbol(react.forward_ref),
-        "attrs": Array [],
-        "componentStyle": ComponentStyle {
-          "componentId": "withStyles-sc-8qn4cd-0",
-          "isStatic": false,
-          "lastClassName": "gWWEZg",
-          "rules": Array [
-            [Function],
-          ],
-        },
-        "defaultProps": Object {
-          "fullWidth": false,
-        },
-        "displayName": "withStyles",
-        "foldedComponentIds": Array [],
-        "propTypes": Object {
-          "fullWidth": [Function],
-        },
-        "render": [Function],
-        "styledComponentId": "withStyles-sc-8qn4cd-0",
-        "target": "img",
-        "toString": [Function],
-        "warnTooManyClasses": [Function],
-        "withComponent": [Function],
-      }
-    }
-    forwardedRef={null}
-    fullWidth={false}
-    src="https://images.unsplash.com/photo-1545906785-193d7758ba91?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
-  >
-    <img
-      alt="Bear"
-      className=""
-      src="https://images.unsplash.com/photo-1545906785-193d7758ba91?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
-    />
-  </StyledComponent>
-</withStyles>
+/>
 `;
 
 exports[`componenets/nebulas/Image Image renders a <Image fullWidth/> 1`] = `
@@ -54,50 +13,9 @@ exports[`componenets/nebulas/Image Image renders a <Image fullWidth/> 1`] = `
   width: 100%;
 }
 
-<withStyles
+<img
   alt="Bear"
-  fullWidth={true}
+  class="c0"
   src="https://images.unsplash.com/photo-1545906785-193d7758ba91?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
->
-  <StyledComponent
-    alt="Bear"
-    forwardedComponent={
-      Object {
-        "$$typeof": Symbol(react.forward_ref),
-        "attrs": Array [],
-        "componentStyle": ComponentStyle {
-          "componentId": "withStyles-sc-8qn4cd-0",
-          "isStatic": false,
-          "lastClassName": "c0",
-          "rules": Array [
-            [Function],
-          ],
-        },
-        "defaultProps": Object {
-          "fullWidth": false,
-        },
-        "displayName": "withStyles",
-        "foldedComponentIds": Array [],
-        "propTypes": Object {
-          "fullWidth": [Function],
-        },
-        "render": [Function],
-        "styledComponentId": "withStyles-sc-8qn4cd-0",
-        "target": "img",
-        "toString": [Function],
-        "warnTooManyClasses": [Function],
-        "withComponent": [Function],
-      }
-    }
-    forwardedRef={null}
-    fullWidth={true}
-    src="https://images.unsplash.com/photo-1545906785-193d7758ba91?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
-  >
-    <img
-      alt="Bear"
-      className="c0"
-      src="https://images.unsplash.com/photo-1545906785-193d7758ba91?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
-    />
-  </StyledComponent>
-</withStyles>
+/>
 `;

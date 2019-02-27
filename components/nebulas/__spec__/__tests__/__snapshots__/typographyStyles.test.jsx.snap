@@ -5,9 +5,10 @@ Object {
   "color": "#303133",
   "fontFamily": "'Lato', sans-serif",
   "fontSize": "24px",
-  "fontWeight": 600,
+  "fontWeight": "normal",
+  "lineHeight": "normal",
   "margin": "0 0 32px",
-  "textAlign": "left",
+  "textAlign": undefined,
 }
 `;
 
@@ -17,6 +18,7 @@ Object {
   "fontFamily": "'Raleway', sans-serif",
   "fontSize": "36px",
   "fontWeight": 800,
+  "lineHeight": "normal",
   "margin": "0 0 32px",
   "textAlign": "center",
 }
