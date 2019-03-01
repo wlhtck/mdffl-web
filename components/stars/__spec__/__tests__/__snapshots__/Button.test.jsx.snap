@@ -2,7 +2,7 @@
 
 exports[`components/starts/Button renders a button 1`] = `
 <button
-  class="withStyles-sc-8qn4cd-0 iIYDgp"
+  class="withStyles-u5urts-0 gqQEcA"
   type="primary"
 >
   Button
@@ -11,7 +11,7 @@ exports[`components/starts/Button renders a button 1`] = `
 
 exports[`components/starts/Button renders a secondary button 1`] = `
 <button
-  class="withStyles-sc-8qn4cd-0 hAEtoY"
+  class="withStyles-u5urts-0 hpEXTr"
   type="secondary"
 >
   Button
@@ -20,7 +20,7 @@ exports[`components/starts/Button renders a secondary button 1`] = `
 
 exports[`components/starts/Button renders an external link 1`] = `
 <a
-  class="withStyles-sc-8qn4cd-0 iIYDgp"
+  class="withStyles-u5urts-0 gqQEcA"
   href="https://google.com"
   rel="noreferrer noopener"
   target="_blank"
@@ -32,7 +32,7 @@ exports[`components/starts/Button renders an external link 1`] = `
 
 exports[`components/starts/Button renders an interal link 1`] = `
 <a
-  class="withStyles-sc-8qn4cd-0 iIYDgp"
+  class="withStyles-u5urts-0 gqQEcA"
   href="/about"
   type="primary"
 >

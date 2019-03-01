@@ -1,6 +1,6 @@
 import ReactMarkdown from 'react-markdown';
 import { oneOf, bool } from 'prop-types';
-import withStyles from '../withStyles';
+import withStyles from '../../util/withStyles';
 import styles from './styles';
 
 const BodyCopy = withStyles(({ inverted, align }) => styles({

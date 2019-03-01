@@ -1,6 +1,6 @@
 import { compose } from 'recompose';
 import fontStyles from '../nebulas/Typography/styles';
-import withStyles from '../nebulas/withStyles';
+import withStyles from '../util/withStyles';
 
 const NavLink = compose(
   withStyles(fontStyles({

@@ -3,31 +3,32 @@ import { arrayOf, exact, string } from 'prop-types';
 import styled from 'styled-components';
 import { map } from 'lodash/fp';
 import { primary } from '../nebulas/colors';
-import Row from '../nebulas/Row';
+import { Row } from '../nebulas/styled-shoelaces';
 import Image from '../nebulas/Image';
 import NavLink from '../stars/NavLink';
 import Button from '../stars/Button';
 
 const NavBar = ({ links, className }) => (
-  <Row className={className}>
+  <Row alignItems="center" className={className} gutter="0">
     <a href="/" className="logo">
       <Image src="/mdffl-logo.png" alt="MDFFL Logo" />
     </a>
     {map((link) => <NavLink {...link} />)(links)}
     <Button
-      url="https://www.playyon.com/metro-detroit-flag-football-league/registrations/"
-      text="REGISTER"
+      href="https://www.playyon.com/metro-detroit-flag-football-league/registrations/"
       type="secondary"
       external
-    />
+    >
+      REGISTER
+    </Button>
   </Row>
 );
 
 NavBar.propTypes = {
   links: arrayOf(exact({
     key: string.isRequired,
-    url: string.isRequired,
-    text: string.isRequired,
+    href: string.isRequired,
+    children: string.isRequired,
   })).isRequired,
   className: string,
 };

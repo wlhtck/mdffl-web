@@ -1,5 +1,5 @@
 import { bool } from 'prop-types';
-import withStyles from './withStyles';
+import withStyles from '../util/withStyles';
 
 const imageStyles = ({ fullWidth }) => (fullWidth ? ({
   width: '100%',

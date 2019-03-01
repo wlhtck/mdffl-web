@@ -13,7 +13,7 @@ exports[`components/starts/NavLink renders a link 1`] = `
 }
 
 <a
-  class="withStyles-sc-8qn4cd-0 c0"
+  class="withStyles-u5urts-0 c0"
   href="/about"
 >
   Button

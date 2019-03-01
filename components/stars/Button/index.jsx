@@ -5,7 +5,7 @@ import { omit } from 'lodash/fp';
 import {
   compose, mapProps, componentFromProp, branch, withProps,
 } from 'recompose';
-import withStyles from '../../nebulas/withStyles';
+import withStyles from '../../util/withStyles';
 import styles from './styles';
 
 const omitProps = compose(mapProps, omit);
