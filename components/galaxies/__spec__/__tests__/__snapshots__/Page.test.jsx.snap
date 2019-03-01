@@ -4,8 +4,9 @@ exports[`components/galaxies/Page renders <HeroBlock />s and <ContentBlock />s 1
 <src
   fluid={true}
 >
-  <HeroBlock__StyledHeroBlock
+  <withStyles
     body="The bear is a big hero. Everyone is super thankful!"
+    className=""
     cta={
       Object {
         "external": true,
