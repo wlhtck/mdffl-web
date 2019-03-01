@@ -2,12 +2,12 @@ import React from 'react';
 import {
   bool, string, exact, oneOf,
 } from 'prop-types';
-import { grey } from '../../nebulas/colors';
-import { Col, Row } from '../../nebulas/styled-shoelaces';
-import withStyles from '../../util/withStyles';
-import skipIfEmpty from '../../util/skipIfEmpty';
-import CopyBlock from '../CopyBlock';
-import Image from '../../nebulas/Image';
+import { grey } from '../nebulas/colors';
+import { Col, Row } from '../nebulas/styled-shoelaces';
+import withStyles from '../util/withStyles';
+import skipIfEmpty from '../util/skipIfEmpty';
+import CopyBlock from './CopyBlock';
+import Image from '../nebulas/Image';
 
 
 const ContentBlockImage = skipIfEmpty(
