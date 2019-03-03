@@ -3,24 +3,26 @@
     {
       "body": "The bear is a big hero. Everyone is super thankful!",
       "cta": {
-        "url": "https://google.com",
-        "text": "Google",
+        "href": "https://google.com",
+        "children": "Google",
         "external": true
       },
       "headline": "The bear is a hero!",
       "imgSrc": "https://images.unsplash.com/photo-1530595467537-0b5996c41f2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1440&q=80",
-      "type": "heroBlock"
+      "type": "heroBlock",
+      "key": "hero-bear"
     },
     {
       "headline": "Check out the bear!",
       "body": "The bear is super cool and everyone loves him! Click below to find out more!",
       "textAlign": "center",
       "cta": {
-        "url": "https://google.com",
-        "text": "Google",
+        "href": "https://google.com",
+        "children": "Google",
         "external": true
       },
-      "type": "contentBlock"
+      "type": "contentBlock",
+      "key": "googlw-bear"
     },
     {
       "headline": "Check out the bear!",
@@ -32,11 +34,12 @@
         "alt": "Bear"
       },
       "cta": {
-        "url": "https://google.com",
-        "text": "Google",
+        "href": "https://google.com",
+        "children": "Google",
         "external": true
       },
-      "type": "contentBlock"
+      "type": "contentBlock",
+      "key": "image-bear"
     }
   ]
 }

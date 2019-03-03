@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/starts/CTA renders a button 1`] = `
+<button
+  class="withStyles-u5urts-0 gqQEcA"
+  type="primary"
+>
+  CTA
+</button>
+`;
+
+exports[`components/starts/CTA renders a secondary button 1`] = `
+<button
+  class="withStyles-u5urts-0 hpEXTr"
+  type="secondary"
+>
+  CTA
+</button>
+`;
+
+exports[`components/starts/CTA renders an external link 1`] = `
+<a
+  class="withStyles-u5urts-0 gqQEcA"
+  href="https://google.com"
+  rel="noreferrer noopener"
+  target="_blank"
+  type="primary"
+>
+  CTA
+</a>
+`;
+
+exports[`components/starts/CTA renders an interal link 1`] = `
+<a
+  class="withStyles-u5urts-0 gqQEcA"
+  href="/about"
+  type="primary"
+>
+  CTA
+</a>
+`;

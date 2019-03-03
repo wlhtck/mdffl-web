@@ -1,6 +1,14 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`components/constellations/HeroBlock renders a <HeroBlock /> 1`] = `
+.c0 {
+  padding: 50px;
+  background: linear-gradient( rgba(0,0,0,0.45), rgba(0,0,0,0.45) ),  url("/imgSrc");
+  background-size: cover;
+  background-position: center;
+  height: calc(100vh - 98px);
+}
+
 .c1 {
   box-sizing: border-box;
   -webkit-flex: 0 1 auto;
@@ -51,10 +59,10 @@ exports[`components/constellations/HeroBlock renders a <HeroBlock /> 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
@@ -63,42 +71,43 @@ exports[`components/constellations/HeroBlock renders a <HeroBlock /> 1`] = `
 .c3 {
   color: #FFFFFF;
   font-family: 'Raleway',sans-serif;
-  margin: 0 0 32px;
   font-weight: 800;
   font-size: 36px;
+  line-height: normal;
+  margin: 0 0 32px;
 }
 
 .c4 {
-  text-align: left;
   color: #FFFFFF;
   font-family: 'Lato',sans-serif;
+  font-weight: normal;
   font-size: 24px;
+  line-height: normal;
+  text-align: left;
   margin: 0 0 32px;
 }
 
 .c5 {
-  margin-bottom: 32px;
-  font-family: 'Raleway',sans-serif;
-  font-size: 16px;
-  font-weight: 800;
-  background-color: #FFFFFF;
   color: #1C104E;
+  font-family: 'Raleway',sans-serif;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 1;
+  margin: 0 0 32px;
+  background-color: #FFFFFF;
   display: inline-block;
   padding: 16px;
   border: none;
-  line-height: 1;
   border-radius: 4px;
   cursor: pointer;
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.c0 {
-  padding: 50px;
-  background: linear-gradient( rgba(0,0,0,0.45),rgba(0,0,0,0.45) ),url("/imgSrc");
-  background-size: cover;
-  background-position: center;
-  height: calc(100vh - 98px);
+@media (min-width:62em) {
+  .c0 {
+    padding: 100px;
+  }
 }
 
 @media (min-width:0) {
@@ -119,406 +128,33 @@ exports[`components/constellations/HeroBlock renders a <HeroBlock /> 1`] = `
   }
 }
 
-@media (min-width:62em) {
-  .c0 {
-    padding: 100px;
-  }
-}
-
-<HeroBlock__StyledHeroBlock
-  body="The bear is super cool and everyone loves him! Click below to find out more!"
-  cta={
-    Object {
-      "external": true,
-      "text": "Google",
-      "url": "/register",
-    }
-  }
-  headline="Check out the bear!"
-  imageAlign="right"
-  imgSrc="/imgSrc"
-  textAlign="left"
+<div
+  class="c0 withStyles-u5urts-0 c1"
 >
-  <StyledComponent
-    body="The bear is super cool and everyone loves him! Click below to find out more!"
-    cta={
-      Object {
-        "external": true,
-        "text": "Google",
-        "url": "/register",
-      }
-    }
-    forwardedComponent={
-      Object {
-        "$$typeof": Symbol(react.forward_ref),
-        "attrs": Array [],
-        "componentStyle": ComponentStyle {
-          "componentId": "HeroBlock__StyledHeroBlock-sc-11igims-0",
-          "isStatic": false,
-          "lastClassName": "c0",
-          "rules": Array [
-            "padding:50px;@media (min-width:62em){padding:100px;}background:linear-gradient( rgba(0,0,0,0.45),rgba(0,0,0,0.45) ),",
-            [Function],
-            ";background-size:cover;background-position:center;height:calc(100vh - 98px);",
-          ],
-        },
-        "displayName": "HeroBlock__StyledHeroBlock",
-        "foldedComponentIds": Array [],
-        "propTypes": Object {
-          "imgSrc": [Function],
-        },
-        "render": [Function],
-        "styledComponentId": "HeroBlock__StyledHeroBlock-sc-11igims-0",
-        "target": [Function],
-        "toString": [Function],
-        "warnTooManyClasses": [Function],
-        "withComponent": [Function],
-        Symbol(Symbol.hasInstance): [Function],
-      }
-    }
-    forwardedRef={null}
-    headline="Check out the bear!"
-    imageAlign="right"
-    imgSrc="/imgSrc"
-    textAlign="left"
+  <div
+    class="c2"
   >
-    <HeroBlock
-      body="The bear is super cool and everyone loves him! Click below to find out more!"
-      className="c0"
-      cta={
-        Object {
-          "external": true,
-          "text": "Google",
-          "url": "/register",
-        }
-      }
-      headline="Check out the bear!"
-      imageAlign="right"
-      imgSrc="/imgSrc"
-      textAlign="left"
+    <h1
+      class="c3"
     >
-      <styled-shoelaces
-        alignContent="center"
-        className="c0"
-        gutter="0"
-        justifyContent="start"
-      >
-        <StyledComponent
-          alignContent="center"
-          className="c0"
-          forwardedComponent={
-            Object {
-              "$$typeof": Symbol(react.forward_ref),
-              "attrs": Array [],
-              "componentStyle": ComponentStyle {
-                "componentId": "styled-shoelaces-eiu6xc-0",
-                "isStatic": false,
-                "lastClassName": "c1",
-                "rules": Array [
-                  [Function],
-                ],
-              },
-              "displayName": "styled-shoelaces",
-              "foldedComponentIds": Array [],
-              "render": [Function],
-              "styledComponentId": "styled-shoelaces-eiu6xc-0",
-              "target": "div",
-              "toString": [Function],
-              "warnTooManyClasses": [Function],
-              "withComponent": [Function],
-            }
-          }
-          forwardedRef={null}
-          gutter="0"
-          justifyContent="start"
-        >
-          <div
-            className="c0 c1"
-          >
-            <styled-shoelaces
-              alignItems="start"
-              gutter="0"
-              lg={0.5}
-              xs={1}
-            >
-              <StyledComponent
-                alignItems="start"
-                forwardedComponent={
-                  Object {
-                    "$$typeof": Symbol(react.forward_ref),
-                    "attrs": Array [],
-                    "componentStyle": ComponentStyle {
-                      "componentId": "styled-shoelaces-eiu6xc-0",
-                      "isStatic": false,
-                      "lastClassName": "c2",
-                      "rules": Array [
-                        [Function],
-                      ],
-                    },
-                    "displayName": "styled-shoelaces",
-                    "foldedComponentIds": Array [],
-                    "render": [Function],
-                    "styledComponentId": "styled-shoelaces-eiu6xc-0",
-                    "target": "div",
-                    "toString": [Function],
-                    "warnTooManyClasses": [Function],
-                    "withComponent": [Function],
-                  }
-                }
-                forwardedRef={null}
-                gutter="0"
-                lg={0.5}
-                xs={1}
-              >
-                <div
-                  className="c2"
-                >
-                  <Typography__Headline>
-                    <StyledComponent
-                      forwardedComponent={
-                        Object {
-                          "$$typeof": Symbol(react.forward_ref),
-                          "attrs": Array [],
-                          "componentStyle": ComponentStyle {
-                            "componentId": "Typography__Headline-sc-1h5b1wa-0",
-                            "isStatic": true,
-                            "lastClassName": "c3",
-                            "rules": Array [
-                              "color:",
-                              "#FFFFFF",
-                              ";font-family:'Raleway',sans-serif;margin:0 0 32px;font-weight:800;font-size:36px;",
-                            ],
-                          },
-                          "displayName": "Typography__Headline",
-                          "foldedComponentIds": Array [],
-                          "render": [Function],
-                          "styledComponentId": "Typography__Headline-sc-1h5b1wa-0",
-                          "target": "h1",
-                          "toString": [Function],
-                          "warnTooManyClasses": [Function],
-                          "withComponent": [Function],
-                        }
-                      }
-                      forwardedRef={null}
-                    >
-                      <h1
-                        className="c3"
-                      >
-                        Check out the bear!
-                      </h1>
-                    </StyledComponent>
-                  </Typography__Headline>
-                  <Typography__BodyCopy
-                    inverted={true}
-                    textAlign="left"
-                  >
-                    <StyledComponent
-                      forwardedComponent={
-                        Object {
-                          "$$typeof": Symbol(react.forward_ref),
-                          "attrs": Array [],
-                          "componentStyle": ComponentStyle {
-                            "componentId": "Typography__BodyCopy-sc-1h5b1wa-2",
-                            "isStatic": false,
-                            "lastClassName": "c4",
-                            "rules": Array [
-                              "text-align:",
-                              [Function],
-                              ";color:",
-                              [Function],
-                              ";font-family:'Lato',sans-serif;font-size:24px;margin:0 0 32px;",
-                            ],
-                          },
-                          "defaultProps": Object {
-                            "inverted": false,
-                            "textAlign": "left",
-                          },
-                          "displayName": "Typography__BodyCopy",
-                          "foldedComponentIds": Array [],
-                          "propTypes": Object {
-                            "inverted": [Function],
-                            "textAlign": [Function],
-                          },
-                          "render": [Function],
-                          "renderers": Object {
-                            "blockquote": "blockquote",
-                            "break": "br",
-                            "code": [Function],
-                            "definition": [Function],
-                            "delete": "del",
-                            "emphasis": "em",
-                            "heading": [Function],
-                            "html": [Function],
-                            "image": "img",
-                            "imageReference": "img",
-                            "inlineCode": [Function],
-                            "link": "a",
-                            "linkReference": "a",
-                            "list": [Function],
-                            "listItem": [Function],
-                            "paragraph": "p",
-                            "parsedHtml": [Function],
-                            "root": [Function],
-                            "strong": "strong",
-                            "table": [Function],
-                            "tableBody": [Function],
-                            "tableCell": [Function],
-                            "tableHead": [Function],
-                            "tableRow": [Function],
-                            "text": [Function],
-                            "thematicBreak": "hr",
-                            "virtualHtml": [Function],
-                          },
-                          "styledComponentId": "Typography__BodyCopy-sc-1h5b1wa-2",
-                          "target": [Function],
-                          "toString": [Function],
-                          "types": Array [
-                            "break",
-                            "paragraph",
-                            "emphasis",
-                            "strong",
-                            "thematicBreak",
-                            "blockquote",
-                            "delete",
-                            "link",
-                            "image",
-                            "linkReference",
-                            "imageReference",
-                            "table",
-                            "tableHead",
-                            "tableBody",
-                            "tableRow",
-                            "tableCell",
-                            "root",
-                            "text",
-                            "list",
-                            "listItem",
-                            "definition",
-                            "heading",
-                            "inlineCode",
-                            "code",
-                            "html",
-                            "virtualHtml",
-                            "parsedHtml",
-                          ],
-                          "uriTransformer": [Function],
-                          "warnTooManyClasses": [Function],
-                          "withComponent": [Function],
-                          Symbol(Symbol.hasInstance): [Function],
-                        }
-                      }
-                      forwardedRef={null}
-                      inverted={true}
-                      textAlign="left"
-                    >
-                      <ReactMarkdown
-                        astPlugins={Array []}
-                        className="c4"
-                        escapeHtml={true}
-                        inverted={true}
-                        plugins={Array []}
-                        rawSourcePos={false}
-                        renderers={Object {}}
-                        skipHtml={false}
-                        sourcePos={false}
-                        textAlign="left"
-                        transformLinkUri={[Function]}
-                      >
-                        <Root
-                          className="c4"
-                          key="root-1-1"
-                        >
-                          <div
-                            className="c4"
-                          >
-                            <p
-                              key="paragraph-1-1"
-                            >
-                              <TextRenderer
-                                key="text-1-1"
-                                nodeKey="text-1-1"
-                                value="The bear is super cool and everyone loves him! Click below to find out more!"
-                              >
-                                The bear is super cool and everyone loves him! Click below to find out more!
-                              </TextRenderer>
-                            </p>
-                          </div>
-                        </Root>
-                      </ReactMarkdown>
-                    </StyledComponent>
-                  </Typography__BodyCopy>
-                  <Button__StyledButton
-                    external={true}
-                    text="Google"
-                    type="secondary"
-                    url="/register"
-                  >
-                    <StyledComponent
-                      external={true}
-                      forwardedComponent={
-                        Object {
-                          "$$typeof": Symbol(react.forward_ref),
-                          "attrs": Array [],
-                          "componentStyle": ComponentStyle {
-                            "componentId": "Button__StyledButton-sc-19aup1o-0",
-                            "isStatic": false,
-                            "lastClassName": "c5",
-                            "rules": Array [
-                              "margin-bottom:32px;font-family:'Raleway',sans-serif;font-size:16px;font-weight:800;background-color:",
-                              [Function],
-                              ";color:",
-                              [Function],
-                              ";display:inline-block;padding:16px;border:none;line-height:1;border-radius:4px;cursor:pointer;text-decoration:none;",
-                            ],
-                          },
-                          "defaultProps": Object {
-                            "type": "primary",
-                          },
-                          "displayName": "Button__StyledButton",
-                          "foldedComponentIds": Array [],
-                          "propTypes": Object {
-                            "type": [Function],
-                          },
-                          "render": [Function],
-                          "styledComponentId": "Button__StyledButton-sc-19aup1o-0",
-                          "target": [Function],
-                          "toString": [Function],
-                          "warnTooManyClasses": [Function],
-                          "withComponent": [Function],
-                          Symbol(Symbol.hasInstance): [Function],
-                        }
-                      }
-                      forwardedRef={null}
-                      text="Google"
-                      type="secondary"
-                      url="/register"
-                    >
-                      <Button
-                        className="c5"
-                        external={true}
-                        onClick={null}
-                        text="Google"
-                        type="secondary"
-                        url="/register"
-                      >
-                        <a
-                          className="c5"
-                          href="/register"
-                          rel="noreferrer noopener"
-                          target="_blank"
-                        >
-                          Google
-                        </a>
-                      </Button>
-                    </StyledComponent>
-                  </Button__StyledButton>
-                </div>
-              </StyledComponent>
-            </styled-shoelaces>
-          </div>
-        </StyledComponent>
-      </styled-shoelaces>
-    </HeroBlock>
-  </StyledComponent>
-</HeroBlock__StyledHeroBlock>
+      Check out the bear!
+    </h1>
+    <div
+      class="c4"
+    >
+      <p>
+        The bear is super cool and everyone loves him! Click below to find out more!
+      </p>
+    </div>
+    <a
+      class="c5"
+      href="/register"
+      rel="noreferrer noopener"
+      target="_blank"
+      type="secondary"
+    >
+      Google
+    </a>
+  </div>
+</div>
 `;

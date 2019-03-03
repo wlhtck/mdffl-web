@@ -1,88 +1,72 @@
 import React from 'react';
-import styled from 'styled-components';
 import {
   bool, string, exact, oneOf,
 } from 'prop-types';
-import Button from '../stars/Button';
-import Image from '../nebulas/Image';
+import { compose, setDisplayName } from 'recompose';
 import { grey } from '../nebulas/colors';
-import { FeatureHeadline, BodyCopy } from '../nebulas/Typography';
-import { Row, Col } from '../nebulas/styled-shoelaces';
+import { Col, Row } from '../nebulas/styled-shoelaces';
+import withStyles from '../util/withStyles';
+import skipIfEmpty from '../util/skipIfEmpty';
+import CopyBlock from './CopyBlock';
+import Image from '../nebulas/Image';
 
-const textAlignments = {
-  left: 'start',
-  right: 'end',
-  center: 'center',
-};
-const Container = styled.div`
-  padding: 50px;
-  @media (min-width: 62em) {
-    padding: 48px 100px 0;
-  }
-  ${({ center }) => (center ? 'text-align: center' : '')}
-`;
 
-const ContentBlock = ({
-  image, headline, body, textAlign, imageAlign, cta, className,
-}) => (
-  <Row reverse={imageAlign === 'right'} className={className} gutter="0" justifyContent="around">
-    {image && (
-      <Col xs={1} lg={1 / 2} gutter="0">
-        <Image {...image} fullWidth />
-      </Col>
-    )}
-    <Col
-      xs={1}
-      lg={(image ? (1 / 2) : 6 / 8)}
-      alignItems={textAlignments[textAlign]}
-      justifyContent="center"
-      gutter="0"
-    >
-      <Container center={!image}>
-        <FeatureHeadline>{headline}</FeatureHeadline>
-        <BodyCopy textAlign={textAlign}>{body}</BodyCopy>
-        {cta && <Button {...cta} type="primary" />}
-      </Container>
-    </Col>
-  </Row>
+const ContentBlockImage = skipIfEmpty(
+  (props) => (<Col xs={1} lg={1 / 2} gutter={0}><Image {...props} fullWidth /></Col>),
 );
 
+const ContentBlockCopy = withStyles({
+  padding: '50px!important',
+  '@media (min-width: 62em)': {
+    padding: '48px 100px 0!important',
+  },
+}, CopyBlock);
+
+const ContentBlock = compose(
+  setDisplayName('ContentBlock'),
+  withStyles(({ background }) => ({ backgroundColor: background ? grey : '' })),
+)(({
+  body, className, cta, headline, image, imageAlign, textAlign,
+}) => (
+  <Row reverse={imageAlign === 'right'} className={className} gutter="0" justifyContent="around">
+    <ContentBlockImage {...image} />
+    <ContentBlockCopy
+      xs={1}
+      lg={image ? (1 / 2) : 3 / 4}
+      body={body}
+      cta={cta}
+      headline={headline}
+      image={image}
+      textAlign={textAlign}
+    />
+  </Row>
+));
+
 ContentBlock.propTypes = {
+  background: bool,
   body: string.isRequired,
   className: string,
   cta: exact({
-    url: string.isRequired,
-    text: string.isRequired,
+    href: string.isRequired,
+    children: string.isRequired,
     external: bool,
   }),
+  headline: string.isRequired,
   image: exact({
     src: string,
     alt: string,
   }),
-  headline: string.isRequired,
   imageAlign: oneOf(['left', 'right']),
   textAlign: oneOf(['left', 'right', 'center']),
 };
 
 ContentBlock.defaultProps = {
-  cta: null,
+  background: false,
   className: '',
+  cta: null,
   image: null,
   imageAlign: 'right',
   textAlign: 'left',
 };
 
-const StyledContentBlock = styled(ContentBlock)`
-  overflow: hidden;
-  ${({ background }) => (background ? `background-color: ${grey};` : '')}
-`;
-
-StyledContentBlock.propTypes = {
-  background: bool,
-};
-
-StyledContentBlock.defaultProps = {
-  background: false,
-};
-
-export default StyledContentBlock;
+export default ContentBlock;
