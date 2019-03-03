@@ -16,7 +16,7 @@ storiesOf('Constellations', module)
         }}
         cta={{
           url: 'https://google.com',
-          text: 'Google',
+          children: 'Google',
           external: true,
         }}
       />
@@ -26,7 +26,7 @@ storiesOf('Constellations', module)
         textAlign="center"
         cta={{
           url: 'https://google.com',
-          text: 'Google',
+          children: 'Google',
           external: true,
         }}
       />
@@ -41,7 +41,7 @@ storiesOf('Constellations', module)
         }}
         cta={{
           url: 'https://google.com',
-          text: 'Google',
+          children: 'Google',
           external: true,
         }}
       />

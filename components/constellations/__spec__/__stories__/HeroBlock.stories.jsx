@@ -10,7 +10,7 @@ storiesOf('Constellations', module)
       imgSrc="https://images.unsplash.com/photo-1530595467537-0b5996c41f2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1440&q=80"
       cta={{
         url: 'https://google.com',
-        text: 'Google',
+        children: 'Google',
         external: true,
       }}
     />

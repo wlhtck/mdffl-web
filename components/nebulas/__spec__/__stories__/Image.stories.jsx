@@ -1,6 +1,5 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import Box from '../../Box';
 import Image from '../../Image';
 
 storiesOf('Nebulas', module)

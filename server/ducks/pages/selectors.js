@@ -24,11 +24,15 @@ const contentParsers = {
   heroBlock: flow(
     renameKey('image.fields.file.url', 'imgSrc'),
     renameKey('cta.fields', 'cta'),
+    renameKey('cta.text', 'cta.children'),
+    renameKey('cta.url', 'cta.href'),
     renameKey('slug', 'key'),
     omit('image'),
   ),
   contentBlock: flow(
     renameKey('cta.fields', 'cta'),
+    renameKey('cta.text', 'cta.children'),
+    renameKey('cta.url', 'cta.href'),
     renameKey('image.fields', 'image'),
     renameKey('image.title', 'image.alt'),
     renameKey('image.file.url', 'image.src'),
@@ -54,8 +58,8 @@ const getNavLinks = flow(
   reverse,
   // omitBy((pages) => pages.fields.slug === 'index'),
   map((pages) => ({
-    url: `/${replace('index', '')(get('fields.slug')(pages))}`,
-    text: get('fields.name')(pages),
+    href: `/${replace('index', '')(get('fields.slug')(pages))}`,
+    children: get('fields.name')(pages),
     key: get('fields.slug')(pages),
   })),
 );

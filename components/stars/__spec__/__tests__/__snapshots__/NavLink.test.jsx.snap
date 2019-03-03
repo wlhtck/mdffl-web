@@ -2,60 +2,20 @@
 
 exports[`components/starts/NavLink renders a link 1`] = `
 .c0 {
-  color: #FFFFFF;
-  font-family: 'Raleway',sans-serif;
-  font-size: 16px;
-  font-weight: 600;
   -webkit-text-decoration: none;
   text-decoration: none;
+  color: #FFFFFF;
+  font-family: 'Raleway',sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: normal;
+  margin: 0 0 32px;
 }
 
-<NavLink
-  text="Button"
-  url="/about"
+<a
+  class="withStyles-u5urts-0 c0"
+  href="/about"
 >
-  <StyledComponent
-    forwardedComponent={
-      Object {
-        "$$typeof": Symbol(react.forward_ref),
-        "attrs": Array [],
-        "componentStyle": ComponentStyle {
-          "componentId": "NavLink-n9dfc6-0",
-          "isStatic": true,
-          "lastClassName": "c0",
-          "rules": Array [
-            "color:",
-            "#FFFFFF",
-            ";font-family:'Raleway',sans-serif;font-size:16px;font-weight:600;text-decoration:none;",
-          ],
-        },
-        "displayName": "NavLink",
-        "foldedComponentIds": Array [],
-        "render": [Function],
-        "styledComponentId": "NavLink-n9dfc6-0",
-        "target": [Function],
-        "toString": [Function],
-        "warnTooManyClasses": [Function],
-        "withComponent": [Function],
-        Symbol(Symbol.hasInstance): [Function],
-      }
-    }
-    forwardedRef={null}
-    text="Button"
-    url="/about"
-  >
-    <NavLink
-      className="c0"
-      text="Button"
-      url="/about"
-    >
-      <a
-        className="c0"
-        href="/about"
-      >
-        Button
-      </a>
-    </NavLink>
-  </StyledComponent>
-</NavLink>
+  CTA
+</a>
 `;

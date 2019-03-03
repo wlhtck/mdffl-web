@@ -3,14 +3,14 @@
 exports[`ducks/pages/selectors getNavLinks gets NavLinks as needed by the renderer 1`] = `
 Array [
   Object {
+    "children": "About",
+    "href": "/about",
     "key": "about",
-    "text": "About",
-    "url": "/about",
   },
   Object {
+    "children": "Home",
+    "href": "/",
     "key": "index",
-    "text": "Home",
-    "url": "/",
   },
 ]
 `;
@@ -20,9 +20,9 @@ Array [
   Object {
     "body": "The bear is a big hero. Everyone is super thankful!",
     "cta": Object {
+      "children": "Follow the bear!",
       "external": true,
-      "text": "Follow the bear!",
-      "url": "https://www.facebook.com/groups/bear.inc/",
+      "href": "https://www.facebook.com/groups/bear.inc/",
     },
     "headline": "The bear is a hero!",
     "imgSrc": "//images.ctfassets.net/8wpi5cmhr3lg/PLDH0id61xTjbGlkiuEKU/5aa125d518233d0efc2f4a2ea1dabb0e/mark-basarab-723939-unsplash.jpg",
@@ -32,9 +32,9 @@ Array [
   Object {
     "body": "The bear is super cool and everyone loves him! Click below to find out more!",
     "cta": Object {
+      "children": "Google",
       "external": true,
-      "text": "Google",
-      "url": "https://www.google.com/search?q=Bear",
+      "href": "https://www.google.com/search?q=Bear",
     },
     "headline": "Check out the bear!",
     "image": Object {
