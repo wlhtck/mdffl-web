@@ -5,12 +5,12 @@ import { primary } from '../nebulas/colors';
 import { Row } from '../nebulas/styled-shoelaces';
 import Image from '../nebulas/Image';
 import NavLink from '../stars/NavLink';
-import Button from '../stars/Button';
+import CTA from '../stars/CTA';
 import withStyles from '../util/withStyles';
 
 const navSpacing = { margin: '0 2vw' };
 const NavItem = withStyles(navSpacing, NavLink);
-const NavButton = withStyles(navSpacing, Button);
+const NavCTA = withStyles(navSpacing, CTA);
 const NavLogo = withStyles({ margin: '0 auto 0 0' }, ({ className }) => (
   <a href="/" className={className}>
     <Image src="/mdffl-logo.png" alt="MDFFL Logo" />
@@ -24,13 +24,13 @@ const NavBar = withStyles({
   <Row alignItems="center" className={className} gutter="0">
     <NavLogo />
     {map((link) => <NavItem {...link} />, links)}
-    <NavButton
+    <NavCTA
       href="https://www.playyon.com/metro-detroit-flag-football-league/registrations/"
       type="secondary"
       external
     >
       REGISTER
-    </NavButton>
+    </NavCTA>
   </Row>
 ));
 

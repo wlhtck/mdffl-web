@@ -85,10 +85,16 @@ exports[`conestellations/NavBar renders a <NavBar /> with some links 1`] = `
   </a>
   <a
     class="withStyles-u5urts-0 withStyles-u5urts-0 c3"
-  />
+    href="/"
+  >
+    About
+  </a>
   <a
     class="withStyles-u5urts-0 withStyles-u5urts-0 c3"
-  />
+    href="/"
+  >
+    Home
+  </a>
   <a
     class="withStyles-u5urts-0 c4"
     href="https://www.playyon.com/metro-detroit-flag-football-league/registrations/"

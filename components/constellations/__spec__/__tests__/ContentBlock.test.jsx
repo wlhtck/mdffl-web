@@ -27,7 +27,7 @@ describe('components/constellations/ContentBlock', () => {
       <ContentBlock
         headline="Test ContentBlock"
         body="ContentBlock is sooooooo coool and awesome!"
-        cta={{ url: 'path/to/link', text: 'Click here!', external: false }}
+        cta={{ href: 'path/to/link', children: 'Click here!', external: false }}
       />,
     )).toMatchSnapshot();
   });

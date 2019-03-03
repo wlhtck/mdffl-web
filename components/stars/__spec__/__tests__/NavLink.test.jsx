@@ -5,6 +5,6 @@ import NavLink from '../../NavLink';
 
 describe('components/starts/NavLink', () => {
   it('renders a link', () => {
-    expect(render(<NavLink href="/about">Button</NavLink>)).toMatchSnapshot();
+    expect(render(<NavLink href="/about">CTA</NavLink>)).toMatchSnapshot();
   });
 });

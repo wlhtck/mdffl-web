@@ -8,8 +8,8 @@ describe('conestellations/NavBar', () => {
     expect(render(
       <NavBar
         links={[
-          { url: '/', text: 'About', key: 'about' },
-          { url: '/', text: 'Home', key: 'home' },
+          { href: '/', children: 'About', key: 'about' },
+          { href: '/', children: 'Home', key: 'home' },
         ]}
       />,
     )).toMatchSnapshot();

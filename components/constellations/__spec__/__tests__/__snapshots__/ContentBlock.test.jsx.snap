@@ -19,12 +19,13 @@ exports[`components/constellations/ContentBlock Renders a <ContentBlock /> with 
         ContentBlock is sooooooo coool and awesome!
       </p>
     </div>
-    <button
+    <a
       class="withStyles-u5urts-0 gqQEcA"
-      text="Click here!"
+      href="path/to/link"
       type="primary"
-      url="path/to/link"
-    />
+    >
+      Click here!
+    </a>
   </div>
 </div>
 `;

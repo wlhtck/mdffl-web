@@ -2,7 +2,7 @@
 
 exports[`components/constellations/ContentBlock/Copy renders <ContentBlockCopy /> with a CTA 1`] = `
 <div
-  class="withStyles-u5urts-0 withStyles-u5urts-0 bozNtp"
+  class="withStyles-u5urts-0 efexQC"
 >
   <h2
     class="withStyles-u5urts-0 jLXugA"
@@ -28,7 +28,7 @@ exports[`components/constellations/ContentBlock/Copy renders <ContentBlockCopy /
 
 exports[`components/constellations/ContentBlock/Copy renders <ContentBlockCopy /> without a CTA 1`] = `
 <div
-  class="withStyles-u5urts-0 withStyles-u5urts-0 bozNtp"
+  class="withStyles-u5urts-0 efexQC"
 >
   <h2
     class="withStyles-u5urts-0 jLXugA"

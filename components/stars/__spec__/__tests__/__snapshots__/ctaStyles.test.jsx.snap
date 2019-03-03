@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`components/stars/Button/styles returns the default styles 1`] = `
+exports[`components/stars/CTA/styles returns the default styles 1`] = `
 Object {
   "backgroundColor": "#1C104E",
   "border": "none",
@@ -19,7 +19,7 @@ Object {
 }
 `;
 
-exports[`components/stars/Button/styles returns the secondary styles 1`] = `
+exports[`components/stars/CTA/styles returns the secondary styles 1`] = `
 Object {
   "backgroundColor": "#FFFFFF",
   "border": "none",

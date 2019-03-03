@@ -16,6 +16,6 @@ exports[`components/starts/NavLink renders a link 1`] = `
   class="withStyles-u5urts-0 c0"
   href="/about"
 >
-  Button
+  CTA
 </a>
 `;

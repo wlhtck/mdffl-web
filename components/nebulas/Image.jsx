@@ -1,3 +1,4 @@
+import { compose, setDisplayName } from 'recompose';
 import { bool } from 'prop-types';
 import withStyles from '../util/withStyles';
 
@@ -6,7 +7,10 @@ const imageStyles = ({ fullWidth }) => (fullWidth ? ({
 }) : null);
 
 
-const StyledImage = withStyles(imageStyles, 'img');
+const StyledImage = compose(
+  setDisplayName('Image'),
+  withStyles(imageStyles),
+)('img');
 
 StyledImage.propTypes = {
   fullWidth: bool,

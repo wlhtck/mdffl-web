@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from 'enzyme';
-import ContentBlockCopy from '../../ContentBlock/Copy';
+import ContentBlockCopy from '../../CopyBlock';
 
 describe('components/constellations/ContentBlock/Copy', () => {
   it('renders <ContentBlockCopy /> with a CTA', () => {

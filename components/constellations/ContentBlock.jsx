@@ -2,6 +2,7 @@ import React from 'react';
 import {
   bool, string, exact, oneOf,
 } from 'prop-types';
+import { compose, setDisplayName } from 'recompose';
 import { grey } from '../nebulas/colors';
 import { Col, Row } from '../nebulas/styled-shoelaces';
 import withStyles from '../util/withStyles';
@@ -21,25 +22,25 @@ const ContentBlockCopy = withStyles({
   },
 }, CopyBlock);
 
-const ContentBlock = withStyles(
-  ({ background }) => ({ backgroundColor: background ? grey : '' }),
-  ({
-    body, className, cta, headline, image, imageAlign, textAlign,
-  }) => (
-    <Row reverse={imageAlign === 'right'} className={className} gutter="0" justifyContent="around">
-      <ContentBlockImage {...image} />
-      <ContentBlockCopy
-        xs={1}
-        lg={image ? (1 / 2) : 3 / 4}
-        body={body}
-        cta={cta}
-        headline={headline}
-        image={image}
-        textAlign={textAlign}
-      />
-    </Row>
-  ),
-);
+const ContentBlock = compose(
+  setDisplayName('ContentBlock'),
+  withStyles(({ background }) => ({ backgroundColor: background ? grey : '' })),
+)(({
+  body, className, cta, headline, image, imageAlign, textAlign,
+}) => (
+  <Row reverse={imageAlign === 'right'} className={className} gutter="0" justifyContent="around">
+    <ContentBlockImage {...image} />
+    <ContentBlockCopy
+      xs={1}
+      lg={image ? (1 / 2) : 3 / 4}
+      body={body}
+      cta={cta}
+      headline={headline}
+      image={image}
+      textAlign={textAlign}
+    />
+  </Row>
+));
 
 ContentBlock.propTypes = {
   background: bool,

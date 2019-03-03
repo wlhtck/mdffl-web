@@ -3,14 +3,14 @@ import {
 } from 'prop-types';
 import { omit } from 'lodash/fp';
 import {
-  compose, mapProps, componentFromProp, branch, withProps,
+  compose, mapProps, componentFromProp, branch, withProps, setDisplayName,
 } from 'recompose';
 import withStyles from '../../util/withStyles';
 import styles from './styles';
 
 const omitProps = compose(mapProps, omit);
 const withExternalLinkProps = withProps({ rel: 'noreferrer noopener', target: '_blank' });
-const asButton = compose(omitProps(['href']), withProps(() => ({ component: 'button' })));
+const asCTA = compose(omitProps(['href']), withProps(() => ({ component: 'button' })));
 const asLink = compose(
   omitProps(['onClick']),
   withProps(() => ({ component: 'a' })),
@@ -20,17 +20,18 @@ const asLink = compose(
   ),
 );
 
-const Button = compose(
+const CTA = compose(
   withStyles(styles),
   branch(
     ({ href }) => !href,
-    asButton,
+    asCTA,
     asLink,
   ),
   omitProps(['external']),
+  setDisplayName('CTA'),
 )(componentFromProp('component'));
 
-Button.propTypes = {
+CTA.propTypes = {
   children: string.isRequired,
   className: string,
   external: bool,
@@ -39,7 +40,7 @@ Button.propTypes = {
   url: string,
 };
 
-Button.defaultProps = {
+CTA.defaultProps = {
   className: '',
   external: false,
   onClick: null,
@@ -47,4 +48,4 @@ Button.defaultProps = {
   url: null,
 };
 
-export default Button;
+export default CTA;

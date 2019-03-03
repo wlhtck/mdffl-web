@@ -1,8 +1,9 @@
-import { compose } from 'recompose';
+import { compose, setDisplayName } from 'recompose';
 import fontStyles from '../nebulas/Typography/styles';
 import withStyles from '../util/withStyles';
 
 const NavLink = compose(
+  setDisplayName('NavLink'),
   withStyles(fontStyles({
     family: 'raleway',
     size: '16px',

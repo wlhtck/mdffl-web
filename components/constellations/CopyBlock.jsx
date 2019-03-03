@@ -2,18 +2,19 @@ import React from 'react';
 import {
   bool, exact, oneOf, string,
 } from 'prop-types';
-import { withProps, compose } from 'recompose';
+import { withProps, compose, setDisplayName } from 'recompose';
 import BodyCopy from '../nebulas/Typography/BodyCopy';
 import FeatureHeadline from '../nebulas/Typography/FeatureHeadline';
 import Headline from '../nebulas/Typography/Headline';
-import Button from '../stars/Button';
+import CTA from '../stars/CTA';
 import { asCol } from '../nebulas/styled-shoelaces';
 import skipIfEmpty from '../util/skipIfEmpty';
 
 const textAlignments = { left: 'start', right: 'end', center: 'center' };
 
-const CopyBlockCTA = skipIfEmpty(Button);
+const CopyBlockCTA = skipIfEmpty(CTA);
 const CopyBlock = compose(
+  setDisplayName('CopyBlock'),
   withProps(({ textAlign, inverted }) => ({
     HeaderComponent: inverted ? Headline : FeatureHeadline,
     alignItems: textAlignments[textAlign],
@@ -38,6 +39,7 @@ CopyBlock.propTypes = {
     href: string.isRequired,
     children: string.isRequired,
     external: bool,
+    type: oneOf(['primary', 'secondary']),
   }),
   headline: string.isRequired,
   inverted: bool,

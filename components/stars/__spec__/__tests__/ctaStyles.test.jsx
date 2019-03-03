@@ -1,6 +1,6 @@
-import styles from '../../Button/styles';
+import styles from '../../CTA/styles';
 
-describe('components/stars/Button/styles', () => {
+describe('components/stars/CTA/styles', () => {
   it('returns the default styles', () => {
     expect(styles()).toMatchSnapshot();
   });
