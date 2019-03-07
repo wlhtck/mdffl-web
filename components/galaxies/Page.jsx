@@ -12,12 +12,12 @@ const ContentComponents = {
 const Page = ({ data }) => (
   <Container fluid>
     {map((content) => {
-      const Component = ContentComponents[get('type')(content)];
+      const Component = ContentComponents[get('type', content)];
 
       return (
         <Component {...content} />
       );
-    })(data)}
+    }, data)}
   </Container>
 );
 
