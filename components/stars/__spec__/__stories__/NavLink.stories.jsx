@@ -1,12 +1,12 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import Box from '../../../nebulas/Box';
-import { primary } from '../../../nebulas/colors';
+import { text } from '@storybook/addon-knobs';
 import NavLink from '../../NavLink';
+import TestBlock from '../../../../test/components/TestBlock';
 
-storiesOf('Stars', module)
-  .add('NavLink', () => (
-    <Box color={primary}>
-      <NavLink text="Home" url="/home" />
-    </Box>
+storiesOf('Stars|NavLink', module)
+  .add('default', () => (
+    <TestBlock color="primary">
+      <NavLink href={text('href', 'https://mdffl.org', 'NavLink')}>{text('children', 'Home', 'NavLink')}</NavLink>
+    </TestBlock>
   ));
