@@ -143,12 +143,12 @@ exports[`Storyshots HeroBlock Default 1`] = `
       className="c4"
     >
       <p>
-         Welcome to the Metro Detroit Flag Football League. The 2019 season is upon us. If you want to play with us, click below to register. 
+        Welcome to the Metro Detroit Flag Football League. The 2019 season is upon us. If you want to play with us, click below to register.
       </p>
     </div>
     <a
       className="c5"
-      href="/register"
+      href="https://www.playyon.com/metro-detroit-flag-football-league/registrations/"
       rel="noreferrer noopener"
       target="_blank"
       type="secondary"

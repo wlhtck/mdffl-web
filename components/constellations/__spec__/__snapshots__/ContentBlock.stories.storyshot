@@ -406,7 +406,7 @@ exports[`Storyshots ContentBlock With image on left 1`] = `
       className="c7"
     >
       <p>
-         The MDFFL is a Metro Detroit based flag football league for LGBT friendly players for recreational and skill development purposes. The league is to promote the growth of the LGBTQ+ community and LGBTQ+ friendly players through football. We pursue these goals by providing a venue for the play of football where we encourage players of all levels to participate and improve through practices and pick-up play. 
+        The MDFFL is a Metro Detroit based flag football league for LGBT friendly players for recreational and skill development purposes. The league is to promote the growth of the LGBTQ+ community and LGBTQ+ friendly players through football. We pursue these goals by providing a venue for the play of football where we encourage players of all levels to participate and improve through practices and pick-up play.
       </p>
     </div>
   </div>
@@ -592,13 +592,13 @@ exports[`Storyshots ContentBlock With image on right 1`] = `
     <h2
       className="c5"
     >
-      About Us
+      Team Dynamics
     </h2>
     <div
       className="c6"
     >
       <p>
-         We are a LGBT league that’s also open to straight allies. We don’t have a maximum of how many people you can have on your team. You must have at least 7 people present 15 minutes before your scheduled start time in order to play. 
+        We are a LGBT league that’s also open to straight allies. We don’t have a maximum of how many people you can have on your team. You must have at least 7 people present 15 minutes before your scheduled start time in order to play.
       </p>
     </div>
   </div>
@@ -730,7 +730,7 @@ exports[`Storyshots ContentBlock Without image 1`] = `
       className="c4"
     >
       <p>
-         The Metro Detroit Flag Football League (MDFFL) is an LGBT and straight allied flag football league, changing preconceived societal beliefs about sexual orientation and self-identification. 
+        The Metro Detroit Flag Football League (MDFFL) is an LGBT and straight allied flag football league, changing preconceived societal beliefs about sexual orientation and self-identification.
       </p>
     </div>
   </div>
