@@ -1,6 +1,6 @@
 import { curry } from 'lodash/fp';
-import { black, white, primary } from '../colors';
-import withStyles from '../../util/withStyles';
+import { black, white, primary } from './colors';
+import withStyles from '../util/withStyles';
 
 const marginBottom = { margin: '0 0 32px' };
 const colors = { white, black, primary };

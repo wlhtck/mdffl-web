@@ -1,5 +1,5 @@
 import { compose, setDisplayName } from 'recompose';
-import { withFontStyles } from './styles';
+import { withFontStyles } from './fontStyles';
 
 const Headline = compose(
   setDisplayName('Headline'),

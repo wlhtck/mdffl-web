@@ -1,6 +1,6 @@
 import { compose, setDisplayName } from 'recompose';
-import styles from './styles';
-import withStyles from '../../util/withStyles';
+import styles from './fontStyles';
+import withStyles from '../util/withStyles';
 
 const FeatureHeadline = compose(
   setDisplayName('FeatureHeadline'),

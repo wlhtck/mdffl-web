@@ -1,8 +1,8 @@
 import ReactMarkdown from 'react-markdown';
 import { oneOf, bool } from 'prop-types';
 import { compose, setDisplayName } from 'recompose';
-import withStyles from '../../util/withStyles';
-import styles from './styles';
+import withStyles from '../util/withStyles';
+import styles from './fontStyles';
 
 const BodyCopy = compose(
   setDisplayName('BodyCopy'),

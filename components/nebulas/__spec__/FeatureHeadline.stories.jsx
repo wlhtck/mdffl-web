@@ -1,10 +1,10 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { text } from '@storybook/addon-knobs';
-import FeatureHeadline from '../../Typography/FeatureHeadline';
-import TestBlock from '../../../../test/components/TestBlock';
+import FeatureHeadline from '../FeatureHeadline';
+import TestBlock from '../../../test/components/TestBlock';
 
-storiesOf('Nebulas|Typography.FeatureHeadline', module)
+storiesOf('Nebulas|FeatureHeadline', module)
   .add('default', () => (
     <TestBlock>
       <FeatureHeadline>

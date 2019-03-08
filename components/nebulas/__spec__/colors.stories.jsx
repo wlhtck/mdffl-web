@@ -5,8 +5,8 @@ import TestBlock from '../../../test/components/TestBlock';
 import {
   primary, secondary, black, grey, white,
 } from '../colors';
-import BodyCopy from '../Typography/BodyCopy';
-import FeatureHeadline from '../Typography/FeatureHeadline';
+import BodyCopy from '../BodyCopy';
+import FeatureHeadline from '../FeatureHeadline';
 
 const ColorBlock = ({
   color, hex, inverted, name,
