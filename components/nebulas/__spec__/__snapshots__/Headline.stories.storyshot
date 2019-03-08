@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Nebulas|Typography.Headline default 1`] = `
+exports[`Storyshots Nebulas|Headline default 1`] = `
 .c1 {
   color: #FFFFFF;
   font-family: 'Raleway',sans-serif;

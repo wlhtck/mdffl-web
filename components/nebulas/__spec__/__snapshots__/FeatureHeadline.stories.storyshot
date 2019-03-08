@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Nebulas|Typography.FeatureHeadline default 1`] = `
+exports[`Storyshots Nebulas|FeatureHeadline default 1`] = `
 .c1 {
   color: #303133;
   font-family: 'Raleway',sans-serif;
@@ -44,16 +44,7 @@ exports[`Storyshots Nebulas|Typography.FeatureHeadline default 1`] = `
 </div>
 `;
 
-exports[`Storyshots Nebulas|Typography.FeatureHeadline inverted 1`] = `
-.c1 {
-  color: #FFFFFF;
-  font-family: 'Raleway',sans-serif;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: normal;
-  margin: 0 0 32px;
-}
-
+exports[`Storyshots Nebulas|FeatureHeadline inverted 1`] = `
 .c0 {
   padding: 36px;
   width: -webkit-fill-available;
@@ -74,6 +65,15 @@ exports[`Storyshots Nebulas|Typography.FeatureHeadline inverted 1`] = `
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+}
+
+.c1 {
+  color: #FFFFFF;
+  font-family: 'Raleway',sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: normal;
+  margin: 0 0 32px;
 }
 
 <div

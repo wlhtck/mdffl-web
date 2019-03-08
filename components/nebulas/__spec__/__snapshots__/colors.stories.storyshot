@@ -1,24 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Nebulas|Colors Black 1`] = `
-.c1 {
-  color: #FFFFFF;
-  font-family: 'Raleway',sans-serif;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: normal;
-  margin: 0 0 32px;
-}
-
-.c2 {
-  color: #FFFFFF;
-  font-family: 'Lato',sans-serif;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: normal;
-  margin: 0 0 32px;
-}
-
 .c0 {
   padding: 36px;
   width: -webkit-fill-available;
@@ -39,6 +21,24 @@ exports[`Storyshots Nebulas|Colors Black 1`] = `
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+}
+
+.c2 {
+  color: #FFFFFF;
+  font-family: 'Lato',sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: normal;
+  margin: 0 0 32px;
+}
+
+.c1 {
+  color: #FFFFFF;
+  font-family: 'Raleway',sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: normal;
+  margin: 0 0 32px;
 }
 
 <div
@@ -70,6 +70,15 @@ exports[`Storyshots Nebulas|Colors Grey 1`] = `
   margin: 0 0 32px;
 }
 
+.c2 {
+  color: #303133;
+  font-family: 'Lato',sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: normal;
+  margin: 0 0 32px;
+}
+
 .c0 {
   padding: 36px;
   width: -webkit-fill-available;
@@ -92,15 +101,6 @@ exports[`Storyshots Nebulas|Colors Grey 1`] = `
   flex-direction: column;
 }
 
-.c2 {
-  color: #303133;
-  font-family: 'Lato',sans-serif;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: normal;
-  margin: 0 0 32px;
-}
-
 <div
   className="c0"
   color="grey"
@@ -121,6 +121,24 @@ exports[`Storyshots Nebulas|Colors Grey 1`] = `
 `;
 
 exports[`Storyshots Nebulas|Colors Primary 1`] = `
+.c2 {
+  color: #FFFFFF;
+  font-family: 'Lato',sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: normal;
+  margin: 0 0 32px;
+}
+
+.c1 {
+  color: #FFFFFF;
+  font-family: 'Raleway',sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: normal;
+  margin: 0 0 32px;
+}
+
 .c0 {
   padding: 36px;
   width: -webkit-fill-available;
@@ -143,24 +161,6 @@ exports[`Storyshots Nebulas|Colors Primary 1`] = `
   flex-direction: column;
 }
 
-.c1 {
-  color: #FFFFFF;
-  font-family: 'Raleway',sans-serif;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: normal;
-  margin: 0 0 32px;
-}
-
-.c2 {
-  color: #FFFFFF;
-  font-family: 'Lato',sans-serif;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: normal;
-  margin: 0 0 32px;
-}
-
 <div
   className="c0"
   color="primary"
@@ -181,20 +181,20 @@ exports[`Storyshots Nebulas|Colors Primary 1`] = `
 `;
 
 exports[`Storyshots Nebulas|Colors Secondary 1`] = `
-.c1 {
-  color: #FFFFFF;
-  font-family: 'Raleway',sans-serif;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: normal;
-  margin: 0 0 32px;
-}
-
 .c2 {
   color: #FFFFFF;
   font-family: 'Lato',sans-serif;
   font-weight: normal;
   font-size: 24px;
+  line-height: normal;
+  margin: 0 0 32px;
+}
+
+.c1 {
+  color: #FFFFFF;
+  font-family: 'Raleway',sans-serif;
+  font-weight: 700;
+  font-size: 36px;
   line-height: normal;
   margin: 0 0 32px;
 }
@@ -250,15 +250,6 @@ exports[`Storyshots Nebulas|Colors White 1`] = `
   margin: 0 0 32px;
 }
 
-.c2 {
-  color: #303133;
-  font-family: 'Lato',sans-serif;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: normal;
-  margin: 0 0 32px;
-}
-
 .c0 {
   padding: 36px;
   width: -webkit-fill-available;
@@ -279,6 +270,15 @@ exports[`Storyshots Nebulas|Colors White 1`] = `
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+}
+
+.c2 {
+  color: #303133;
+  font-family: 'Lato',sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: normal;
+  margin: 0 0 32px;
 }
 
 <div

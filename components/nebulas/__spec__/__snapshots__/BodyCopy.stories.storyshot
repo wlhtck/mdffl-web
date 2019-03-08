@@ -1,15 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Nebulas|Typography.BodyCopy default 1`] = `
-.c1 {
-  color: #303133;
-  font-family: 'Lato',sans-serif;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: normal;
-  margin: 0 0 32px;
-}
-
+exports[`Storyshots Nebulas|BodyCopy default 1`] = `
 .c0 {
   padding: 36px;
   width: -webkit-fill-available;
@@ -30,6 +21,15 @@ exports[`Storyshots Nebulas|Typography.BodyCopy default 1`] = `
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+}
+
+.c1 {
+  color: #303133;
+  font-family: 'Lato',sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: normal;
+  margin: 0 0 32px;
 }
 
 <div
@@ -114,16 +114,7 @@ vietum facit dabitis conplexus ferro est prae.
 </div>
 `;
 
-exports[`Storyshots Nebulas|Typography.BodyCopy inverted 1`] = `
-.c1 {
-  color: #FFFFFF;
-  font-family: 'Lato',sans-serif;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: normal;
-  margin: 0 0 32px;
-}
-
+exports[`Storyshots Nebulas|BodyCopy inverted 1`] = `
 .c0 {
   padding: 36px;
   width: -webkit-fill-available;
@@ -144,6 +135,15 @@ exports[`Storyshots Nebulas|Typography.BodyCopy inverted 1`] = `
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+}
+
+.c1 {
+  color: #FFFFFF;
+  font-family: 'Lato',sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: normal;
+  margin: 0 0 32px;
 }
 
 <div
