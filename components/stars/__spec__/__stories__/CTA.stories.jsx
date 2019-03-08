@@ -8,10 +8,10 @@ storiesOf('Stars', module)
   .add('CTA', () => (
     <div>
       <Box>
-        <CTA type="primary" text="Primary" />
+        <CTA type="primary">Primary</CTA>
       </Box>
       <Box color={black}>
-        <CTA type="secondary" text="Secondary" />
+        <CTA type="secondary">Secondary</CTA>
       </Box>
     </div>
   ));

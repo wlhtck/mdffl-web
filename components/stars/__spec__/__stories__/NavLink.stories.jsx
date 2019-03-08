@@ -7,6 +7,6 @@ import NavLink from '../../NavLink';
 storiesOf('Stars', module)
   .add('NavLink', () => (
     <Box color={primary}>
-      <NavLink text="Home" url="/home" />
+      <NavLink url="/home">Home</NavLink>
     </Box>
   ));

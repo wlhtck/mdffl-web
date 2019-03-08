@@ -6,8 +6,8 @@ storiesOf('Constellations', module)
   .add('NavBar', () => (
     <NavBar
       links={[
-        { url: '/', text: 'About', key: 'about' },
-        { url: '/', text: 'Home', key: 'home' },
+        { href: '/', children: 'About', key: 'about' },
+        { href: '/', children: 'Home', key: 'home' },
       ]}
     />
   ));
