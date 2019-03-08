@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Constellations NavBar 1`] = `
+exports[`Storyshots Constellations|NavBar Default 1`] = `
 .c0 {
   padding: 25px;
   background-color: #1C104E;

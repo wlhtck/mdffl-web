@@ -1,11 +1,12 @@
 import { compose, setDisplayName } from 'recompose';
-import { withFontStyles } from './styles';
+import styles from './styles';
+import withStyles from '../../util/withStyles';
 
 const FeatureHeadline = compose(
   setDisplayName('FeatureHeadline'),
-  withFontStyles({
-    family: 'raleway', weight: 700, size: '36px',
-  }),
+  withStyles(({ inverted }) => styles({
+    family: 'raleway', weight: 700, size: '36px', color: (inverted ? 'white' : 'black'),
+  })),
 )('h2');
 
 export default FeatureHeadline;

@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots ContentBlock With a cta 1`] = `
+exports[`Storyshots Constellations|ContentBlock With a cta 1`] = `
 .c2 {
   box-sizing: border-box;
   -webkit-flex: 0 0 auto;
@@ -220,7 +220,7 @@ exports[`Storyshots ContentBlock With a cta 1`] = `
 </div>
 `;
 
-exports[`Storyshots ContentBlock With image on left 1`] = `
+exports[`Storyshots Constellations|ContentBlock With image on left 1`] = `
 .c2 {
   box-sizing: border-box;
   -webkit-flex: 0 0 auto;
@@ -413,7 +413,7 @@ exports[`Storyshots ContentBlock With image on left 1`] = `
 </div>
 `;
 
-exports[`Storyshots ContentBlock With image on right 1`] = `
+exports[`Storyshots Constellations|ContentBlock With image on right 1`] = `
 .c0 {
   box-sizing: border-box;
   -webkit-flex: 0 1 auto;
@@ -605,7 +605,7 @@ exports[`Storyshots ContentBlock With image on right 1`] = `
 </div>
 `;
 
-exports[`Storyshots ContentBlock Without image 1`] = `
+exports[`Storyshots Constellations|ContentBlock Without image 1`] = `
 .c0 {
   box-sizing: border-box;
   -webkit-flex: 0 1 auto;

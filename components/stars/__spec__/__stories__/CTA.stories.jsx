@@ -1,17 +1,17 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
+import { text } from '@storybook/addon-knobs';
 import CTA from '../../CTA';
-import Box from '../../../nebulas/Box';
-import { black } from '../../../nebulas/colors';
+import TestBlock from '../../../../test/components/TestBlock';
 
-storiesOf('Stars', module)
-  .add('CTA', () => (
-    <div>
-      <Box>
-        <CTA type="primary">Primary</CTA>
-      </Box>
-      <Box color={black}>
-        <CTA type="secondary">Secondary</CTA>
-      </Box>
-    </div>
+storiesOf('Stars|CTA', module)
+  .add('primary', () => (
+    <TestBlock>
+      <CTA type="primary">{text('children', 'Primary', 'CTA')}</CTA>
+    </TestBlock>
+  ))
+  .add('secondary', () => (
+    <TestBlock color="black">
+      <CTA type="secondary">{text('children', 'Secondary', 'CTA')}</CTA>
+    </TestBlock>
   ));

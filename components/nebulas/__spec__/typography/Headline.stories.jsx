@@ -1,12 +1,12 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { text } from '@storybook/addon-knobs';
-import NavLink from '../../NavLink';
+import Headline from '../../Typography/Headline';
 import TestBlock from '../../../../test/components/TestBlock';
 
-storiesOf('Stars|NavLink', module)
+storiesOf('Nebulas|Typography.Headline', module)
   .add('default', () => (
-    <TestBlock color="primary">
-      <NavLink href={text('href', 'https://mdffl.org', 'NavLink')}>{text('children', 'Home', 'NavLink')}</NavLink>
+    <TestBlock color="black">
+      <Headline>{text('children', 'Headline', 'Headline')}</Headline>
     </TestBlock>
   ));
