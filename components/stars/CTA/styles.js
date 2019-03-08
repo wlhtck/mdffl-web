@@ -1,6 +1,6 @@
 import { mergeAll } from 'lodash/fp';
 import { primary, white } from '../../nebulas/colors';
-import fontStyles from '../../nebulas/Typography/styles';
+import fontStyles from '../../nebulas/fontStyles';
 
 const backgroundColors = { primary, secondary: white };
 const fontColors = { primary: 'white', secondary: 'primary' };

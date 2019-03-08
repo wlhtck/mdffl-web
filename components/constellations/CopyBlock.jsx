@@ -3,9 +3,9 @@ import {
   bool, exact, oneOf, string,
 } from 'prop-types';
 import { withProps, compose, setDisplayName } from 'recompose';
-import BodyCopy from '../nebulas/Typography/BodyCopy';
-import FeatureHeadline from '../nebulas/Typography/FeatureHeadline';
-import Headline from '../nebulas/Typography/Headline';
+import BodyCopy from '../nebulas/BodyCopy';
+import FeatureHeadline from '../nebulas/FeatureHeadline';
+import Headline from '../nebulas/Headline';
 import CTA from '../stars/CTA';
 import { asCol } from '../nebulas/styled-shoelaces';
 import skipIfEmpty from '../util/skipIfEmpty';

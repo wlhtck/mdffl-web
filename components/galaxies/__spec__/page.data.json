@@ -1,45 +1,74 @@
 {
-  "page": [
-    {
-      "body": "The bear is a big hero. Everyone is super thankful!",
-      "cta": {
-        "href": "https://google.com",
-        "children": "Google",
-        "external": true
-      },
-      "headline": "The bear is a hero!",
-      "imgSrc": "https://images.unsplash.com/photo-1530595467537-0b5996c41f2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1440&q=80",
-      "type": "heroBlock",
-      "key": "hero-bear"
-    },
-    {
-      "headline": "Check out the bear!",
-      "body": "The bear is super cool and everyone loves him! Click below to find out more!",
-      "textAlign": "center",
-      "cta": {
-        "href": "https://google.com",
-        "children": "Google",
-        "external": true
-      },
-      "type": "contentBlock",
-      "key": "googlw-bear"
-    },
-    {
-      "headline": "Check out the bear!",
-      "body": "The bear is super cool and everyone loves him! Click below to find out more!",
-      "imageAlign": "right",
-      "textAlign": "left",
-      "image": {
-        "src": "https://images.unsplash.com/photo-1541560584704-f2767960951a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1856&q=80",
-        "alt": "Bear"
-      },
-      "cta": {
-        "href": "https://google.com",
-        "children": "Google",
-        "external": true
-      },
-      "type": "contentBlock",
-      "key": "image-bear"
-    }
-  ]
+	"home": [{
+		"headline": "Ready 2 Ball?",
+		"body": "Welcome to the Metro Detroit Flag Football League. The 2019 season is upon us. If you want to play with us, click below to register.",
+		"cta": {
+			"external": true,
+			"children": "REGISTER",
+			"href": "https://www.playyon.com/metro-detroit-flag-football-league/registrations/"
+		},
+		"type": "heroBlock",
+		"imgSrc": "//images.ctfassets.net/8wpi5cmhr3lg/PLDH0id61xTjbGlkiuEKU/7089fadc5e542e1407b79eb11842aa10/34174836_10156493014667146_2406702400535527424_o.jpg",
+		"key": "rdy-2-ball"
+	}, {
+		"headline": "About Us",
+		"body": "We are a LGBT friendly league. It’s  a very competitive league so bring your A-game.",
+		"imageAlign": "right",
+		"background": true,
+		"image": {
+			"alt": "Dinosaur mascot on field during warmups",
+			"src": "//images.ctfassets.net/8wpi5cmhr3lg/6mW6Tsx5scOYMwocwSskKq/f6222cdd29472f569283df0d4ca0f348/About_Us_Picture.png"
+		},
+		"cta": {
+			"external": false,
+			"children": "LEARN MORE",
+			"href": "/about"
+		},
+		"type": "contentBlock",
+		"key": "bear"
+	}, {
+		"headline": "Mission Statement",
+		"body": "The Metro Detroit Flag Football League (MDFFL) is an LGBT and straight allied flag football league, changing preconceived societal beliefs about sexual orientation and self-identification. ",
+		"textAlign": "center",
+		"type": "contentBlock",
+		"key": "mission-statement"
+	}],
+	"about": [{
+		"headline": "About Us",
+		"body": "The MDFFL is a Metro Detroit based flag football league for LGBT friendly players for recreational and skill development purposes. The league is to promote the growth of the LGBTQ+ community and LGBTQ+ friendly players through football. We pursue these goals by providing a venue for the play of football where we encourage players of all levels to participate and improve through practices and pick-up play.",
+		"imageAlign": "left",
+		"background": true,
+		"image": {
+			"alt": "Players walking",
+			"src": "//images.ctfassets.net/8wpi5cmhr3lg/1n0TZGOHyEuCdYH5bXDlSJ/a076437829dacd40410c9599d53b5e96/About_Us.png"
+		},
+		"type": "contentBlock",
+		"key": "about-main"
+	}, {
+		"headline": "Team Dynamics",
+		"body": "We are a LGBT league that’s also open to straight allies. We don’t have a maximum of how many people you can have on your team. You must have at least 7 people present 15 minutes before your scheduled start time in order to play.",
+		"imageAlign": "right",
+		"image": {
+			"alt": "Team celebrating victory",
+			"src": "//images.ctfassets.net/8wpi5cmhr3lg/2st4Tarcs6i1sDh179cHrT/3dc3fca955cf57417e4195c2a4d09c03/Team_Dynamics.png"
+		},
+		"type": "contentBlock",
+		"key": "team-dynamics"
+	}, {
+		"headline": "2019 Season",
+		"body": "The 2019 season is starting pretty soon. Our event calendar and schedule of games are coming soon.",
+		"textAlign": "center",
+		"background": true,
+		"type": "contentBlock",
+		"key": "2019-season"
+	}, {
+		"headline": "Things to Bring",
+		"body": "Here the things you should bring with you to play\n\n- Your teams jersey\n\n- Shorts or Pants without pockets\n\n- Football Cleats",
+		"image": {
+			"alt": "Football game in progress",
+			"src": "//images.ctfassets.net/8wpi5cmhr3lg/7BW8cEORNb1zaAnePpuSz5/95ba0752b0a09e82dce4c96bc05ebef7/Things_to_Bring_page.png"
+		},
+		"type": "contentBlock",
+		"key": "things-2-bring"
+	}]
 }

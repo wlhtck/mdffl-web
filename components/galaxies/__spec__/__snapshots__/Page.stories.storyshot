@@ -1,0 +1,795 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Galaxies|Page About Page 1`] = `
+.c8 {
+  box-sizing: border-box;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: space-around;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
+  -webkit-flex-direction: row-reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+  margin-left: -0;
+  margin-right: -0;
+}
+
+.c2 {
+  box-sizing: border-box;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  padding: 0;
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c3 {
+  width: 100%;
+}
+
+.c4 {
+  padding: 50px!important;
+}
+
+.c5 {
+  box-sizing: border-box;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  padding: 0;
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c6 {
+  color: #303133;
+  font-family: 'Raleway',sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: normal;
+  margin: 0 0 32px;
+}
+
+.c7 {
+  color: #303133;
+  font-family: 'Lato',sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: normal;
+  text-align: left;
+  margin: 0 0 32px;
+}
+
+.c0 {
+  background-color: #F5F5F5;
+}
+
+.c1 {
+  box-sizing: border-box;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: space-around;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
+  margin-left: -0;
+  margin-right: -0;
+}
+
+.c9 {
+  box-sizing: border-box;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  padding: 0;
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c10 {
+  color: #303133;
+  font-family: 'Lato',sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: normal;
+  text-align: center;
+  margin: 0 0 32px;
+}
+
+@media (min-width:0) {
+  .c2 {
+    -webkit-flex-basis: 100%;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+}
+
+@media (min-width:62em) {
+  .c2 {
+    -webkit-flex-basis: 50%;
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+}
+
+@media (min-width:62em) {
+  .c4 {
+    padding: 48px 100px 0!important;
+  }
+}
+
+@media (min-width:0) {
+  .c5 {
+    -webkit-flex-basis: 100%;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+}
+
+@media (min-width:62em) {
+  .c5 {
+    -webkit-flex-basis: 50%;
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+}
+
+@media (min-width:0) {
+  .c9 {
+    -webkit-flex-basis: 100%;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+}
+
+@media (min-width:62em) {
+  .c9 {
+    -webkit-flex-basis: 75%;
+    -ms-flex-preferred-size: 75%;
+    flex-basis: 75%;
+    max-width: 75%;
+  }
+}
+
+<div
+  className="src-c7xc1o-0 kwzeQd"
+>
+  <div
+    className="c0 withStyles-u5urts-0 c1"
+  >
+    <div
+      className="c2"
+    >
+      <img
+        alt="Players walking"
+        className="c3"
+        src="//images.ctfassets.net/8wpi5cmhr3lg/1n0TZGOHyEuCdYH5bXDlSJ/a076437829dacd40410c9599d53b5e96/About_Us.png"
+      />
+    </div>
+    <div
+      className="c4 withStyles-u5urts-0 c5"
+    >
+      <h2
+        className="c6"
+      >
+        About Us
+      </h2>
+      <div
+        className="c7"
+      >
+        <p>
+          The MDFFL is a Metro Detroit based flag football league for LGBT friendly players for recreational and skill development purposes. The league is to promote the growth of the LGBTQ+ community and LGBTQ+ friendly players through football. We pursue these goals by providing a venue for the play of football where we encourage players of all levels to participate and improve through practices and pick-up play.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div
+    className="withStyles-u5urts-0 c8"
+  >
+    <div
+      className="c2"
+    >
+      <img
+        alt="Team celebrating victory"
+        className="c3"
+        src="//images.ctfassets.net/8wpi5cmhr3lg/2st4Tarcs6i1sDh179cHrT/3dc3fca955cf57417e4195c2a4d09c03/Team_Dynamics.png"
+      />
+    </div>
+    <div
+      className="c4 withStyles-u5urts-0 c5"
+    >
+      <h2
+        className="c6"
+      >
+        Team Dynamics
+      </h2>
+      <div
+        className="c7"
+      >
+        <p>
+          We are a LGBT league that’s also open to straight allies. We don’t have a maximum of how many people you can have on your team. You must have at least 7 people present 15 minutes before your scheduled start time in order to play.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div
+    className="c0 withStyles-u5urts-0 c8"
+  >
+    <div
+      className="c4 withStyles-u5urts-0 c9"
+    >
+      <h2
+        className="c6"
+      >
+        2019 Season
+      </h2>
+      <div
+        className="c10"
+      >
+        <p>
+          The 2019 season is starting pretty soon. Our event calendar and schedule of games are coming soon.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div
+    className="withStyles-u5urts-0 c8"
+  >
+    <div
+      className="c2"
+    >
+      <img
+        alt="Football game in progress"
+        className="c3"
+        src="//images.ctfassets.net/8wpi5cmhr3lg/7BW8cEORNb1zaAnePpuSz5/95ba0752b0a09e82dce4c96bc05ebef7/Things_to_Bring_page.png"
+      />
+    </div>
+    <div
+      className="c4 withStyles-u5urts-0 c5"
+    >
+      <h2
+        className="c6"
+      >
+        Things to Bring
+      </h2>
+      <div
+        className="c7"
+      >
+        <p>
+          Here the things you should bring with you to play
+        </p>
+        <ul>
+          <li>
+            <p>
+              Your teams jersey
+            </p>
+          </li>
+          <li>
+            <p>
+              Shorts or Pants without pockets
+            </p>
+          </li>
+          <li>
+            <p>
+              Football Cleats
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Galaxies|Page Home Page 1`] = `
+.c7 {
+  box-sizing: border-box;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: space-around;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
+  -webkit-flex-direction: row-reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+  margin-left: -0;
+  margin-right: -0;
+}
+
+.c8 {
+  box-sizing: border-box;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  padding: 0;
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c9 {
+  width: 100%;
+}
+
+.c10 {
+  padding: 50px!important;
+}
+
+.c2 {
+  box-sizing: border-box;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  padding: 0;
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c11 {
+  color: #303133;
+  font-family: 'Raleway',sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: normal;
+  margin: 0 0 32px;
+}
+
+.c12 {
+  color: #303133;
+  font-family: 'Lato',sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: normal;
+  text-align: left;
+  margin: 0 0 32px;
+}
+
+.c6 {
+  background-color: #F5F5F5;
+}
+
+.c13 {
+  color: #FFFFFF;
+  font-family: 'Raleway',sans-serif;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 1;
+  margin: 0 0 32px;
+  background-color: #1C104E;
+  display: inline-block;
+  padding: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c14 {
+  box-sizing: border-box;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  padding: 0;
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c15 {
+  color: #303133;
+  font-family: 'Lato',sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: normal;
+  text-align: center;
+  margin: 0 0 32px;
+}
+
+.c0 {
+  padding: 50px;
+  background: linear-gradient( rgba(0,0,0,0.45), rgba(0,0,0,0.45) ),  url("//images.ctfassets.net/8wpi5cmhr3lg/PLDH0id61xTjbGlkiuEKU/7089fadc5e542e1407b79eb11842aa10/34174836_10156493014667146_2406702400535527424_o.jpg");
+  background-size: cover;
+  background-position: center;
+  height: calc(100vh - 98px);
+}
+
+.c1 {
+  box-sizing: border-box;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  margin-left: -0;
+  margin-right: -0;
+}
+
+.c3 {
+  color: #FFFFFF;
+  font-family: 'Raleway',sans-serif;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: normal;
+  margin: 0 0 32px;
+}
+
+.c4 {
+  color: #FFFFFF;
+  font-family: 'Lato',sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: normal;
+  text-align: left;
+  margin: 0 0 32px;
+}
+
+.c5 {
+  color: #1C104E;
+  font-family: 'Raleway',sans-serif;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 1;
+  margin: 0 0 32px;
+  background-color: #FFFFFF;
+  display: inline-block;
+  padding: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+@media (min-width:0) {
+  .c8 {
+    -webkit-flex-basis: 100%;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+}
+
+@media (min-width:62em) {
+  .c8 {
+    -webkit-flex-basis: 50%;
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+}
+
+@media (min-width:62em) {
+  .c10 {
+    padding: 48px 100px 0!important;
+  }
+}
+
+@media (min-width:0) {
+  .c2 {
+    -webkit-flex-basis: 100%;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+}
+
+@media (min-width:62em) {
+  .c2 {
+    -webkit-flex-basis: 50%;
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+}
+
+@media (min-width:0) {
+  .c14 {
+    -webkit-flex-basis: 100%;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+}
+
+@media (min-width:62em) {
+  .c14 {
+    -webkit-flex-basis: 75%;
+    -ms-flex-preferred-size: 75%;
+    flex-basis: 75%;
+    max-width: 75%;
+  }
+}
+
+@media (min-width:62em) {
+  .c0 {
+    padding: 100px;
+  }
+}
+
+<div
+  className="src-c7xc1o-0 kwzeQd"
+>
+  <div
+    className="c0 withStyles-u5urts-0 c1"
+  >
+    <div
+      className="c2"
+    >
+      <h1
+        className="c3"
+      >
+        Ready 2 Ball?
+      </h1>
+      <div
+        className="c4"
+      >
+        <p>
+          Welcome to the Metro Detroit Flag Football League. The 2019 season is upon us. If you want to play with us, click below to register.
+        </p>
+      </div>
+      <a
+        className="c5"
+        href="https://www.playyon.com/metro-detroit-flag-football-league/registrations/"
+        rel="noreferrer noopener"
+        target="_blank"
+        type="secondary"
+        url={null}
+      >
+        REGISTER
+      </a>
+    </div>
+  </div>
+  <div
+    className="c6 withStyles-u5urts-0 c7"
+  >
+    <div
+      className="c8"
+    >
+      <img
+        alt="Dinosaur mascot on field during warmups"
+        className="c9"
+        src="//images.ctfassets.net/8wpi5cmhr3lg/6mW6Tsx5scOYMwocwSskKq/f6222cdd29472f569283df0d4ca0f348/About_Us_Picture.png"
+      />
+    </div>
+    <div
+      className="c10 withStyles-u5urts-0 c2"
+    >
+      <h2
+        className="c11"
+      >
+        About Us
+      </h2>
+      <div
+        className="c12"
+      >
+        <p>
+          We are a LGBT friendly league. It’s  a very competitive league so bring your A-game.
+        </p>
+      </div>
+      <a
+        className="c13"
+        href="/about"
+        type="primary"
+        url={null}
+      >
+        LEARN MORE
+      </a>
+    </div>
+  </div>
+  <div
+    className="withStyles-u5urts-0 c7"
+  >
+    <div
+      className="c10 withStyles-u5urts-0 c14"
+    >
+      <h2
+        className="c11"
+      >
+        Mission Statement
+      </h2>
+      <div
+        className="c15"
+      >
+        <p>
+          The Metro Detroit Flag Football League (MDFFL) is an LGBT and straight allied flag football league, changing preconceived societal beliefs about sexual orientation and self-identification. 
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;

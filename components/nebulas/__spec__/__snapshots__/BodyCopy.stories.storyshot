@@ -1,0 +1,229 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Nebulas|BodyCopy default 1`] = `
+.c0 {
+  padding: 36px;
+  width: -webkit-fill-available;
+  min-height: -webkit-fill-available;
+  background-color: #FFFFFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c1 {
+  color: #303133;
+  font-family: 'Lato',sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: normal;
+  margin: 0 0 32px;
+}
+
+<div
+  className="c0"
+  color="white"
+>
+  <div
+    className="c1"
+  >
+    <h1>
+      Non studiis amisere prudens
+    </h1>
+    <h2>
+      Potes videntur ingeniosus matri miracula testarique incessere
+    </h2>
+    <p>
+      Lorem markdownum, notavit e quidem tuos retractant non humanum venis nupta!
+Dedissent Latiis, Telamonque. Trahatur graviore et petiit, quo deinde, deo silva
+et adorat conchis laedor! Oculi longo avem?
+    </p>
+    <ul>
+      <li>
+        Porta artibus
+      </li>
+      <li>
+        Tenebat quid
+      </li>
+      <li>
+        Dona iuguli cursus nulla illo corpora auctore
+      </li>
+    </ul>
+    <p>
+      Merito 
+      <strong>
+        sit arces amictu
+      </strong>
+       plebe faciat! Et utque decentia arcet Phoceus; cum
+nato equique angit, hos, tenentem humum et. Nominis vixque magni: nil huc tamen
+fidissima gravitas genuere. Curat nec partem tamen tamen vestis ambagibus
+tabellas numquam verbere, dei, fruentur ut Athenae deflevere.
+    </p>
+    <h2>
+      Ostendi sed levis congestaque inde dolosas quem
+    </h2>
+    <p>
+      Partes est aquarum movet pollice 
+      <em>
+        facies
+      </em>
+      , amatis cum telaque non eratque me.
+Lucifer fratris tulerant.
+    </p>
+    <pre>
+      <code>
+        var mini = click(lagRipcordingNtfs(point_copyright_dot), 1 *
+        xp_bespoke_registry(software_password_suffix));
+kvmShift = mnemonic_ram;
+fileNull += file_swipe_dns;
+correction += mountain;
+      </code>
+    </pre>
+    <p>
+      Esse meorum vicem 
+      <strong>
+        animum criminis putetis
+      </strong>
+       potest, hoc sedebat, laboras.
+Motae acervo cannae, quidque, qui cum; cum per tum orbem.
+    </p>
+    <p>
+      Adnuit muneribusque meum, fuit una 
+      <strong>
+        dat
+      </strong>
+      , cognosceret terrae pectora saepe
+demens levati et Neptune everterit ait. Humum puer vive animi iniuria pudore,
+est, ipsa secum, e patetis casuras corpore nec medio. Aliquid quoque, et sunt
+ecce; ut urbesque potestas impleverat blanditur, populi. Illa non volucrum
+vietum facit dabitis conplexus ferro est prae.
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Nebulas|BodyCopy inverted 1`] = `
+.c0 {
+  padding: 36px;
+  width: -webkit-fill-available;
+  min-height: -webkit-fill-available;
+  background-color: #303133;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c1 {
+  color: #FFFFFF;
+  font-family: 'Lato',sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: normal;
+  margin: 0 0 32px;
+}
+
+<div
+  className="c0"
+  color="black"
+>
+  <div
+    className="c1"
+  >
+    <h1>
+      Non studiis amisere prudens
+    </h1>
+    <h2>
+      Potes videntur ingeniosus matri miracula testarique incessere
+    </h2>
+    <p>
+      Lorem markdownum, notavit e quidem tuos retractant non humanum venis nupta!
+Dedissent Latiis, Telamonque. Trahatur graviore et petiit, quo deinde, deo silva
+et adorat conchis laedor! Oculi longo avem?
+    </p>
+    <ul>
+      <li>
+        Porta artibus
+      </li>
+      <li>
+        Tenebat quid
+      </li>
+      <li>
+        Dona iuguli cursus nulla illo corpora auctore
+      </li>
+    </ul>
+    <p>
+      Merito 
+      <strong>
+        sit arces amictu
+      </strong>
+       plebe faciat! Et utque decentia arcet Phoceus; cum
+nato equique angit, hos, tenentem humum et. Nominis vixque magni: nil huc tamen
+fidissima gravitas genuere. Curat nec partem tamen tamen vestis ambagibus
+tabellas numquam verbere, dei, fruentur ut Athenae deflevere.
+    </p>
+    <h2>
+      Ostendi sed levis congestaque inde dolosas quem
+    </h2>
+    <p>
+      Partes est aquarum movet pollice 
+      <em>
+        facies
+      </em>
+      , amatis cum telaque non eratque me.
+Lucifer fratris tulerant.
+    </p>
+    <pre>
+      <code>
+        var mini = click(lagRipcordingNtfs(point_copyright_dot), 1 *
+        xp_bespoke_registry(software_password_suffix));
+kvmShift = mnemonic_ram;
+fileNull += file_swipe_dns;
+correction += mountain;
+      </code>
+    </pre>
+    <p>
+      Esse meorum vicem 
+      <strong>
+        animum criminis putetis
+      </strong>
+       potest, hoc sedebat, laboras.
+Motae acervo cannae, quidque, qui cum; cum per tum orbem.
+    </p>
+    <p>
+      Adnuit muneribusque meum, fuit una 
+      <strong>
+        dat
+      </strong>
+      , cognosceret terrae pectora saepe
+demens levati et Neptune everterit ait. Humum puer vive animi iniuria pudore,
+est, ipsa secum, e patetis casuras corpore nec medio. Aliquid quoque, et sunt
+ecce; ut urbesque potestas impleverat blanditur, populi. Illa non volucrum
+vietum facit dabitis conplexus ferro est prae.
+    </p>
+  </div>
+</div>
+`;
