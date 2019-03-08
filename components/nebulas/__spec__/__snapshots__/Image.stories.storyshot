@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Nebulas|Image default 1`] = `
+<img
+  alt="Team celebrating victory"
+  className=""
+  src="//images.ctfassets.net/8wpi5cmhr3lg/2st4Tarcs6i1sDh179cHrT/3dc3fca955cf57417e4195c2a4d09c03/Team_Dynamics.png"
+/>
+`;
+
+exports[`Storyshots Nebulas|Image fullWidth 1`] = `
+.c0 {
+  width: 100%;
+}
+
+<img
+  alt="Players walking"
+  className="c0"
+  src="//images.ctfassets.net/8wpi5cmhr3lg/1n0TZGOHyEuCdYH5bXDlSJ/a076437829dacd40410c9599d53b5e96/About_Us.png"
+/>
+`;

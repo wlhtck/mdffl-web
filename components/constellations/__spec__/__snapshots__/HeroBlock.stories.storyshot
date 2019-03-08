@@ -1,0 +1,161 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Constellations|HeroBlock Default 1`] = `
+.c2 {
+  box-sizing: border-box;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  padding: 0;
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c0 {
+  padding: 50px;
+  background: linear-gradient( rgba(0,0,0,0.45), rgba(0,0,0,0.45) ),  url("//images.ctfassets.net/8wpi5cmhr3lg/PLDH0id61xTjbGlkiuEKU/7089fadc5e542e1407b79eb11842aa10/34174836_10156493014667146_2406702400535527424_o.jpg");
+  background-size: cover;
+  background-position: center;
+  height: calc(100vh - 98px);
+}
+
+.c1 {
+  box-sizing: border-box;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  margin-left: -0;
+  margin-right: -0;
+}
+
+.c3 {
+  color: #FFFFFF;
+  font-family: 'Raleway',sans-serif;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: normal;
+  margin: 0 0 32px;
+}
+
+.c4 {
+  color: #FFFFFF;
+  font-family: 'Lato',sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: normal;
+  text-align: left;
+  margin: 0 0 32px;
+}
+
+.c5 {
+  color: #1C104E;
+  font-family: 'Raleway',sans-serif;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 1;
+  margin: 0 0 32px;
+  background-color: #FFFFFF;
+  display: inline-block;
+  padding: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+@media (min-width:0) {
+  .c2 {
+    -webkit-flex-basis: 100%;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+}
+
+@media (min-width:62em) {
+  .c2 {
+    -webkit-flex-basis: 50%;
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+}
+
+@media (min-width:62em) {
+  .c0 {
+    padding: 100px;
+  }
+}
+
+<div
+  className="c0 withStyles-u5urts-0 c1"
+>
+  <div
+    className="c2"
+  >
+    <h1
+      className="c3"
+    >
+      Ready 2 Ball?
+    </h1>
+    <div
+      className="c4"
+    >
+      <p>
+        Welcome to the Metro Detroit Flag Football League. The 2019 season is upon us. If you want to play with us, click below to register.
+      </p>
+    </div>
+    <a
+      className="c5"
+      href="https://www.playyon.com/metro-detroit-flag-football-league/registrations/"
+      rel="noreferrer noopener"
+      target="_blank"
+      type="secondary"
+      url={null}
+    >
+      Google
+    </a>
+  </div>
+</div>
+`;

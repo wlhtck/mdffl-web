@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Stars|NavLink default 1`] = `
+.c0 {
+  padding: 36px;
+  width: -webkit-fill-available;
+  min-height: -webkit-fill-available;
+  background-color: #1C104E;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c1 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-family: 'Raleway',sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: normal;
+  margin: 0 0 32px;
+}
+
+<div
+  className="c0"
+  color="primary"
+>
+  <a
+    className="withStyles-u5urts-0 c1"
+    href="https://mdffl.org"
+  >
+    Home
+  </a>
+</div>
+`;

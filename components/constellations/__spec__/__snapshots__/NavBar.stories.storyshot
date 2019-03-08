@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Constellations|NavBar Default 1`] = `
+.c0 {
+  padding: 25px;
+  background-color: #1C104E;
+}
+
+.c1 {
+  box-sizing: border-box;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-left: -0;
+  margin-right: -0;
+}
+
+.c2 {
+  margin: 0 auto 0 0;
+}
+
+.c3 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-family: 'Raleway',sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: normal;
+  margin: 0 0 32px;
+  margin: 0 2vw;
+}
+
+.c4 {
+  color: #1C104E;
+  font-family: 'Raleway',sans-serif;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 1;
+  margin: 0 0 32px;
+  background-color: #FFFFFF;
+  display: inline-block;
+  padding: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  margin: 0 2vw;
+}
+
+<div
+  className="c0 withStyles-u5urts-0 c1"
+>
+  <a
+    className="c2"
+    href="/"
+  >
+    <img
+      alt="MDFFL Logo"
+      className=""
+      src="/mdffl-logo.png"
+    />
+  </a>
+  <a
+    className="withStyles-u5urts-0 withStyles-u5urts-0 c3"
+    href="https://www.mdffl.org/about"
+  >
+    About
+  </a>
+  <a
+    className="withStyles-u5urts-0 withStyles-u5urts-0 c3"
+    href="https://www.mdffl.org"
+  >
+    Home
+  </a>
+  <a
+    className="withStyles-u5urts-0 c4"
+    href="https://www.playyon.com/metro-detroit-flag-football-league/registrations/"
+    rel="noreferrer noopener"
+    target="_blank"
+    type="secondary"
+    url={null}
+  >
+    REGISTER
+  </a>
+</div>
+`;
