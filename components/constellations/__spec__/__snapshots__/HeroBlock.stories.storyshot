@@ -1,9 +1,38 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`components/constellations/HeroBlock renders a <HeroBlock /> 1`] = `
+exports[`Storyshots HeroBlock Default 1`] = `
+.c2 {
+  box-sizing: border-box;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  padding: 0;
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
 .c0 {
   padding: 50px;
-  background: linear-gradient( rgba(0,0,0,0.45), rgba(0,0,0,0.45) ),  url("/imgSrc");
+  background: linear-gradient( rgba(0,0,0,0.45), rgba(0,0,0,0.45) ),  url("//images.ctfassets.net/8wpi5cmhr3lg/PLDH0id61xTjbGlkiuEKU/7089fadc5e542e1407b79eb11842aa10/34174836_10156493014667146_2406702400535527424_o.jpg");
   background-size: cover;
   background-position: center;
   height: calc(100vh - 98px);
@@ -37,35 +66,6 @@ exports[`components/constellations/HeroBlock renders a <HeroBlock /> 1`] = `
   justify-content: flex-start;
   margin-left: -0;
   margin-right: -0;
-}
-
-.c2 {
-  box-sizing: border-box;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  padding: 0;
-  -webkit-align-content: flex-start;
-  -ms-flex-line-pack: start;
-  align-content: flex-start;
-  -webkit-align-items: flex-start;
-  -webkit-box-align: flex-start;
-  -ms-flex-align: flex-start;
-  align-items: flex-start;
-  -webkit-align-self: auto;
-  -ms-flex-item-align: auto;
-  align-self: auto;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
 }
 
 .c3 {
@@ -104,12 +104,6 @@ exports[`components/constellations/HeroBlock renders a <HeroBlock /> 1`] = `
   text-decoration: none;
 }
 
-@media (min-width:62em) {
-  .c0 {
-    padding: 100px;
-  }
-}
-
 @media (min-width:0) {
   .c2 {
     -webkit-flex-basis: 100%;
@@ -128,30 +122,37 @@ exports[`components/constellations/HeroBlock renders a <HeroBlock /> 1`] = `
   }
 }
 
+@media (min-width:62em) {
+  .c0 {
+    padding: 100px;
+  }
+}
+
 <div
-  class="c0 withStyles-u5urts-0 c1"
+  className="c0 withStyles-u5urts-0 c1"
 >
   <div
-    class="c2"
+    className="c2"
   >
     <h1
-      class="c3"
+      className="c3"
     >
-      Check out the bear!
+      Ready 2 Ball?
     </h1>
     <div
-      class="c4"
+      className="c4"
     >
       <p>
-        The bear is super cool and everyone loves him! Click below to find out more!
+         Welcome to the Metro Detroit Flag Football League. The 2019 season is upon us. If you want to play with us, click below to register. 
       </p>
     </div>
     <a
-      class="c5"
+      className="c5"
       href="/register"
       rel="noreferrer noopener"
       target="_blank"
       type="secondary"
+      url={null}
     >
       Google
     </a>

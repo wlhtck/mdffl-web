@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`conestellations/NavBar renders a <NavBar /> with some links 1`] = `
+exports[`Storyshots Constellations NavBar 1`] = `
 .c0 {
   padding: 25px;
   background-color: #1C104E;
@@ -71,36 +71,37 @@ exports[`conestellations/NavBar renders a <NavBar /> with some links 1`] = `
 }
 
 <div
-  class="c0 withStyles-u5urts-0 c1"
+  className="c0 withStyles-u5urts-0 c1"
 >
   <a
-    class="c2"
+    className="c2"
     href="/"
   >
     <img
       alt="MDFFL Logo"
-      class=""
+      className=""
       src="/mdffl-logo.png"
     />
   </a>
   <a
-    class="withStyles-u5urts-0 withStyles-u5urts-0 c3"
-    href="/"
+    className="withStyles-u5urts-0 withStyles-u5urts-0 c3"
+    href="https://www.mdffl.org/about"
   >
     About
   </a>
   <a
-    class="withStyles-u5urts-0 withStyles-u5urts-0 c3"
-    href="/"
+    className="withStyles-u5urts-0 withStyles-u5urts-0 c3"
+    href="https://www.mdffl.org"
   >
     Home
   </a>
   <a
-    class="withStyles-u5urts-0 c4"
+    className="withStyles-u5urts-0 c4"
     href="https://www.playyon.com/metro-detroit-flag-football-league/registrations/"
     rel="noreferrer noopener"
     target="_blank"
     type="secondary"
+    url={null}
   >
     REGISTER
   </a>
