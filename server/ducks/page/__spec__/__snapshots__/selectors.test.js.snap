@@ -3,14 +3,12 @@
 exports[`ducks/pages/selectors getNavLinks gets NavLinks as needed by the renderer 1`] = `
 Array [
   Object {
-    "children": "About",
-    "href": "/about",
-    "key": "about",
+    "id": undefined,
+    "links": Array [],
   },
   Object {
-    "children": "Home",
-    "href": "/",
-    "key": "index",
+    "id": undefined,
+    "links": Array [],
   },
 ]
 `;
