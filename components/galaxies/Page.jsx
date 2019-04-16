@@ -13,7 +13,7 @@ const ContentComponents = {
 
 const Page = ({
   data, headerLinks, footerLinks, ...rest
-}) => console.log(data, headerLinks, footerLinks, rest) || (
+}) => (
   <>
     <NavBar links={headerLinks} />
     <Container fluid>
