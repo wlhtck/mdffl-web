@@ -3,15 +3,16 @@ const app = require('./app');
 
 const getContent = require('./getContent');
 
-const pages = require('./ducks/pages/route');
+const page = require('./ducks/page/route');
 
 app.prepare()
   .then(() => {
-    getContent();
+    getContent('page');
+    getContent('linkList');
     const server = express();
     server.use(express.static('static'));
-    server.get('/', pages);
-    server.get('/:id', pages);
+    server.get('/', page);
+    server.get('/:id', page);
 
     server.listen(process.env.PORT, (err) => {
       if (err) throw err;

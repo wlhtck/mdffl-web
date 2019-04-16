@@ -11,19 +11,18 @@ const client = createClient({
   space: SPACE,
   accessToken: TOKEN,
 });
-
-const getContent = () => client.getEntries({
-  content_type: 'page',
+const getContent = (type) => client.getEntries({
+  content_type: type,
   include: 3,
 }).then((entries) => {
-  if (!fs.existsSync(path.join(__dirname, '..', 'data'))){
-    fs.mkdirSync(path.join(__dirname, '..', 'data'));
+  if (!fs.existsSync(path.join(__dirname, '..', 'data'))) {
+    fs.mkdirSync(path.join(__dirname, '..', type));
   }
   fs.writeFileSync(
-    path.join(__dirname, '..', 'data', 'pages.json'),
+    path.join(__dirname, '..', 'data', `${type}.json`),
     JSON.stringify(entries),
   );
-  console.log('> Content gotten and written for page');
+  console.log(`> Content gotten and written for ${type}`);
 }).catch(console.error);
 
 module.exports = getContent;

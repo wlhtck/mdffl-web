@@ -1,6 +1,7 @@
-import { compose, setDisplayName } from 'recompose';
+import { compose, setDisplayName, mapProps } from 'recompose';
 import fontStyles from '../nebulas/fontStyles';
 import withStyles from '../util/withStyles';
+import renameProp from '../util/renameProp';
 
 const NavLink = compose(
   setDisplayName('NavLink'),
@@ -10,6 +11,7 @@ const NavLink = compose(
     color: 'white',
   })),
   withStyles({ textDecoration: 'none' }),
+  renameProp('name', 'children'),
 )('a');
 
 export default NavLink;

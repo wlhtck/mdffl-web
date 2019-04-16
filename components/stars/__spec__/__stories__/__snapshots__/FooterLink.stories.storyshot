@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Stars|FooterLink default 1`] = `
+.c1 {
+  max-width: 100px;
+  max-height: 68px;
+  width: 100%;
+  margin-bottom: 36px;
+}
+
+.c0 {
+  padding: 36px;
+  width: -webkit-fill-available;
+  min-height: -webkit-fill-available;
+  background-color: #1C104E;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+<div
+  className="c0"
+  color="primary"
+>
+  <a
+    href="http://www.ngffl.com/"
+    rel="noopener noreferrer nofollow"
+    target="_blank"
+  >
+    <img
+      alt="National Gay Flag Football League"
+      className="c1 withStyles-u5urts-0 "
+      src="//images.ctfassets.net/8wpi5cmhr3lg/3vav1MAl8T6Io9AeGuZXed/49aea86886b52bca03f79d1f68f29918/ngffl-logo.png"
+    />
+  </a>
+</div>
+`;

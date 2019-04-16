@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Constellations|Footer Default 1`] = `
+.c0 {
+  background-color: #1C104E;
+  padding-top: 32px;
+}
+
+.c1 {
+  box-sizing: border-box;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: space-around;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
+  margin-left: -0;
+  margin-right: -0;
+}
+
+.c2 {
+  max-width: 100px;
+  max-height: 68px;
+  width: 100%;
+  margin-bottom: 36px;
+}
+
+<div
+  className="c0 withStyles-u5urts-0 c1"
+>
+  <a
+    href="https://www.ngffl.com"
+    rel="noopener noreferrer nofollow"
+    target="_blank"
+  >
+    <img
+      alt="National Gay Flag Football League"
+      className="c2 withStyles-u5urts-0 "
+      src="//images.ctfassets.net/8wpi5cmhr3lg/3vav1MAl8T6Io9AeGuZXed/49aea86886b52bca03f79d1f68f29918/ngffl-logo.png"
+    />
+  </a>
+  <a
+    href="https://www.contentful.com/"
+    rel="noopener noreferrer nofollow"
+    target="_blank"
+  >
+    <img
+      alt="Powered by Contentful"
+      className="c2 withStyles-u5urts-0 "
+      src="//images.ctfassets.net/8wpi5cmhr3lg/5TZTlbZ4mn7dMnA0PRKTPk/8de5d2aa3d6a61cfaf7958d7c8ff119e/PoweredByContentful_DarkBackground_MonochromeLogo.svg"
+    />
+  </a>
+</div>
+`;

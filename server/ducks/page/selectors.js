@@ -1,24 +1,11 @@
 // lodash/fp
+const curry = require('lodash/fp/curry');
 const flow = require('lodash/fp/flow');
 const get = require('lodash/fp/get');
 const find = require('lodash/fp/find');
 const map = require('lodash/fp/map');
-const head = require('lodash/fp/head');
-const at = require('lodash/fp/at');
 const omit = require('lodash/fp/omit');
-const set = require('lodash/fp/set');
-const replace = require('lodash/fp/replace');
-const omitBy = require('lodash/fp/omitBy');
-const reverse = require('lodash/fp/reverse');
-
-const renameKey = (from, to) => (obj) => (
-  get(from)(obj)
-    ? flow(
-      set(to, head(at(from, obj))),
-      omit(from),
-    )(obj)
-    : obj
-);
+const renameKey = require('../../../components/util/renameKey');
 
 const contentParsers = {
   heroBlock: flow(
@@ -44,7 +31,7 @@ const contentParsers = {
 
 const getPageContent = (slug) => flow(
   get('items'),
-  find((item) => get('fields.slug')(item) === slug),
+  find((item) => get('fields.slug', item) === slug),
   get('fields.content'),
   map((item) => flow(
     renameKey('sys.contentType.sys.id', 'fields.type'),
@@ -53,18 +40,33 @@ const getPageContent = (slug) => flow(
   )(item)),
 );
 
+const parseLinks = ({ id, links }) => ({
+  id,
+  links: map(flow(
+    renameKey('fields.children', 'name'),
+    renameKey('fields.link', 'href'),
+    renameKey('fields.logo.fields.file.url', 'src'),
+    omit('fields'),
+    omit('sys'),
+  ), links),
+});
+
 const getNavLinks = flow(
   get('items'),
-  reverse,
-  // omitBy((pages) => pages.fields.slug === 'index'),
-  map((pages) => ({
-    href: `/${replace('index', '')(get('fields.slug')(pages))}`,
-    children: get('fields.name')(pages),
-    key: get('fields.slug')(pages),
-  })),
+  map(flow(
+    get('fields'),
+    renameKey('fields.id', 'key'),
+    parseLinks,
+  )),
 );
+
+const getLinks = curry((type, links) => flow(
+  find(((item) => get('id', item) === type)),
+  get('links'),
+)(links));
 
 module.exports = {
   getPageContent,
   getNavLinks,
+  getLinks,
 };
