@@ -44,7 +44,7 @@ exports[`Storyshots Constellations|Footer Default 1`] = `
 }
 
 <div
-  className="c0 withStyles-u5urts-0 c1"
+  className="c0 withStyles-fd9b87-0 c1"
 >
   <a
     href="https://www.ngffl.com"
@@ -53,7 +53,7 @@ exports[`Storyshots Constellations|Footer Default 1`] = `
   >
     <img
       alt="National Gay Flag Football League"
-      className="c2 withStyles-u5urts-0 "
+      className="c2 withStyles-fd9b87-0 "
       src="//images.ctfassets.net/8wpi5cmhr3lg/3vav1MAl8T6Io9AeGuZXed/49aea86886b52bca03f79d1f68f29918/ngffl-logo.png"
     />
   </a>
@@ -64,7 +64,7 @@ exports[`Storyshots Constellations|Footer Default 1`] = `
   >
     <img
       alt="Powered by Contentful"
-      className="c2 withStyles-u5urts-0 "
+      className="c2 withStyles-fd9b87-0 "
       src="//images.ctfassets.net/8wpi5cmhr3lg/5TZTlbZ4mn7dMnA0PRKTPk/8de5d2aa3d6a61cfaf7958d7c8ff119e/PoweredByContentful_DarkBackground_MonochromeLogo.svg"
     />
   </a>
