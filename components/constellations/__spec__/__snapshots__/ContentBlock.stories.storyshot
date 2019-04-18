@@ -180,7 +180,7 @@ exports[`Storyshots Constellations|ContentBlock With a cta 1`] = `
 }
 
 <div
-  className="c0 withStyles-u5urts-0 c1"
+  className="c0 withStyles-fd9b87-0 c1"
 >
   <div
     className="c2"
@@ -192,7 +192,7 @@ exports[`Storyshots Constellations|ContentBlock With a cta 1`] = `
     />
   </div>
   <div
-    className="c4 withStyles-u5urts-0 c5"
+    className="c4 withStyles-fd9b87-0 c5"
   >
     <h2
       className="c6"
@@ -383,7 +383,7 @@ exports[`Storyshots Constellations|ContentBlock With image on left 1`] = `
 }
 
 <div
-  className="c0 withStyles-u5urts-0 c1"
+  className="c0 withStyles-fd9b87-0 c1"
 >
   <div
     className="c2"
@@ -395,7 +395,7 @@ exports[`Storyshots Constellations|ContentBlock With image on left 1`] = `
     />
   </div>
   <div
-    className="c4 withStyles-u5urts-0 c5"
+    className="c4 withStyles-fd9b87-0 c5"
   >
     <h2
       className="c6"
@@ -575,7 +575,7 @@ exports[`Storyshots Constellations|ContentBlock With image on right 1`] = `
 }
 
 <div
-  className="withStyles-u5urts-0 c0"
+  className="withStyles-fd9b87-0 c0"
 >
   <div
     className="c1"
@@ -587,7 +587,7 @@ exports[`Storyshots Constellations|ContentBlock With image on right 1`] = `
     />
   </div>
   <div
-    className="c3 withStyles-u5urts-0 c4"
+    className="c3 withStyles-fd9b87-0 c4"
   >
     <h2
       className="c5"
@@ -716,10 +716,10 @@ exports[`Storyshots Constellations|ContentBlock Without image 1`] = `
 }
 
 <div
-  className="withStyles-u5urts-0 c0"
+  className="withStyles-fd9b87-0 c0"
 >
   <div
-    className="c1 withStyles-u5urts-0 c2"
+    className="c1 withStyles-fd9b87-0 c2"
   >
     <h2
       className="c3"

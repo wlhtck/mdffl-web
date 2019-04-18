@@ -1,5 +1,7 @@
 {
-  "author": "Will Hitchcock <hi@willhitchcock.me> (willhitchcock.me)",
+  "name": "mdffl-web",
+  "author": "Will Hitchcock <hi@willhitchcock.me> (https://willhitchcock.me)",
+  "version": "0.0.1",
   "engines": {
     "node": "10.15.1"
   },

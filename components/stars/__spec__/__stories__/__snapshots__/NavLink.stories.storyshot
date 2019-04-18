@@ -39,7 +39,7 @@ exports[`Storyshots Stars|NavLink default 1`] = `
   color="primary"
 >
   <a
-    className="withStyles-u5urts-0 c1"
+    className="withStyles-fd9b87-0 c1"
     href="https://mdffl.org"
   >
     Home

@@ -71,7 +71,7 @@ exports[`Storyshots Constellations|NavBar Default 1`] = `
 }
 
 <div
-  className="c0 withStyles-u5urts-0 c1"
+  className="c0 withStyles-fd9b87-0 c1"
 >
   <a
     className="c2"
@@ -84,19 +84,19 @@ exports[`Storyshots Constellations|NavBar Default 1`] = `
     />
   </a>
   <a
-    className="withStyles-u5urts-0 withStyles-u5urts-0 c3"
+    className="withStyles-fd9b87-0 withStyles-fd9b87-0 c3"
     href="https://www.mdffl.org/about"
   >
     About
   </a>
   <a
-    className="withStyles-u5urts-0 withStyles-u5urts-0 c3"
+    className="withStyles-fd9b87-0 withStyles-fd9b87-0 c3"
     href="https://www.mdffl.org"
   >
     Home
   </a>
   <a
-    className="withStyles-u5urts-0 c4"
+    className="withStyles-fd9b87-0 c4"
     href="https://www.playyon.com/metro-detroit-flag-football-league/registrations/"
     rel="noreferrer noopener"
     target="_blank"
