@@ -17,7 +17,6 @@ const page = (req, res) => {
 
   const navLinks = selectors.getNavLinks(links);
 
-  console.log(selectors.getLinks('navigation', navLinks));
   app.render(req, res, '/app', {
     data: selectors.getPageContent(req.params.id || 'index')(pages),
     headerLinks: selectors.getLinks('navigation', navLinks),
