@@ -16,7 +16,7 @@ const getContent = (type) => client.getEntries({
   include: 3,
 }).then((entries) => {
   if (!fs.existsSync(path.join(__dirname, '..', 'data'))) {
-    fs.mkdirSync(path.join(__dirname, '..', type));
+    fs.mkdirSync(path.join(__dirname, '..', 'data'));
   }
   fs.writeFileSync(
     path.join(__dirname, '..', 'data', `${type}.json`),
