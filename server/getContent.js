@@ -15,6 +15,7 @@ const getContent = (type) => client.getEntries({
   content_type: type,
   include: 3,
 }).then((entries) => {
+  console.log(`> Getting content for ${type}`);
   if (!fs.existsSync(path.join(__dirname, '..', 'data'))) {
     fs.mkdirSync(path.join(__dirname, '..', type));
   }
